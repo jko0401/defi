@@ -232,7 +232,7 @@ def geckoHistorical(ticker, vs_currency='usd', days='max'):
     return df
 
 
-def getGeckoIDs():
+def getGeckoIDs(pages):
     """IDs List from coinGecko
     
     Returns:
@@ -240,7 +240,7 @@ def getGeckoIDs():
     """    
     ids_list = []
 
-    for i in range(20):
+    for i in range(pages):
         print(f'searching coins page: {i}   ', end='\r')
         ids_list = ids_list + geckoList(page=i, per_page=250)['id'].tolist()
     return ids_list
