@@ -159,7 +159,7 @@ def geckoPrice(tokens, quote):
 
 
 
-def geckoList(page=1, per_page=250):
+def geckoFullList(page=1, per_page=250):
     """Returns list of full detail conGecko currency list
     
     Args:
@@ -177,17 +177,35 @@ def geckoList(page=1, per_page=250):
     return df
 
 
+def geckoGetSymbol(name):
+    """Returns ticker of coin given name
+    
+    Args:
+        name (int, required): name of coin (e.g. 'bitcoin')
+    
+    Returns:
+        r: string of corresponding ticker
+    """
+    url = f"https://api.coingecko.com/api/v3/coins/{name}"
+    r = requests.get(url).json()
+    try:
+        ticker = r['symbol'].upper()    
+    except KeyError:
+        print(r, name)
+        ticker = r['id']
+    return ticker
 
-def geckoMarkets(ticker):
+
+def geckoMarkets(name):
     """Get top100 markets (pairs, quotes, exchanges, volume, spreads and more)
     
     Args:
-        ticker (string): gecko ID, ie "bitcoin"
+        name (string): gecko ID, ie "bitcoin"
     
     Returns:
         DataFrame: Full detail markets available
     """
-    url = f"https://api.coingecko.com/api/v3/coins/{ticker}/tickers"
+    url = f"https://api.coingecko.com/api/v3/coins/{name}/tickers"
     r = requests.get(url).json()['tickers']
     df = pd.DataFrame(r)
     df['exchange'] = df['market'].apply(pd.Series)['name']
@@ -206,11 +224,11 @@ def geckoMarkets(ticker):
 
 
 
-def geckoHistorical(ticker, vs_currency='usd', days='max'):
+def geckoHistorical(name, vs_currency='usd', days='max'):
     """Historical prices from coinGecko
     
     Args:
-        ticker (string): gecko ID, ie "bitcoin"
+        name (string): gecko ID, ie "bitcoin"
         vs_currency (str, optional): ie "usd" (default)
         days (str, optional): ie "20", "max" (default)
     
@@ -218,7 +236,7 @@ def geckoHistorical(ticker, vs_currency='usd', days='max'):
         DataFrame: Full history: date, price, market cap & volume
     """
     
-    url = f"https://api.coingecko.com/api/v3/coins/{ticker}/market_chart"
+    url = f"https://api.coingecko.com/api/v3/coins/{name}/market_chart"
     params = {"vs_currency":{vs_currency}, "days":days}
     r = requests.get(url, params).json()
     prices = pd.DataFrame(r['prices'])
@@ -242,7 +260,7 @@ def getGeckoIDs(pages):
 
     for i in range(pages):
         print(f'searching coins page: {i}   ', end='\r')
-        ids_list = ids_list + geckoList(page=i, per_page=250)['id'].tolist()
+        ids_list = ids_list + geckoFullList(page=i, per_page=250)['id'].tolist()
     return ids_list
 
 
