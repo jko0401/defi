@@ -158,6 +158,25 @@ def geckoPrice(tokens, quote):
     return r
 
 
+def geckoPriceAt(token, quote, date):
+    """get price of token at historical date
+    
+    Args:
+        token (string): ie "bitcoin"
+        quote (fiat or quote currency): ie: "usd"
+    
+    Returns:
+        float: Return token price
+    """
+    
+    url = f"https://api.coingecko.com/api/v3/coins/{token}/history?date={date}&localization=false"
+    r = requests.get(url).json()
+    try:
+        return r['market_data']['current_price'][quote]
+    except Exception as e:
+        print(token, date, e)
+        return 1
+
 
 def geckoFullList(page=1, per_page=250):
     """Returns list of full detail conGecko currency list
@@ -238,6 +257,32 @@ def geckoHistorical(name, vs_currency='usd', days='max'):
     
     url = f"https://api.coingecko.com/api/v3/coins/{name}/market_chart"
     params = {"vs_currency":{vs_currency}, "days":days}
+    r = requests.get(url, params).json()
+    prices = pd.DataFrame(r['prices'])
+    market_caps = pd.DataFrame(r['market_caps'])
+    total_volumes = pd.DataFrame(r['total_volumes'])
+    df = pd.concat([prices, market_caps[1], total_volumes[1]], axis=1)
+    df[0] = pd.to_datetime(df[0], unit='ms')
+    df.columns = ['date','price','market_caps','total_volumes']
+    df.set_index('date', inplace=True)
+
+    return df
+
+
+def geckoHistoricalRange(name, begin, end, vs_currency='usd'):
+    """Historical prices from coinGecko
+    
+    Args:
+        name (string): gecko ID, ie "bitcoin"
+        vs_currency (str, optional): ie "usd" (default)
+        days (str, optional): ie "20", "max" (default)
+    
+    Returns:
+        DataFrame: Full history: date, price, market cap & volume
+    """
+    
+    url = f"https://api.coingecko.com/api/v3/coins/{name}/market_chart"
+    params = {"vs_currency":{vs_currency}, "from":begin, 'to':end}
     r = requests.get(url, params).json()
     prices = pd.DataFrame(r['prices'])
     market_caps = pd.DataFrame(r['market_caps'])
