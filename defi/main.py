@@ -5,6 +5,7 @@ class Coin():
         self.price = price
         self.holdings = holdings
         self.value = self.price * self.holdings
+        self.stack = {}
 
     def update(self):
         import defi_tools as dft
@@ -15,7 +16,7 @@ class Coin():
 class Wallet():
     def __init__(self, name):
         self.name = name
-        self.coins = {}
+        self.coins = {'USD':Coin('USD', 'USD', 1, 0)}
         self.value = 0
 
     def add(self, asset):
@@ -23,7 +24,10 @@ class Wallet():
 
     def updatePrices(self):
         for c in self.coins:
-            self.coins[c].update
+            if c == 'USD':
+                pass
+            else:
+                self.coins[c].update
 
     def totalValue(self):
         Wallet.updatePrices(self)
@@ -66,43 +70,73 @@ class Wallet():
         return pd.DataFrame({'coin':holdings.keys(),'holdings':holdings.values(), 'value':values.values(), 'allocation':allocation})
 
 class Transaction():
-    def transfer(origin, destination, token, amount, fee):
-        origin.update(token, -(amount+fee))
-        Transaction.add(origin, token, (amount+fee), 'transfer')
-        destination.update(token, amount)
-        Transaction.add(destination, token, amount, 'transfer')
-        print(f'Transferred {amount} {origin.coins[token].ticker} from {origin.name} to {destination.name}')
 
-    def transact(platform, token, amount, value, type):
-        if type=='buy':
-            if not platform.hasToken(token):
+    def send(time, origin, token, amount, fee):
+        import defi_tools as dft
+        if not time:
+            from datetime import datetime
+            time = datetime.now()
+        origin.update(token, -(amount+fee))
+        basis = dft.geckoPriceAt(token, 'usd', time)
+        cost = basis*(amount+fee)
+        Transaction.add(time, origin, token, (amount+fee), basis, cost, 'send')
+        print(f'Sent {amount} {origin.coins[token].ticker} from {origin.name}')
+
+    def receive(time, destination, token, amount):    
+        import defi_tools as dft
+        if not time:
+            from datetime import datetime
+            time = datetime.now()
+        if not destination.hasToken(token):
+            if token == 'USD':
+                coin = Coin(coin=token, ticker=token, price=1, holdings=amount)
+            else:    
                 import defi_tools as dft
                 coin = Coin(coin=token, ticker=dft.geckoGetSymbol[token], price=dft.geckoPrice(token, 'usd'), holdings=amount)
-                platform.add(coin)
-            Transaction.add(platform, token, amount, 'buy')
-            Transaction.add(platform, 'USD', value, 'sell')
-            print(f'Bought {amount} {platform.coins[token].ticker}.')
-            value = -value
-        elif type=='sell':
-            Transaction.add(platform, token, amount, 'sell')
-            Transaction.add(platform, 'USD', value, 'buy')
-            print(f'Sold {amount} {platform.coins[token].ticker}.')
-            amount = -amount
+            destination.add(coin)
         else:
-            proceeds = 0
-            amount = 0
-            print('Type not specified. No updates.')    
+            destination.update(token, amount)
+        basis = dft.geckoPriceAt(token, 'usd', time)
+        cost = basis*amount
+        Transaction.add(time, destination, token, amount, basis, cost, 'receive')
+        print(f'Received {amount} {token} at {destination.name}')
+
+    def transfer(time, origin, destination, token, amount, fee):
+        if not time:
+            from datetime import datetime
+            time = datetime.now()
+        Transaction.send(time, origin, token, amount, fee)
+        Transaction.receive(time, destination, token, amount)
+        print(f'Transferred {amount} {origin.coins[token].ticker} from {origin.name} to {destination.name}')
+
+    def transact(time, wallet, buy, sell, fee):
+        import defi_tools as dft
+        if not time:
+            from datetime import datetime
+            time = datetime.now()
         
-        platform.update(token, amount)
-        platform.update('USD', value)
+        b_tk = buy[0]
+        b_amt = buy[1]
+        s_tk = sell[0]
+        s_amt = sell[1]
+        if not wallet.hasToken(b_tk):
+            import defi_tools as dft
+            coin = Coin(coin=b_tk, ticker=dft.geckoGetSymbol[b_tk], price=dft.geckoPrice(b_tk, 'usd'), holdings=b_amt)
+            wallet.add(coin)
+        basis = dft.geckoPriceAt(b_tk, 'usd', time)
+        cost = basis*(b_amt+fee)
+        Transaction.add(time, wallet, b_tk, b_amt, basis, cost, 'buy')
+        basis = dft.geckoPriceAt(s_tk, 'usd', time)
+        cost = basis*s_amt
+        Transaction.add(time, wallet, s_tk, s_amt, basis,  cost, 'sell')
+        print(f'Bought {b_amt} {wallet.coins[b_tk].ticker} with {s_amt} {wallet.coins[s_tk].ticker}.')
+
+        wallet.update(b_tk, b_amt)
+        wallet.update(s_tk, -s_amt)
     
-    def add(platform, token, amount, t_type):
+    def add(time, wallet, token, amount, basis, cost, t_type):
         import csv
-        from datetime import datetime   
-        now = datetime.now()
-        platform.updatePrices()
-        value = amount * platform.coins[token].price
-        fields=[now, platform.name, platform.coins[token].ticker, amount, value, t_type]
+        fields=[time, wallet.name, wallet.coins[token].ticker, amount, basis, cost, t_type]
         with open(r'transactions.csv', 'a') as f:
             writer = csv.writer(f)
             writer.writerow(fields)
@@ -112,7 +146,7 @@ class Calc():
     def avg(token, all=False):
         pass
         # import pandas as pd
-        # df = pd.read_csv('transactions.csv', names=['timestamp', 'platform', 'token', 'amount', 'est_value', 'type'])
+        # df = pd.read_csv('transactions.csv', names=['timestamp', 'wallet', 'token', 'amount', 'est_value', 'type'])
         # if all:
         #     token = df['tokens'].unique()
         #     t = 'All'

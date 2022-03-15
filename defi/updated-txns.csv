@@ -1,401 +1,401 @@
-,Unnamed: 0,Date,Type,Transaction ID,Received Quantity,Received Currency,Received Currency Balance,Received Cost Basis (USD),Received Wallet,Received Address,Received Tag,Received Comment,Sent Quantity,Sent Currency,Sent Currency Balance,Sent Cost Basis (USD),Sent Wallet,Sent Address,Sent Tag,Sent Comment,Fee Amount,Fee Currency,Realized Return (USD),Disabled,received_id,sent_id,day
-0,0,2017-12-12 18:27:37,Buy,,0.56338723,LTC,...,320.907411291884,Coinbase,,,Bought Litecoin Using Visa debit ********6305,200.0,USD,...,1.0,Coinbase,,,Bought Litecoin Using Visa debit ********6305,5.85,USD,...,,litecoin,,12-12-2017
-1,1,2017-12-13 04:22:41,Buy,,0.30762244,LTC,...,305.277042325734,Coinbase,,,Bought Litecoin Using Visa debit ********6305,100.0,USD,...,1.0,Coinbase,,,Bought Litecoin Using Visa debit ********6305,3.41,USD,...,,litecoin,,13-12-2017
-2,2,2017-12-13 18:35:49,Buy,,0.01782139,BTC,...,16525.0444892988,Coinbase,,,Bought Bitcoin Using Visa debit ********6305,300.0,USD,...,1.0,Coinbase,,,Bought Bitcoin Using Visa debit ********6305,9.26,USD,...,,bitcoin,,13-12-2017
-3,3,2017-12-15 06:34:23,Buy,,0.14197607,ETH,...,693.09706413276,Coinbase,,,Bought Ethereum Using Visa debit ********6305,100.0,USD,...,1.0,Coinbase,,,Bought Ethereum Using Visa debit ********6305,3.41,USD,...,,ethereum,,15-12-2017
-4,4,2017-12-21 16:13:38,Buy,,0.00599276,BTC,...,16355.2382257401,Coinbase,,,Bought Bitcoin Using Visa debit ********6305,100.0,USD,...,1.0,Coinbase,,,Bought Bitcoin Using Visa debit ********6305,3.41,USD,...,,bitcoin,,21-12-2017
-5,5,2017-12-31 10:28:46,Send,,,,...,1.0,,,,,0.00894174,BTC,...,14839.5907854184,Coinbase,1Aw8fBYBnEKM2pGav7NueyUoYFDNToVByG,,Sent Bitcoin To Bitcoin address,0.00114174,BTC,...,,,bitcoin,31-12-2017
-6,6,2017-12-31 10:53:15,Receive,,0.0078,BTC,...,14839.5907854184,Binance,1Aw8fBYBnEKM2pGav7NueyUoYFDNToVByG,,,,,...,1.0,,,,,,,...,,bitcoin,,31-12-2017
-7,7,2017-12-31 19:27:54,Trade,,25.0,MIOTA,...,3.80833550971746,Binance,,,,0.0065375,BTC,...,14839.5907854184,Binance,,,,0.025,MIOTA,...,,iota,bitcoin,31-12-2017
-8,8,2018-01-05 09:03:18,Send,,,,...,1.0,,,,,0.01487241,BTC,...,18336.9229801691,Coinbase,1Aw8fBYBnEKM2pGav7NueyUoYFDNToVByG,,Sent Bitcoin To Bitcoin address,0.00108737,BTC,...,,,bitcoin,05-01-2018
-9,9,2018-01-05 21:11:33,Receive,,0.01378504,BTC,...,18336.9229801691,Binance,1Aw8fBYBnEKM2pGav7NueyUoYFDNToVByG,,,,,...,1.0,,,,,,,...,,bitcoin,,05-01-2018
-10,10,2018-01-05 22:13:01,Trade,,100.0,XLM,...,0.7032173861675213,Binance,,,,0.004,BTC,...,18336.9229801691,Binance,,,,0.1,XLM,...,,stellar,bitcoin,05-01-2018
-11,11,2018-01-09 10:08:24,Trade,,52.0,POWR,...,1.7739354310867523,Binance,,,,0.005512,BTC,...,15604.7234082405,Binance,,,,0.052,POWR,...,,power-ledger,bitcoin,09-01-2018
-12,12,2018-01-09 13:16:31,Trade,,1.53,QTUM,...,52.7903,Binance,,,,0.005508,BTC,...,15604.7234082405,Binance,,,,0.00153,QTUM,...,,qtum,bitcoin,09-01-2018
-13,13,2018-01-10 07:55:45,Buy,,0.01396827,BTC,...,15509.2701268168,Coinbase,,,Bought Bitcoin Using Visa debit ********6305,206.0,USD,...,1.0,Coinbase,,,Bought Bitcoin Using Visa debit ********6305,6.0,USD,...,,bitcoin,,10-01-2018
-14,14,2018-05-04 02:28:02,Buy,,0.00995665,BTC,...,9551.13518381566,Coinbase,,,Bought Bitcoin Using Visa debit ********6305,100.0,USD,...,1.0,Coinbase,,,Bought Bitcoin Using Visa debit ********6305,3.41,USD,...,,bitcoin,,04-05-2018
-15,15,2018-05-30 13:31:50,Buy,,0.17440936,ETH,...,561.7406614509548,Coinbase,,,Bought Ethereum Using US Bank - Checking ********3939,100.0,USD,...,1.0,Coinbase,,,Bought Ethereum Using US Bank - Checking ********3939,1.0,USD,...,,ethereum,,30-05-2018
-16,16,2018-07-12 01:01:06,Buy,,0.22115383,ETH,...,443.0254304264658,Coinbase,,,Bought Ethereum Using US Bank - Checking ********3939,100.0,USD,...,1.0,Coinbase,,,Bought Ethereum Using US Bank - Checking ********3939,1.0,USD,...,,ethereum,,12-07-2018
-17,17,2018-07-26 03:55:03,Buy,,0.20298474,ETH,...,468.73749232171497,Coinbase,,,Bought Ethereum Using US Bank - Checking ********3939,100.0,USD,...,1.0,Coinbase,,,Bought Ethereum Using US Bank - Checking ********3939,2.99,USD,...,,ethereum,,26-07-2018
-18,18,2018-09-02 20:19:59,Buy,,0.013259,BTC,...,7211.270767868822,Coinbase,,,Bought Bitcoin Using US Bank - Checking ********3939,100.0,USD,...,1.0,Coinbase,,,Bought Bitcoin Using US Bank - Checking ********3939,2.99,USD,...,,bitcoin,,02-09-2018
-19,19,2018-09-02 20:20:24,Buy,,0.32961367,ETH,...,295.6461617616964,Coinbase,,,Bought Ethereum Using US Bank - Checking ********3939,100.0,USD,...,1.0,Coinbase,,,Bought Ethereum Using US Bank - Checking ********3939,2.99,USD,...,,ethereum,,02-09-2018
-20,20,2018-09-05 12:05:38,Sell,,100.0,USD,...,1.0,Coinbase,,,Sold Bitcoin Using USD Wallet,0.0147995,BTC,...,7359.462992923027,Coinbase,,,Sold Bitcoin Using USD Wallet,2.99,USD,...,,,bitcoin,05-09-2018
-21,21,2018-09-05 12:05:54,Sell,,100.0,USD,...,1.0,Coinbase,,,Sold Ethereum Using USD Wallet,0.40150325,ETH,...,285.4857566471215,Coinbase,,,Sold Ethereum Using USD Wallet,2.99,USD,...,,,ethereum,05-09-2018
-22,22,2018-09-14 05:04:47,Transfer,,200.0,USD,...,1.0,Coinbase Pro,,,,200.0,USD,...,1.0,Coinbase,,,Withdrew funds To US Bank - Checking ********3939,,,...,,,,14-09-2018
-23,23,2018-09-14 05:32:27,Receive,,200.0,USD,...,1.0,Coinbase,,,Deposited funds From US Bank - Checking ********3939,,,...,1.0,,,,,,,...,,,,14-09-2018
-24,24,2018-09-21 05:32:31,Send,,,,...,1.0,,,,,200.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,21-09-2018
-25,25,2018-09-24 06:41:37,Buy,,0.85106382,ETH,...,244.7847954629194,Coinbase Pro,,,,200.0,USD,...,1.0,Coinbase Pro,,,,,,...,,ethereum,,24-09-2018
-26,26,2018-09-24 14:01:23,Transfer,02fea3242688a12939f9c5aa635f4cd553899f76db7c9f2892cc697642a7e3a4,0.85106382,ETH,...,244.7847954629194,Coinbase,,,Transferred Ethereum From Coinbase Pro,0.85106382,ETH,...,244.7847954629194,Coinbase Pro,0xb31b24cfdfc08d47b1c6fdfdca8c0f072395a1f2,,,,,...,,ethereum,ethereum,24-09-2018
-27,27,2018-09-24 14:01:23,Transfer,,0.85106382,ETH,...,244.7847954629194,Binance,0xb31b24cfdfc08d47b1c6fdfdca8c0f072395a1f2,,,0.85106382,ETH,...,244.7847954629194,Coinbase,0xb31b24CfDfc08d47B1c6FDfDCA8C0f072395A1f2,,Sent Ethereum To Ethereum address,0.0,ETH,...,,ethereum,ethereum,24-09-2018
-28,28,2018-09-24 20:09:06,Trade,,175.0,MIOTA,...,0.6120512843392037,Binance,,,,0.424375,ETH,...,244.7847954629194,Binance,,,,0.175,MIOTA,...,,iota,ethereum,24-09-2018
-29,29,2018-09-24 23:04:24,Trade,,377.0,XLM,...,0.2821793414279111,Binance,,,,0.42601,ETH,...,244.7847954629194,Binance,,,,0.377,XLM,...,,stellar,ethereum,24-09-2018
-30,30,2018-10-02 22:29:34,Receive,,1800.0,USD,...,1.0,Coinbase Pro,,,,,,...,1.0,,,,,,,...,,,,02-10-2018
-31,31,2018-10-02 22:29:35,Receive,,1800.0,USD,...,1.0,Coinbase,,,Deposited funds From US Bank - Savings ********5401,,,...,1.0,,,,,,,...,,,,02-10-2018
-32,32,2018-10-09 22:29:57,Send,,,,...,1.0,,,,,1800.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,09-10-2018
-33,33,2018-10-14 23:42:15,Buy,,0.5263,ETH,...,201.05349968429928,Coinbase Pro,,,,100.0,USD,...,1.0,Coinbase Pro,,,,,,...,,ethereum,,14-10-2018
-34,34,2018-10-17 18:07:50,Transfer,eb9519ed458351cca652376596ac69b46bbd72e617c4e8ccd09d59e2e52f08dc,0.5263,ETH,...,212.4442865474299,Coinbase,,,Transferred Ethereum From Coinbase Pro,0.5263,ETH,...,212.4442865474299,Coinbase Pro,0xb31b24cfdfc08d47b1c6fdfdca8c0f072395a1f2,,,,,...,,ethereum,ethereum,17-10-2018
-35,35,2018-10-17 18:07:51,Transfer,,0.5263,ETH,...,212.4442865474299,Binance,0xb31b24cfdfc08d47b1c6fdfdca8c0f072395a1f2,,,0.5263,ETH,...,212.4442865474299,Coinbase,0xb31b24CfDfc08d47B1c6FDfDCA8C0f072395A1f2,,Sent Ethereum To Ethereum address,0.0,ETH,...,,ethereum,ethereum,17-10-2018
-36,36,2018-10-18 15:07:55,Buy,,1.0,ETH,...,211.08269302502703,Coinbase Pro,,,,200.0,USD,...,1.0,Coinbase Pro,,,,,,...,,ethereum,,18-10-2018
-37,37,2018-10-24 16:31:14,Transfer,7b9eae62afd3db1158b7ea74df46b9697095f4f018e8497c9dfcc2194d338644,1.0,ETH,...,204.08394558056767,Coinbase,,,Transferred Ethereum From Coinbase Pro,1.0,ETH,...,204.08394558056767,Coinbase Pro,0xb31b24cfdfc08d47b1c6fdfdca8c0f072395a1f2,,,,,...,,ethereum,ethereum,24-10-2018
-38,38,2018-10-24 16:31:14,Transfer,,1.0,ETH,...,204.08394558056767,Binance,0xb31b24cfdfc08d47b1c6fdfdca8c0f072395a1f2,,,1.0,ETH,...,204.08394558056767,Coinbase,0xb31b24CfDfc08d47B1c6FDfDCA8C0f072395A1f2,,Sent Ethereum To Ethereum address,0.0,ETH,...,,ethereum,ethereum,24-10-2018
-39,39,2018-10-25 02:03:42,Buy,,2.0,ETH,...,203.52219877380867,Coinbase Pro,,,,400.0,USD,...,1.0,Coinbase Pro,,,,,,...,,ethereum,,25-10-2018
-40,40,2018-10-25 02:09:27,Buy,,0.1,BTC,...,6481.443589558082,Coinbase Pro,,,,640.0,USD,...,1.0,Coinbase Pro,,,,,,...,,bitcoin,,25-10-2018
-41,41,2018-10-25 08:13:51,Trade,,326.0,XLM,...,0.2388683113779056,Binance,,,,0.38142,ETH,...,203.52219877380867,Binance,,,,0.326,XLM,...,,stellar,ethereum,25-10-2018
-42,42,2018-10-26 08:48:59,Trade,,118.0,MIOTA,...,0.4944191704391529,Binance,,,,0.28438,ETH,...,202.35302275695463,Binance,,,,0.118,MIOTA,...,,iota,ethereum,26-10-2018
-43,43,2018-11-08 02:41:06,Buy,,1.0,ETH,...,219.0157747507676,Coinbase Pro,,,,215.0,USD,...,1.0,Coinbase Pro,,,,,,...,,ethereum,,08-11-2018
-44,44,2018-11-08 23:52:49,Buy,,1.16668096,ETH,...,219.0157747507676,Coinbase Pro,,,,245.0,USD,...,1.0,Coinbase Pro,,,,,,...,,ethereum,,08-11-2018
-45,45,2018-11-13 07:16:51,Trade,,168.0,XLM,...,0.2700057538787322,Binance,,,,0.2142,ETH,...,211.656909248752,Binance,,,,0.168,XLM,...,,stellar,ethereum,13-11-2018
-46,46,2018-11-23 08:50:17,Transfer,a6cc171970c443f7f8027cdef734e531714682b1d45b150393da7aad3ea50fb7,4.16668096,ETH,...,126.06638760845392,Coinbase,,,Transferred Ethereum From Coinbase Pro,4.16668096,ETH,...,126.06638760845392,Coinbase Pro,0xb31b24CfDfc08d47B1c6FDfDCA8C0f072395A1f2,,,,,...,,ethereum,ethereum,23-11-2018
-47,47,2018-11-23 08:50:18,Transfer,,4.16668096,ETH,...,126.06638760845392,Binance,0xb31b24cfdfc08d47b1c6fdfdca8c0f072395a1f2,,,4.16668096,ETH,...,126.06638760845392,Coinbase,0xb31b24CfDfc08d47B1c6FDfDCA8C0f072395A1f2,,Sent Ethereum To Ethereum address,0.0,ETH,...,,ethereum,ethereum,23-11-2018
-48,48,2018-11-28 05:39:06,Trade,,187.0,XLM,...,0.1450519698147842,Binance,,,,0.24933271,ETH,...,110.4349435886608,Binance,,,,0.187,XLM,...,,stellar,ethereum,28-11-2018
-49,49,2018-11-28 06:48:56,Trade,,100.0,MIOTA,...,0.2707815367585897,Binance,,,,0.25,ETH,...,110.4349435886608,Binance,,,,0.1,MIOTA,...,,iota,ethereum,28-11-2018
-50,50,2019-04-30 14:23:56,Receive,,20.1587502,XLM,...,0.0954770462062175,Coinbase,,Payment,Received Stellar Lumens From Coinbase Earn,,,...,1.0,,,,,,,...,,stellar,,30-04-2019
-51,51,2019-04-30 14:24:25,Receive,,20.1537733,XLM,...,0.0954770462062175,Coinbase,,Payment,Received Stellar Lumens From Coinbase Earn,,,...,1.0,,,,,,,...,,stellar,,30-04-2019
-52,52,2019-04-30 14:25:58,Receive,,20.1486974,XLM,...,0.0954770462062175,Coinbase,,Payment,Received Stellar Lumens From Coinbase Earn,,,...,1.0,,,,,,,...,,stellar,,30-04-2019
-53,53,2019-04-30 14:26:30,Receive,,20.1497124,XLM,...,0.0954770462062175,Coinbase,,Payment,Received Stellar Lumens From Coinbase Earn,,,...,1.0,,,,,,,...,,stellar,,30-04-2019
-54,54,2019-04-30 14:29:24,Receive,,20.1383505,XLM,...,0.0954770462062175,Coinbase,,Payment,Received Stellar Lumens From Coinbase Earn,,,...,1.0,,,,,,,...,,stellar,,30-04-2019
-55,55,2019-04-30 14:34:07,Receive,,2.56275876,BAT,...,0.3754104175248963,Coinbase,,Payment,Received Basic Attention Token From Coinbase Earn,,,...,1.0,,,,,,,...,,basic-attention-token,,30-04-2019
-56,56,2019-04-30 14:34:35,Receive,,2.56290326,BAT,...,0.3754104175248963,Coinbase,,Payment,Received Basic Attention Token From Coinbase Earn,,,...,1.0,,,,,,,...,,basic-attention-token,,30-04-2019
-57,57,2019-04-30 14:35:03,Receive,,2.56487861,BAT,...,0.3754104175248963,Coinbase,,Payment,Received Basic Attention Token From Coinbase Earn,,,...,1.0,,,,,,,...,,basic-attention-token,,30-04-2019
-58,58,2019-04-30 14:35:11,Receive,,17.95415023,BAT,...,0.3754104175248963,Coinbase,,Payment,Received Basic Attention Token From Coinbase Earn,,,...,1.0,,,,,,,...,,basic-attention-token,,30-04-2019
-59,59,2019-06-27 04:50:08,Transfer,,4.30432707,ETH,...,337.3409578098138,Coinbase,,,Received Ethereum From Ethereum address,4.30432707,ETH,...,337.3409578098138,Binance,0x87B31Afbe20E02e9878FB93C2eCBbeC452CEbbE8,,,,,...,,ethereum,ethereum,27-06-2019
-60,60,2019-06-27 04:51:52,Trade,,0.14491272,ETH,...,337.3409578098138,Binance,,,,111.0,MIOTA,...,0.4451111949761572,Binance,,,,0.00014491,ETH,...,,ethereum,iota,27-06-2019
-61,61,2019-06-27 04:51:52,Trade,,0.2493505,ETH,...,337.3409578098138,Binance,,,,191.0,MIOTA,...,0.4451111949761572,Binance,,,,0.00024935,ETH,...,,ethereum,iota,27-06-2019
-62,62,2019-06-27 04:51:52,Trade,,0.15011295,ETH,...,337.3409578098138,Binance,,,,115.0,MIOTA,...,0.4451111949761572,Binance,,,,0.00015011,ETH,...,,ethereum,iota,27-06-2019
-63,63,2019-06-27 04:56:28,Transfer,,0.5338318,ETH,...,337.3409578098138,Coinbase,,,Received Ethereum From Ethereum address,0.5338318,ETH,...,337.3409578098138,Binance,0x87B31Afbe20E02e9878FB93C2eCBbeC452CEbbE8,,,,,...,,ethereum,ethereum,27-06-2019
-64,64,2019-06-27 04:57:02,Transfer,0894ba31504682230ded4eaa6f80b38493bc2c8f9e009f8889ffe3872a975f56,4.30432707,ETH,...,337.3409578098138,Coinbase Pro,,,,4.30432707,ETH,...,337.3409578098138,Coinbase,,,Transferred Ethereum To Coinbase Pro,,,...,,ethereum,ethereum,27-06-2019
-65,65,2019-06-27 05:05:47,Transfer,edcc910eb6ed919fe56525c6f82f3b7cc068c1d86ee66bde295f50ca49f90793,0.5338318,ETH,...,337.3409578098138,Coinbase Pro,,,,0.5338318,ETH,...,337.3409578098138,Coinbase,,,Transferred Ethereum To Coinbase Pro,,,...,,ethereum,ethereum,27-06-2019
-66,66,2019-07-10 03:59:12,Transfer,,1156.832,XLM,...,0.101592618832729,Coinbase,,,Received Stellar Lumens From Stellar Lumens address,1156.832,XLM,...,0.101592618832729,Binance,GDQP2KPQGKIHYJGXNUIYOMHARUARCA7DJT5FO2FFOOKY3B2WSQHG4W37,,,,,...,,stellar,stellar,10-07-2019
-67,67,2019-07-10 03:59:47,Transfer,352a13cbec875ff3edf8fe942509b5d4198b67aa2d57087c6b71262d45168eeb,1156.832,XLM,...,0.101592618832729,Coinbase Pro,,,,1156.832,XLM,...,0.101592618832729,Coinbase,,,Transferred Stellar Lumens To Coinbase Pro,,,...,,stellar,stellar,10-07-2019
-68,68,2020-02-06 05:08:18,Trade,,0.00039967,BTC,...,9592.18387389791,Binance,,,,1.56,QTUM,...,2.438420883095997,Binance,,,,4e-07,BTC,...,,bitcoin,qtum,06-02-2020
-69,69,2020-02-06 05:11:46,Trade,,0.00027336,BTC,...,9592.18387389791,Binance,,,,51.0,POWR,...,0.0498653232878508,Binance,,,,2.7e-07,BTC,...,,bitcoin,power-ledger,06-02-2020
-70,70,2020-02-06 05:20:40,Trade,,0.00651293,BTC,...,9592.18387389791,Coinbase,,,Converted from Litecoin Using LTC Wallet,0.87100967,LTC,...,72.50229101409012,Coinbase,,,Converted from Litecoin Using LTC Wallet,,,...,,bitcoin,litecoin,06-02-2020
-71,71,2020-02-12 19:04:40,Sell,,293.33,USD,...,1.0,Coinbase,,,Sold Bitcoin Using USD Wallet,0.02889667,BTC,...,10226.925769215322,Coinbase,,,Sold Bitcoin Using USD Wallet,4.44,USD,...,,,bitcoin,12-02-2020
-72,72,2020-02-12 19:05:11,Sell,,174.63,USD,...,1.0,Coinbase,,,Sold Ethereum Using USD Wallet,0.66863442,ETH,...,236.78534852972567,Coinbase,,,Sold Ethereum Using USD Wallet,2.99,USD,...,,,ethereum,12-02-2020
-73,73,2020-02-12 19:06:17,Send,,,,...,1.0,,,,,467.96,USD,...,1.0,Coinbase,,,Withdrew funds To US Bank - Savings ********5401,,,...,,,,12-02-2020
-74,74,2020-02-18 01:30:16,Transfer,262e628ec96b022d52bc5e52e306cf8fa278df83d2a7780c28d69784e8d19c32,0.1,BTC,...,9723.605026422496,Coinbase,,,Transferred Bitcoin From Coinbase Pro,0.1,BTC,...,9723.605026422496,Coinbase Pro,bc1qm42h4key3w92tdsqt76ghspu99c9sgf7gp7e55,,,,,...,,bitcoin,bitcoin,18-02-2020
-75,75,2020-02-18 01:30:17,Send,,,,...,1.0,,,,,0.1,BTC,...,9723.605026422496,Coinbase,bc1qm42h4key3w92tdsqt76ghspu99c9sgf7gp7e55,,Sent Bitcoin To Bitcoin address,0.0,BTC,...,,,bitcoin,18-02-2020
-76,76,2020-02-18 01:31:44,Transfer,b9c9044c51ef88fb65ed28a1c1b9f7c55a00b4cfd0542cab17514f7116aca8ad,4.83815887,ETH,...,267.9356656159883,Coinbase,,,Transferred Ethereum From Coinbase Pro,4.83815887,ETH,...,267.9356656159883,Coinbase Pro,0xb53eFe6ded3a59c2cb6A2AF1B1AD0ffF7bC8859C,,,,,...,,ethereum,ethereum,18-02-2020
-77,77,2020-02-18 01:31:45,Transfer,b9c9044c51ef88fb65ed28a1c1b9f7c55a00b4cfd0542cab17514f7116aca8ad,4.83815887,ETH,...,267.9356656159883,ETH Wallet ...C8859C,0xb53eFe6ded3a59c2cb6A2AF1B1AD0ffF7bC8859C,,,4.83815887,ETH,...,267.9356656159883,Coinbase,0xb53eFe6ded3a59c2cb6A2AF1B1AD0ffF7bC8859C,,Sent Ethereum To Ethereum address,0.0,ETH,...,,ethereum,ethereum,18-02-2020
-78,78,2020-03-12 13:52:46,Receive,,1000.0,USD,...,1.0,Coinbase Pro,,,,,,...,1.0,,,,,,,...,,,,12-03-2020
-79,79,2020-03-12 13:52:48,Receive,,1000.0,USD,...,1.0,Coinbase,,,Deposited funds From Wells Fargo - CHECKING ******1534,,,...,1.0,,,,,,,...,,,,12-03-2020
-80,80,2020-03-18 13:52:51,Send,,,,...,1.0,,,,,1000.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,18-03-2020
-81,81,2020-03-20 13:13:47,Buy,,0.00242324,BTC,...,6170.200600237675,Coinbase Pro,,,,15.95,USD,...,1.0,Coinbase Pro,,,,0.08,USD,...,,bitcoin,,20-03-2020
-82,82,2020-03-20 13:16:31,Buy,,0.0279922,BTC,...,6170.200600237675,Coinbase Pro,,,,184.27,USD,...,1.0,Coinbase Pro,,,,0.92,USD,...,,bitcoin,,20-03-2020
-83,83,2020-03-20 13:16:38,Buy,,0.01958456,BTC,...,6170.200600237675,Coinbase Pro,,,,128.92,USD,...,1.0,Coinbase Pro,,,,0.64,USD,...,,bitcoin,,20-03-2020
-84,84,2020-03-20 20:21:52,Buy,,0.05,BTC,...,6170.200600237675,Coinbase Pro,,,,301.5,USD,...,1.0,Coinbase Pro,,,,1.5,USD,...,,bitcoin,,20-03-2020
-85,85,2020-03-24 15:10:14,Buy,,0.05654228,BTC,...,6456.347485963419,Coinbase Pro,,,,369.36,USD,...,1.0,Coinbase Pro,,,,1.84,USD,...,,bitcoin,,24-03-2020
-86,86,2020-03-25 13:38:10,Receive,,1000.0,USD,...,1.0,Coinbase Pro,,,,,,...,1.0,,,,,,,...,,,,25-03-2020
-87,87,2020-03-25 13:38:11,Receive,,1000.0,USD,...,1.0,Coinbase,,,Deposited funds From Wells Fargo - CHECKING ******1534,,,...,1.0,,,,,,,...,,,,25-03-2020
-88,88,2020-03-31 13:38:11,Send,,,,...,1.0,,,,,1000.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,31-03-2020
-89,89,2020-03-31 14:42:17,Buy,,0.05,BTC,...,6403.141235565223,Coinbase Pro,,,,325.12,USD,...,1.0,Coinbase Pro,,,,1.62,USD,...,,bitcoin,,31-03-2020
-90,90,2020-03-31 15:19:06,Buy,,0.05,BTC,...,6403.141235565223,Coinbase Pro,,,,324.11,USD,...,1.0,Coinbase Pro,,,,1.61,USD,...,,bitcoin,,31-03-2020
-91,91,2020-04-24 06:42:29,Transfer,74590baed6a18aeb3c4bfe3dec25d2d04067953511634865e0ecbde138e5fe1a,0.25654228,BTC,...,7382.793144116689,Coinbase,,,Transferred Bitcoin From Coinbase Pro,0.25654228,BTC,...,7382.793144116689,Coinbase Pro,bc1q7uvvj5fkc8vncf04e7dh9fuqvp2jstjtrwg68a,,,,,...,,bitcoin,bitcoin,24-04-2020
-92,92,2020-04-24 06:42:30,Send,,,,...,1.0,,,,,0.25654228,BTC,...,7382.793144116689,Coinbase,bc1q7uvvj5fkc8vncf04e7dh9fuqvp2jstjtrwg68a,,Sent Bitcoin To Bitcoin address,0.0,BTC,...,,,bitcoin,24-04-2020
-93,93,2020-07-09 16:57:42,Receive,,0.35647928,BTC,...,9432.17251582794,Coinbase,,,Received Bitcoin From Bitcoin address,,,...,1.0,,,,,,,...,,bitcoin,,09-07-2020
-94,94,2020-07-09 21:23:40,Sell,,51.71,USD,...,1.0,Coinbase Pro,,,,556.0,XLM,...,0.0846984442150706,Coinbase Pro,,,,0.26,USD,...,,,stellar,09-07-2020
-95,95,2020-07-09 21:23:40,Sell,,18.6,USD,...,1.0,Coinbase Pro,,,,200.0,XLM,...,0.0846984442150706,Coinbase Pro,,,,0.09,USD,...,,,stellar,09-07-2020
-96,96,2020-07-09 21:54:23,Transfer,0f54d0607a37e0cb4e1f73358193c19620b1028b5ad4cd7975de59b6a2ca575a,0.35647928,BTC,...,9432.17251582794,Coinbase Pro,,,,0.35647928,BTC,...,9432.17251582794,Coinbase,,,Transferred Bitcoin To Coinbase Pro,,,...,,bitcoin,bitcoin,09-07-2020
-97,97,2020-07-11 00:52:08,Sell,,18.8,USD,...,1.0,Coinbase Pro,,,,200.0,XLM,...,0.088868089271011,Coinbase Pro,,,,0.09,USD,...,,,stellar,11-07-2020
-98,98,2020-07-11 00:53:00,Sell,,19.0,USD,...,1.0,Coinbase Pro,,,,200.0,XLM,...,0.088868089271011,Coinbase Pro,,,,0.1,USD,...,,,stellar,11-07-2020
-99,99,2020-07-14 20:39:48,Sell,,927.5,USD,...,1.0,Coinbase Pro,,,,0.1,BTC,...,9240.76251972468,Coinbase Pro,,,,4.64,USD,...,,,bitcoin,14-07-2020
-100,100,2020-07-21 07:43:58,Sell,,930.0,USD,...,1.0,Coinbase Pro,,,,0.1,BTC,...,9163.159654576915,Coinbase Pro,,,,4.65,USD,...,,,bitcoin,21-07-2020
-101,101,2020-07-21 07:44:13,Sell,,932.5,USD,...,1.0,Coinbase Pro,,,,0.1,BTC,...,9163.159654576915,Coinbase Pro,,,,4.66,USD,...,,,bitcoin,21-07-2020
-102,102,2020-07-21 07:44:25,Sell,,528.08,USD,...,1.0,Coinbase Pro,,,,0.05647928,BTC,...,9163.159654576915,Coinbase Pro,,,,2.64,USD,...,,,bitcoin,21-07-2020
-103,103,2020-07-28 19:19:53,Transfer,,3759.82,USD,...,1.0,Coinbase,,,Transferred funds From Coinbase Pro,3759.82,USD,...,1.0,Coinbase Pro,,,,,,...,,,,28-07-2020
-104,104,2020-07-28 19:19:54,Send,,,,...,1.0,,,,,3759.82,USD,...,1.0,Coinbase,,,Withdrew funds To Wells Fargo - CHECKING ******1534,,,...,,,,28-07-2020
-105,105,2020-12-16 07:52:07,Receive,,10.0,USD,...,1.0,Coinbase,,,Deposited funds From US Bank - Savings ********5401,,,...,1.0,,,,,,,...,,,,16-12-2020
-106,106,2020-12-16 07:52:09,Transfer,,10.0,USD,...,1.0,Coinbase Pro,,,,10.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,16-12-2020
-107,107,2020-12-16 07:57:52,Buy,,0.01701275,ETH,...,589.0668316450424,Coinbase Pro,,,,10.0,USD,...,1.0,Coinbase Pro,,,,0.05,USD,...,,ethereum,,16-12-2020
-108,108,2020-12-21 05:50:14,Receive,ca625b86f7c34ed42b145bfb8cb025f690ba178c407e14c2c98e2461f4a2cd06,0.005,ETH,...,639.5154368778184,ETH Wallet ...C8859C,0xb53eFe6ded3a59c2cb6A2AF1B1AD0ffF7bC8859C,,,,,...,1.0,,,,,,,...,,ethereum,,21-12-2020
-109,109,2020-12-21 06:07:16,Transfer,0be825f4e9aaeb39a8aa6fc8dfe4418e46397ff57cd61a3d9f571c1bfb82705d,3.83,ETH,...,639.5154368778184,Coinbase,,,Received Ethereum From Ethereum address,3.83,ETH,...,639.5154368778184,ETH Wallet ...C8859C,0xb53eFe6ded3a59c2cb6A2AF1B1AD0ffF7bC8859C,,,0.00063,ETH,...,,ethereum,ethereum,21-12-2020
-110,110,2020-12-21 06:13:21,Transfer,0be825f4e9aaeb39a8aa6fc8dfe4418e46397ff57cd61a3d9f571c1bfb82705d,3.83,ETH,...,639.5154368778184,Coinbase Pro,,,,3.83,ETH,...,639.5154368778184,Coinbase,,,Transferred Ethereum To Coinbase Pro,,,...,,ethereum,ethereum,21-12-2020
-111,111,2020-12-21 06:24:53,Sell,,59.56,USD,...,1.0,Coinbase Pro,,,,0.09306478,ETH,...,639.5154368778184,Coinbase Pro,,,,0.3,USD,...,,,ethereum,21-12-2020
-112,112,2020-12-21 06:24:53,Sell,,27.89,USD,...,1.0,Coinbase Pro,,,,0.04358466,ETH,...,639.5154368778184,Coinbase Pro,,,,0.14,USD,...,,,ethereum,21-12-2020
-113,113,2020-12-21 06:24:53,Sell,,49.75,USD,...,1.0,Coinbase Pro,,,,0.07773631,ETH,...,639.5154368778184,Coinbase Pro,,,,0.25,USD,...,,,ethereum,21-12-2020
-114,114,2020-12-21 06:24:53,Sell,,23.4,USD,...,1.0,Coinbase Pro,,,,0.03656076,ETH,...,639.5154368778184,Coinbase Pro,,,,0.12,USD,...,,,ethereum,21-12-2020
-115,115,2020-12-21 06:24:54,Sell,,392.2,USD,...,1.0,Coinbase Pro,,,,0.61280791,ETH,...,639.5154368778184,Coinbase Pro,,,,1.96,USD,...,,,ethereum,21-12-2020
-116,116,2020-12-21 06:24:57,Sell,,29.69,USD,...,1.0,Coinbase Pro,,,,0.04639303,ETH,...,639.5154368778184,Coinbase Pro,,,,0.15,USD,...,,,ethereum,21-12-2020
-117,117,2020-12-21 06:25:00,Sell,,57.51,USD,...,1.0,Coinbase Pro,,,,0.08985255,ETH,...,639.5154368778184,Coinbase Pro,,,,0.29,USD,...,,,ethereum,21-12-2020
-118,118,2020-12-26 20:38:15,Sell,,650.0,USD,...,1.0,Coinbase Pro,,,,1.0,ETH,...,626.4567387784558,Coinbase Pro,,,,3.25,USD,...,,,ethereum,26-12-2020
-119,119,2021-01-03 22:45:25,Sell,,1000.0,USD,...,1.0,Coinbase Pro,,,,1.0,ETH,...,777.6960653039432,Coinbase Pro,,,,5.0,USD,...,,,ethereum,03-01-2021
-120,120,2021-04-08 18:17:06,Buy,,0.00171948,BTC,...,56134.41738866435,Coinbase Pro,,,,100.0,USD,...,1.0,Coinbase Pro,,,,0.5,USD,...,,bitcoin,,08-04-2021
-121,121,2021-04-20 00:23:24,Buy,,0.002,BTC,...,55721.166052695626,Coinbase Pro,,,,110.55,USD,...,1.0,Coinbase Pro,,,,0.55,USD,...,,bitcoin,,20-04-2021
-122,122,2021-04-23 01:13:14,Buy,,0.0025,BTC,...,51965.5664304852,Coinbase Pro,,,,128.14,USD,...,1.0,Coinbase Pro,,,,0.64,USD,...,,bitcoin,,23-04-2021
-123,123,2021-04-23 01:16:47,Buy,,0.05,ETH,...,2426.0711497906045,Coinbase Pro,,,,118.09,USD,...,1.0,Coinbase Pro,,,,0.59,USD,...,,ethereum,,23-04-2021
-124,124,2021-04-23 09:20:32,Buy,,0.0025,BTC,...,51965.5664304852,Coinbase Pro,,,,121.35,USD,...,1.0,Coinbase Pro,,,,0.6,USD,...,,bitcoin,,23-04-2021
-125,125,2021-04-23 09:39:43,Buy,,0.05,ETH,...,2426.0711497906045,Coinbase Pro,,,,108.99,USD,...,1.0,Coinbase Pro,,,,0.54,USD,...,,ethereum,,23-04-2021
-126,126,2021-05-04 08:23:39,Buy,,50.0,USDC,...,0.9999726977910728,Coinbase,,,Bought USD Coin Using Wells Fargo - CHECKING ******1534,50.0,USD,...,1.0,Coinbase,,,Bought USD Coin Using Wells Fargo - CHECKING ******1534,,,...,,usd-coin,,04-05-2021
-127,127,2021-05-04 08:27:36,Buy,,1591.43,USDC,...,0.9999726977910728,Coinbase Pro,,,,1591.43,USD,...,1.0,Coinbase Pro,,,,,,...,,usd-coin,,04-05-2021
-128,128,2021-05-04 08:36:38,Transfer,4c5d9a1732ece1825ecce384f3bb60485094cd9546e96303658195dfa4fcb255,0.300903,ETH,...,3439.8550695192603,Coinbase,,,Transferred Ethereum From Coinbase Pro,0.300903,ETH,...,3439.8550695192603,Coinbase Pro,0xe41358c021479352336d2005ec0745790ae23633,,,0.000903,ETH,...,,ethereum,ethereum,04-05-2021
-129,129,2021-05-04 08:36:40,Send,,,,...,1.0,,,,,0.300903,ETH,...,3439.8550695192603,Coinbase,0xE41358C021479352336D2005eC0745790aE23633,,Sent Ethereum To Ethereum address,0.000903,ETH,...,,,ethereum,04-05-2021
-130,130,2021-05-04 08:38:04,Transfer,70e0b8b7dc60f331e5ea654f1f74d705ccc7cda5cba724dc3b6d3978360c1159,1002.983688,USDC,...,0.9999726977910728,Coinbase,,,Transferred USD Coin From Coinbase Pro,1002.983688,USDC,...,0.9999726977910728,Coinbase Pro,0xe41358c021479352336d2005ec0745790ae23633,,,2.983688,USDC,...,,usd-coin,usd-coin,04-05-2021
-131,131,2021-05-04 08:38:05,Send,,,,...,1.0,,,,,1002.983688,USDC,...,0.9999726977910728,Coinbase,0xE41358C021479352336D2005eC0745790aE23633,,Sent USD Coin To USD Coin address,2.983688,USDC,...,,,usd-coin,04-05-2021
-132,132,2021-05-04 13:50:12,Trade,,0.002,BTC,...,57200.30029871162,Coinbase Pro,,,,111.555,USDC,...,0.9999726977910728,Coinbase Pro,,,,0.555,USDC,...,,bitcoin,usd-coin,04-05-2021
-133,133,2021-05-10 18:45:54,Sell,,165.2,USD,...,1.0,Coinbase Pro,,,,0.04,ETH,...,3932.754068170969,Coinbase Pro,,,,0.83,USD,...,,,ethereum,10-05-2021
-134,134,2021-05-11 00:05:45,Trade,,0.00035118,BTC,...,55901.66759456145,Coinbase,,,Converted from Stellar Lumens Using XLM Wallet,30.5627675,XLM,...,0.6670113233317664,Coinbase,,,Converted from Stellar Lumens Using XLM Wallet,,,...,,bitcoin,stellar,11-05-2021
-135,135,2021-05-11 00:06:06,Trade,,0.00035168,BTC,...,55901.66759456145,Coinbase,,,Converted from Basic Attention Token Using BAT Wallet,15.26419847,BAT,...,1.314944521971142,Coinbase,,,Converted from Basic Attention Token Using BAT Wallet,,,...,,bitcoin,basic-attention-token,11-05-2021
-136,136,2021-05-11 23:52:47,Sell,,166.8,USD,...,1.0,Coinbase Pro,,,,0.04,ETH,...,3979.608651921282,Coinbase Pro,,,,0.83,USD,...,,,ethereum,11-05-2021
-137,137,2021-05-12 00:56:40,Sell,,168.0,USD,...,1.0,Coinbase Pro,,,,0.04,ETH,...,4182.790285752286,Coinbase Pro,,,,0.84,USD,...,,,ethereum,12-05-2021
-138,138,2021-05-12 14:20:29,Trade,,0.00084193,BTC,...,56928.97235660158,Coinbase,,,Converted from USD Coin Using USDC Wallet,50.0,USDC,...,1.0018008648423171,Coinbase,,,Converted from USD Coin Using USDC Wallet,3.5e-05,BTC,...,,bitcoin,usd-coin,12-05-2021
-139,139,2021-05-13 20:15:52,Sell,,370.0,USD,...,1.0,Coinbase Pro,,,,0.1,ETH,...,3906.108903329409,Coinbase Pro,,,,1.85,USD,...,,,ethereum,13-05-2021
-140,140,2021-05-17 03:24:07,Buy,,0.05,ETH,...,3602.0048969299023,Coinbase Pro,,,,165.82,USD,...,1.0,Coinbase Pro,,,,0.82,USD,...,,ethereum,,17-05-2021
-141,141,2021-05-17 17:12:34,Buy,,50.0,ADA,...,2.286208576781481,Coinbase Pro,,,,100.5,USD,...,1.0,Coinbase Pro,,,,0.5,USD,...,,cardano,,17-05-2021
-142,142,2021-05-17 17:45:13,Sell,,320.5,USD,...,1.0,Coinbase Pro,,,,0.1,ETH,...,3602.0048969299023,Coinbase Pro,,,,1.6,USD,...,,,ethereum,17-05-2021
-143,143,2021-05-17 18:33:02,Sell,,330.0,USD,...,1.0,Coinbase Pro,,,,0.1,ETH,...,3602.0048969299023,Coinbase Pro,,,,1.65,USD,...,,,ethereum,17-05-2021
-144,144,2021-05-17 19:20:54,Sell,,340.0,USD,...,1.0,Coinbase Pro,,,,0.1,ETH,...,3602.0048969299023,Coinbase Pro,,,,1.7,USD,...,,,ethereum,17-05-2021
-145,145,2021-05-18 04:43:19,Sell,,350.0,USD,...,1.0,Coinbase Pro,,,,0.1,ETH,...,3288.229887237864,Coinbase Pro,,,,1.75,USD,...,,,ethereum,18-05-2021
-146,146,2021-05-19 05:53:06,Sell,,476.89,USD,...,1.0,Coinbase Pro,,,,476.89,USDC,...,1.0017199118044835,Coinbase Pro,,,,,,...,,,usd-coin,19-05-2021
-147,147,2021-05-19 05:55:45,Transfer,,2410.02,USD,...,1.0,Coinbase,,,Transferred funds From Coinbase Pro,2410.02,USD,...,1.0,Coinbase Pro,,,,,,...,,,,19-05-2021
-148,148,2021-05-19 05:55:47,Send,,,,...,1.0,,,,,2410.02,USD,...,1.0,Coinbase,,,Withdrew funds To US Bank - Savings ********5401,,,...,,,,19-05-2021
-149,149,2021-05-20 00:57:42,Transfer,21352f6fa76a10880c992bec599356755661ee2a073a3ce4d44c62ab966565d7,0.049809,ETH,...,2505.014945945662,Coinbase,,,Transferred Ethereum From Coinbase Pro,0.049809,ETH,...,2505.014945945662,Coinbase Pro,0x1Fc9F96748aC6f36bEA9184549656550f6734E45,,,0.004809,ETH,...,,ethereum,ethereum,20-05-2021
-150,150,2021-05-20 00:57:43,Send,,,,...,1.0,,,,,0.049809,ETH,...,2505.014945945662,Coinbase,0x1Fc9F96748aC6f36bEA9184549656550f6734E45,,Sent Ethereum To Ethereum address,0.004809,ETH,...,,,ethereum,20-05-2021
-151,151,2021-06-02 17:21:20,Receive,,0.001694,USDC,...,1.0006914837242176,Coinbase,,,USD Coin reward From Coinbase,,,...,1.0,,,,,,,...,,usd-coin,,02-06-2021
-152,152,2021-06-04 08:20:05,Buy,,265.47679644,DOGE,...,0.3980072700482743,Coinbase,,,Bought Dogecoin Using Wells Fargo - CHECKING ******1534,100.0,USD,...,1.0,Coinbase,,,Bought Dogecoin Using Wells Fargo - CHECKING ******1534,,,...,,dogecoin,,04-06-2021
-153,153,2021-06-12 15:20:39,Receive,,0.01003614,COMP,...,295.937262121799,Coinbase,,Payment,Received Compound From Coinbase Earn,,,...,1.0,,,,,,,...,,compound-governance-token,,12-06-2021
-154,154,2021-06-12 15:21:08,Receive,,0.0100167,COMP,...,295.937262121799,Coinbase,,Payment,Received Compound From Coinbase Earn,,,...,1.0,,,,,,,...,,compound-governance-token,,12-06-2021
-155,155,2021-06-12 15:21:28,Receive,,0.01001035,COMP,...,295.937262121799,Coinbase,,Payment,Received Compound From Coinbase Earn,,,...,1.0,,,,,,,...,,compound-governance-token,,12-06-2021
-156,156,2021-07-12 17:41:57,Receive,,1000.0,USD,...,1.0,Coinbase,,,Deposited funds From Wells Fargo - CHECKING ******1534,,,...,1.0,,,,,,,...,,,,12-07-2021
-157,157,2021-07-12 17:41:59,Transfer,,1000.0,USD,...,1.0,Coinbase Pro,,,,1000.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,12-07-2021
-158,158,2021-07-12 18:56:24,Buy,,0.006,BTC,...,34299.938016517444,Coinbase Pro,,,,198.99,USD,...,1.0,Coinbase Pro,,,,0.99,USD,...,,bitcoin,,12-07-2021
-159,159,2021-07-12 19:34:49,Buy,,75.0,ADA,...,1.3486761116535069,Coinbase Pro,,,,97.99,USD,...,1.0,Coinbase Pro,,,,0.49,USD,...,,cardano,,12-07-2021
-160,160,2021-07-13 05:15:40,Buy,,0.1,ETH,...,2042.4991866143628,Coinbase Pro,,,,201.0,USD,...,1.0,Coinbase Pro,,,,1.0,USD,...,,ethereum,,13-07-2021
-161,161,2021-07-28 15:57:08,Buy,,0.05,ETH,...,2292.579636803809,Coinbase Pro,,,,115.07,USD,...,1.0,Coinbase Pro,,,,0.57,USD,...,,ethereum,,28-07-2021
-162,162,2021-07-28 17:35:50,Buy,,0.003,BTC,...,39076.59377063225,Coinbase Pro,,,,118.79,USD,...,1.0,Coinbase Pro,,,,0.59,USD,...,,bitcoin,,28-07-2021
-163,163,2021-07-29 01:22:38,Buy,,75.0,ADA,...,1.2840181960693164,Coinbase Pro,,,,94.97,USD,...,1.0,Coinbase Pro,,,,0.47,USD,...,,cardano,,29-07-2021
-164,164,2021-08-12 16:23:11,Buy,,0.05744168,ETH,...,3166.647217967929,Coinbase Pro,,,,173.19,USD,...,1.0,Coinbase Pro,,,,0.86,USD,...,,ethereum,,12-08-2021
-165,165,2021-08-13 05:20:22,Receive,,600.0,USD,...,1.0,Coinbase,,,Deposited funds From US Bank - Savings ********5401,,,...,1.0,,,,,,,...,,,,13-08-2021
-166,166,2021-08-13 05:20:24,Transfer,,600.0,USD,...,1.0,Coinbase Pro,,,,600.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,13-08-2021
-167,167,2021-08-17 20:00:18,Buy,,0.015,ETH,...,3153.583683763619,Coinbase Pro,,,,46.73,USD,...,1.0,Coinbase Pro,,,,0.23,USD,...,,ethereum,,17-08-2021
-168,168,2021-08-17 20:15:16,Buy,,0.001,BTC,...,46031.75754362583,Coinbase Pro,,,,45.23,USD,...,1.0,Coinbase Pro,,,,0.23,USD,...,,bitcoin,,17-08-2021
-169,169,2021-08-18 00:44:29,Buy,,30.0,ADA,...,1.9222342258147989,Coinbase Pro,,,,57.28,USD,...,1.0,Coinbase Pro,,,,0.28,USD,...,,cardano,,18-08-2021
-170,170,2021-08-26 05:47:02,Buy,,50.0,ADA,...,2.7378837504908597,Coinbase Pro,,,,130.65,USD,...,1.0,Coinbase Pro,,,,0.65,USD,...,,cardano,,26-08-2021
-171,171,2021-09-09 12:37:50,Buy,,0.004,BTC,...,46085.02861578186,Coinbase Pro,,,,184.12,USD,...,1.0,Coinbase Pro,,,,0.92,USD,...,,bitcoin,,09-09-2021
-172,172,2021-09-09 12:39:12,Buy,,0.02391616,ETH,...,3496.859022996073,Coinbase Pro,,,,81.72,USD,...,1.0,Coinbase Pro,,,,0.41,USD,...,,ethereum,,09-09-2021
-173,173,2021-09-23 05:36:25,Receive,,2000.0,USD,...,1.0,Coinbase,,,Deposited funds From Wells Fargo - CHECKING ******1534,,,...,1.0,,,,,,,...,,,,23-09-2021
-174,174,2021-09-23 05:36:27,Transfer,,2000.0,USD,...,1.0,Coinbase Pro,,,,2000.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,23-09-2021
-175,175,2021-09-24 09:05:42,Buy,,0.07,ETH,...,3159.269865581771,Coinbase Pro,,,,211.05,USD,...,1.0,Coinbase Pro,,,,1.05,USD,...,,ethereum,,24-09-2021
-176,176,2021-09-24 09:56:30,Buy,,0.005,BTC,...,44980.898214810935,Coinbase Pro,,,,213.56,USD,...,1.0,Coinbase Pro,,,,1.06,USD,...,,bitcoin,,24-09-2021
-177,177,2021-10-01 11:48:48,Receive,,10000.0,USD,...,1.0,Coinbase,,,Deposited funds From US Bank - Savings ********5401,,,...,1.0,,,,,,,...,,,,01-10-2021
-178,178,2021-10-01 11:48:50,Transfer,,10000.0,USD,...,1.0,Coinbase Pro,,,,10000.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,01-10-2021
-179,179,2021-10-01 12:24:40,Buy,,11374.38,USDC,...,1.004599483169473,Coinbase Pro,,,,11374.38,USD,...,1.0,Coinbase Pro,,,,,,...,,usd-coin,,01-10-2021
-180,180,2021-10-01 12:26:21,Transfer,e6ee051fd326357f80aed6b552bef729dc044bdd3caa7bc8114d2407a5d8a7a9,4003.341328,USDC,...,1.004599483169473,Coinbase,,,Transferred USD Coin From Coinbase Pro,4003.341328,USDC,...,1.004599483169473,Coinbase Pro,0xe41358c021479352336d2005ec0745790ae23633,,,3.341328,USDC,...,,usd-coin,usd-coin,01-10-2021
-181,181,2021-10-01 12:26:23,Send,,,,...,1.0,,,,,4003.341328,USDC,...,1.004599483169473,Coinbase,0xE41358C021479352336D2005eC0745790aE23633,,Sent USD Coin To USD Coin address,3.341328,USDC,...,,,usd-coin,01-10-2021
-182,182,2021-10-02 23:31:37,Trade,,100.0,ADA,...,2.2467692592329,Coinbase Pro,,,,226.125,USDC,...,1.0020170321137416,Coinbase Pro,,,,1.125,USDC,...,,cardano,usd-coin,02-10-2021
-183,183,2021-10-03 20:23:51,Receive,41f11b1dade305c16da358e0d6ec60879ff7a917b28005377726e979437b93bf,0.029,ETH,...,3393.9242492696653,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,1.0,,,,,,,...,,ethereum,,03-10-2021
-184,184,2021-10-03 20:23:56,Transfer,41f11b1dade305c16da358e0d6ec60879ff7a917b28005377726e979437b93bf,0.031142,ETH,...,3393.9242492696653,Coinbase,,,Transferred Ethereum From Coinbase Pro,0.031142,ETH,...,3393.9242492696653,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.002142,ETH,...,,ethereum,ethereum,03-10-2021
-185,185,2021-10-03 20:23:58,Send,,,,...,1.0,,,,,0.031142,ETH,...,3393.9242492696653,Coinbase,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,Sent Ethereum To Ethereum address,0.002142,ETH,...,,,ethereum,03-10-2021
-186,186,2021-10-03 20:25:34,Send,143590e50b1c0a91b5ad20f2baf40842b5a3721027f1749c2fd7b643c8f29147,,,...,1.0,,,,,0.015,ETH,...,3393.9242492696653,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00174986,ETH,...,,,ethereum,03-10-2021
-187,187,2021-10-03 21:07:41,Receive,0x0c663c6076112202b5f44d227f4de3a59b6a7315bdfcd30cd98941dc0aebdf85,350000.0,LIL,...,1.0,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,1.0,,,,,,,...,Disabled,,,03-10-2021
-188,188,2021-10-04 14:01:03,Sell,,500.0,USD,...,1.0,Coinbase Pro,,,,500.0,USDC,...,1.0017906890260833,Coinbase Pro,,,,,,...,,,usd-coin,04-10-2021
-189,189,2021-10-04 14:02:25,Buy,,3.0,DOT,...,32.200486900159035,Coinbase Pro,,,,94.97,USD,...,1.0,Coinbase Pro,,,,0.47,USD,...,,polkadot,,04-10-2021
-190,190,2021-10-04 14:05:59,Buy,,3.0,LINK,...,27.609012037186663,Coinbase Pro,,,,81.41,USD,...,1.0,Coinbase Pro,,,,0.41,USD,...,,chainlink,,04-10-2021
-191,191,2021-10-06 13:33:10,Buy,,0.09091855,ETH,...,3520.3422566393974,Coinbase Pro,,,,323.63,USD,...,1.0,Coinbase Pro,,,,1.61,USD,...,,ethereum,,06-10-2021
-192,192,2021-10-09 19:56:14,Trade,,0.05,ETH,...,3558.549577083409,Coinbase Pro,,,,179.895,USDC,...,0.9996156903667468,Coinbase Pro,,,,0.895,USDC,...,,ethereum,usd-coin,09-10-2021
-193,193,2021-10-11 21:18:27,Sell,,1000.0,USD,...,1.0,Coinbase Pro,,,,1000.0,USDC,...,1.0009516153413305,Coinbase Pro,,,,,,...,,,usd-coin,11-10-2021
-194,194,2021-10-11 21:26:05,Transfer,f57bcdcf13ca43d4d6c4f50304ecef6ea241058f59fd603c7985a0f43315cc24,0.103066,ETH,...,3431.0193069150096,Coinbase,,,Transferred Ethereum From Coinbase Pro,0.103066,ETH,...,3431.0193069150096,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.003066,ETH,...,,ethereum,ethereum,11-10-2021
-195,195,2021-10-11 21:26:07,Transfer,f57bcdcf13ca43d4d6c4f50304ecef6ea241058f59fd603c7985a0f43315cc24,0.1,ETH,...,3431.0193069150096,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.103066,ETH,...,3431.0193069150096,Coinbase,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,Sent Ethereum To Ethereum address,0.003066,ETH,...,,ethereum,ethereum,11-10-2021
-196,196,2021-10-11 23:04:46,Mint,0xceb1bbb092f08a7da0bebaee464968cd53553590b95e1f6b053dc66568d0322b,1.0,LILGUYS,...,1.0,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.045,ETH,...,3431.0193069150096,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.0114947,ETH,...,,,ethereum,11-10-2021
-197,197,2021-10-12 00:33:06,Buy,,3.0,DOT,...,34.113785679254384,Coinbase Pro,,,,100.49,USD,...,1.0,Coinbase Pro,,,,0.5,USD,...,,polkadot,,12-10-2021
-198,198,2021-10-12 02:48:07,Buy,,4.0,LINK,...,25.213360925257305,Coinbase Pro,,,,98.49,USD,...,1.0,Coinbase Pro,,,,0.49,USD,...,,chainlink,,12-10-2021
-199,199,2021-10-13 05:39:04,Buy,,50.0,ADA,...,2.117958281981731,Coinbase Pro,,,,105.53,USD,...,1.0,Coinbase Pro,,,,0.53,USD,...,,cardano,,13-10-2021
-200,200,2021-10-15 12:21:13,Trade,,100.0,ADA,...,2.174487310923188,Coinbase Pro,,,,216.7785,USDC,...,1.0013608362328688,Coinbase Pro,,,,1.0785,USDC,...,,cardano,usd-coin,15-10-2021
-201,201,2021-10-15 12:24:35,Trade,,100.0,ADA,...,2.174487310923188,Coinbase Pro,,,,216.5775,USDC,...,1.0013608362328688,Coinbase Pro,,,,1.0775,USDC,...,,cardano,usd-coin,15-10-2021
-202,202,2021-10-15 12:34:31,Trade,,100.0,ADA,...,2.174487310923188,Coinbase Pro,,,,216.075,USDC,...,1.0013608362328688,Coinbase Pro,,,,1.075,USDC,...,,cardano,usd-coin,15-10-2021
-203,203,2021-10-15 12:34:48,Trade,,0.05,ETH,...,3794.516888224821,Coinbase Pro,,,,189.69375,USDC,...,1.0013608362328688,Coinbase Pro,,,,0.94375,USDC,...,,ethereum,usd-coin,15-10-2021
-204,204,2021-10-16 12:39:38,Trade,,100.0,ADA,...,2.2256475894093337,Coinbase Pro,,,,223.11,USDC,...,1.0052069403859871,Coinbase Pro,,,,1.11,USDC,...,,cardano,usd-coin,16-10-2021
-205,205,2021-10-16 12:50:47,Buy,,0.002,BTC,...,61809.02394427028,Coinbase Pro,,,,122.61,USD,...,1.0,Coinbase Pro,,,,0.61,USD,...,,bitcoin,,16-10-2021
-206,206,2021-10-17 19:37:45,Trade,,100.0,ADA,...,2.187229098291846,Coinbase Pro,,,,215.5725,USDC,...,1.0024479734992968,Coinbase Pro,,,,1.0725,USDC,...,,cardano,usd-coin,17-10-2021
-207,207,2021-10-17 20:21:41,Buy,,0.003,BTC,...,61165.63564211521,Coinbase Pro,,,,177.88,USD,...,1.0,Coinbase Pro,,,,0.89,USD,...,,bitcoin,,17-10-2021
-208,208,2021-10-19 04:46:48,Trade,,0.002,BTC,...,62017.972725178704,Coinbase Pro,,,,125.625,USDC,...,1.0003859156803765,Coinbase Pro,,,,0.625,USDC,...,,bitcoin,usd-coin,19-10-2021
-209,209,2021-10-19 05:06:05,Buy,,5.0,LINK,...,25.6878144587302,Coinbase Pro,,,,130.65,USD,...,1.0,Coinbase Pro,,,,0.65,USD,...,,chainlink,,19-10-2021
-210,210,2021-10-19 06:14:31,Buy,,3.0,DOT,...,41.14152379788144,Coinbase Pro,,,,123.61,USD,...,1.0,Coinbase Pro,,,,0.61,USD,...,,polkadot,,19-10-2021
-211,211,2021-10-19 06:35:03,Trade,,0.05,ETH,...,3752.61872738495,Coinbase Pro,,,,190.95,USDC,...,1.0003859156803765,Coinbase Pro,,,,0.95,USDC,...,,ethereum,usd-coin,19-10-2021
-212,212,2021-10-20 01:49:06,Transfer,c2198b3ceea0e7df1483615f7411b40c20fd757a8350275463e9b34df6990d29,0.02671948,BTC,...,64517.64856042277,Coinbase,,,Transferred Bitcoin From Coinbase Pro,0.02671948,BTC,...,64517.64856042277,Coinbase Pro,36fYoRq78k7u1XPFhU8bgNkKhpubUesBvu,,,1.83e-06,BTC,...,,bitcoin,bitcoin,20-10-2021
-213,213,2021-10-20 01:49:08,Send,,,,...,1.0,,,,,0.02671948,BTC,...,64517.64856042277,Coinbase,36fYoRq78k7u1XPFhU8bgNkKhpubUesBvu,,Sent Bitcoin To Bitcoin address,1.83e-06,BTC,...,,,bitcoin,20-10-2021
-214,214,2021-10-20 01:50:07,Transfer,63306691cfc378110d4893d5460f9fbb63644cc5b127bf637246dd3403f9a040,0.34936914,ETH,...,3884.5872952429017,Coinbase,,,Transferred Ethereum From Coinbase Pro,0.34936914,ETH,...,3884.5872952429017,Coinbase Pro,0xE41358C021479352336D2005eC0745790aE23633,,,0.001071,ETH,...,,ethereum,ethereum,20-10-2021
-215,215,2021-10-20 01:50:08,Send,,,,...,1.0,,,,,0.34936914,ETH,...,3884.5872952429017,Coinbase,0xE41358C021479352336D2005eC0745790aE23633,,Sent Ethereum To Ethereum address,0.001071,ETH,...,,,ethereum,20-10-2021
-216,216,2021-10-20 01:53:02,Sell,,1500.0,USD,...,1.0,Coinbase Pro,,,,1500.0,USDC,...,0.9995761477245784,Coinbase Pro,,,,,,...,,,usd-coin,20-10-2021
-217,217,2021-10-25 05:51:22,Buy,,23.15,LINK,...,29.78180485247637,Coinbase Pro,,,,709.61,USD,...,1.0,Coinbase Pro,,,,3.53,USD,...,,chainlink,,25-10-2021
-218,218,2021-10-25 05:51:22,Buy,,3.51,LINK,...,29.78180485247637,Coinbase Pro,,,,107.59,USD,...,1.0,Coinbase Pro,,,,0.54,USD,...,,chainlink,,25-10-2021
-219,219,2021-10-25 05:51:22,Buy,,23.32,LINK,...,29.78180485247637,Coinbase Pro,,,,714.82,USD,...,1.0,Coinbase Pro,,,,3.56,USD,...,,chainlink,,25-10-2021
-220,220,2021-10-26 02:36:37,Sell,,2370.63,USD,...,1.0,Coinbase Pro,,,,2370.63,USDC,...,1.003696231395694,Coinbase Pro,,,,,,...,,,usd-coin,26-10-2021
-221,221,2021-10-26 12:33:45,Buy,,250.0,ADA,...,2.152108188595917,Coinbase Pro,,,,542.7,USD,...,1.0,Coinbase Pro,,,,2.7,USD,...,,cardano,,26-10-2021
-222,222,2021-10-26 23:44:54,Receive,,20000.0,USD,...,1.0,Coinbase,,,Deposited funds From US Bank - Savings ********5401,,,...,1.0,,,,,,,...,,,,26-10-2021
-223,223,2021-10-26 23:44:56,Transfer,,20000.0,USD,...,1.0,Coinbase Pro,,,,20000.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,26-10-2021
-224,224,2021-10-26 23:45:37,Buy,,10000.0,USDC,...,1.003696231395694,Coinbase Pro,,,,10000.0,USD,...,1.0,Coinbase Pro,,,,,,...,,usd-coin,,26-10-2021
-225,225,2021-10-26 23:57:06,Send,,,,...,1.0,,,,,10000.0,USD,...,1.0,Coinbase Pro,,,,,,...,,,,26-10-2021
-226,226,2021-10-27 13:15:33,Buy,,100.0,ADA,...,2.1388228437474472,Coinbase Pro,,,,201.0,USD,...,1.0,Coinbase Pro,,,,1.0,USD,...,,cardano,,27-10-2021
-227,227,2021-10-27 13:27:16,Buy,,0.1,ETH,...,4152.570288731245,Coinbase Pro,,,,402.0,USD,...,1.0,Coinbase Pro,,,,2.0,USD,...,,ethereum,,27-10-2021
-228,228,2021-10-27 13:27:38,Buy,,0.01,BTC,...,60604.18888794746,Coinbase Pro,,,,592.95,USD,...,1.0,Coinbase Pro,,,,2.95,USD,...,,bitcoin,,27-10-2021
-229,229,2021-10-28 03:29:14,Buy,,0.008,BTC,...,58641.00147419492,Coinbase Pro,,,,472.75,USD,...,1.0,Coinbase Pro,,,,2.35,USD,...,,bitcoin,,28-10-2021
-230,230,2021-10-28 13:29:12,Buy,,214.55,USDT,...,1.001533833075547,Coinbase Pro,,,,214.68,USD,...,1.0,Coinbase Pro,,,,0.02,USD,...,,tether,,28-10-2021
-231,231,2021-10-28 13:31:28,Trade,,0.00019119,BTC,...,58641.00147419492,Coinbase Pro,,,,11.83796787,USDT,...,1.001533833075547,Coinbase Pro,,,,0.05889536,USDT,...,,bitcoin,tether,28-10-2021
-232,232,2021-10-28 13:31:28,Trade,,0.00034208,BTC,...,58641.00147419492,Coinbase Pro,,,,21.17664292,USDT,...,1.001533833075547,Coinbase Pro,,,,0.10535643,USDT,...,,bitcoin,tether,28-10-2021
-233,233,2021-10-28 13:31:28,Trade,,0.00013567,BTC,...,58641.00147419492,Coinbase Pro,,,,8.39988872,USDT,...,1.001533833075547,Coinbase Pro,,,,0.04179049,USDT,...,,bitcoin,tether,28-10-2021
-234,234,2021-10-28 13:31:28,Trade,,0.00033421,BTC,...,58641.00147419492,Coinbase Pro,,,,20.69007787,USDT,...,1.001533833075547,Coinbase Pro,,,,0.10293571,USDT,...,,bitcoin,tether,28-10-2021
-235,235,2021-10-28 13:31:28,Trade,,0.00246207,BTC,...,58641.00147419492,Coinbase Pro,,,,152.44536092,USDT,...,1.001533833075547,Coinbase Pro,,,,0.75843463,USDT,...,,bitcoin,tether,28-10-2021
-236,236,2021-10-28 13:33:13,Transfer,2a2f7e9636687ae8cbd3517d5fd5a3a5f680a7cd7471798be55d3093f63a5ddc,0.00500102,BTC,...,58641.00147419492,Coinbase,,,Transferred Bitcoin From Coinbase Pro,0.00500102,BTC,...,58641.00147419492,Coinbase Pro,bc1qv3dk7eerwvc2727kt5ps4yqpxa2kl9ladmrk9y,,,1.02e-06,BTC,...,,bitcoin,bitcoin,28-10-2021
-237,237,2021-10-28 13:33:15,Send,,,,...,1.0,,,,,0.00500102,BTC,...,58641.00147419492,Coinbase,bc1qv3dk7eerwvc2727kt5ps4yqpxa2kl9ladmrk9y,,Sent Bitcoin To Bitcoin address,1.02e-06,BTC,...,,,bitcoin,28-10-2021
-238,238,2021-10-30 17:21:50,Receive,,1000.0,ADA,...,2.0159917138188046,Coinbase Pro,,,,,,...,1.0,,,,,,,...,,cardano,,30-10-2021
-239,239,2021-10-30 17:30:13,Transfer,,0.01,BTC,...,62283.19805587354,Coinbase Pro,,,,0.01,BTC,...,62283.19805587354,Coinbase,,,,,BTC,...,,bitcoin,bitcoin,30-10-2021
-240,240,2021-10-30 17:30:13,Receive,,0.01,BTC,...,62283.19805587354,Coinbase Pro,,,,,,...,1.0,,,,,,,...,Disabled,bitcoin,,30-10-2021
-241,241,2021-10-30 17:31:43,Transfer,778ee54cff5a1b79c6c60f4f1b552fd16d87c5a6d51ef89eba5ef5a68112f3f7,0.01000144,BTC,...,62283.19805587354,Coinbase,,,Transferred Bitcoin From Coinbase Pro,0.01000144,BTC,...,62283.19805587354,Coinbase Pro,34GNzJL3ynSxrhiaGGKxxjoXCxvbihdjrt,,,1.44e-06,BTC,...,,bitcoin,bitcoin,30-10-2021
-242,242,2021-10-30 17:31:46,Send,,,,...,1.0,,,,,0.01000144,BTC,...,62283.19805587354,Coinbase,34GNzJL3ynSxrhiaGGKxxjoXCxvbihdjrt,,Sent Bitcoin To Bitcoin address,1.44e-06,BTC,...,Disabled,,bitcoin,30-10-2021
-243,243,2021-10-30 18:12:41,Transfer,fb9bdabf75d56c9a64b4052ae6db52aab6a56aaedf5bce1cd38c7b32992505ed,10000.007734,USDC,...,1.0020134987310874,Coinbase,,,Transferred USD Coin From Coinbase Pro,10000.007734,USDC,...,1.0020134987310874,Coinbase Pro,0xE41358C021479352336D2005eC0745790aE23633,,,18.721529,USDC,...,,usd-coin,usd-coin,30-10-2021
-244,244,2021-10-30 18:12:43,Send,,,,...,1.0,,,,,10000.007734,USDC,...,1.0020134987310874,Coinbase,0xE41358C021479352336D2005eC0745790aE23633,,Sent USD Coin To USD Coin address,18.721529,USDC,...,,,usd-coin,30-10-2021
-245,245,2021-11-02 17:03:41,Receive,,6116.16,USD,...,1.0,Coinbase Pro,,,,,,...,1.0,,,,,,,...,,,,02-11-2021
-246,246,2021-11-02 17:03:55,Receive,,10.0,LINK,...,31.65779315547557,Coinbase Pro,,,,,,...,1.0,,,,,,,...,,chainlink,,02-11-2021
-247,247,2021-11-02 17:04:11,Receive,,0.005,BTC,...,61121.83120106507,Coinbase Pro,,,,,,...,1.0,,,,,,,...,,bitcoin,,02-11-2021
-248,248,2021-11-02 17:04:30,Receive,,5.0,DOT,...,50.09269045865121,Coinbase Pro,,,,,,...,1.0,,,,,,,...,,polkadot,,02-11-2021
-249,249,2021-11-02 17:34:55,Buy,,15.399551,UNI,...,25.6844306635042,Coinbase Pro,,,,401.48,USD,...,1.0,Coinbase Pro,,,,1.4,USD,...,,uniswap,,02-11-2021
-250,250,2021-11-02 17:35:19,Buy,,34.600449,UNI,...,25.6844306635042,Coinbase Pro,,,,902.07,USD,...,1.0,Coinbase Pro,,,,3.15,USD,...,,uniswap,,02-11-2021
-251,251,2021-11-03 23:05:56,Receive,,0.00197,USDC,...,1.0035341391346773,Coinbase,,,USD Coin reward From Coinbase,,,...,1.0,,,,,,,...,,usd-coin,,03-11-2021
-252,252,2021-11-10 23:17:28,Buy,,10.0,LINK,...,33.91019803951846,Coinbase Pro,,,,341.19,USD,...,1.0,Coinbase Pro,,,,1.19,USD,...,,chainlink,,10-11-2021
-253,253,2021-11-10 23:20:29,Buy,,3.94,DOT,...,50.96942903851561,Coinbase Pro,,,,183.85,USD,...,1.0,Coinbase Pro,,,,0.64,USD,...,,polkadot,,10-11-2021
-254,254,2021-11-10 23:20:29,Buy,,3.06,DOT,...,50.96942903851561,Coinbase Pro,,,,142.79,USD,...,1.0,Coinbase Pro,,,,0.5,USD,...,,polkadot,,10-11-2021
-255,255,2021-11-12 02:24:54,Sell,,97.47,USD,...,1.0,Coinbase,,,Sold Bitcoin Using USD Wallet,0.00154547,BTC,...,65005.64515956679,Coinbase,,,Sold Bitcoin Using USD Wallet,2.99,USD,...,,,bitcoin,12-11-2021
-256,256,2021-11-16 03:27:19,Buy,,0.017,BTC,...,63933.83544259933,Coinbase Pro,,,,1044.89,USD,...,1.0,Coinbase Pro,,,,3.64,USD,...,,bitcoin,,16-11-2021
-257,257,2021-11-16 03:32:16,Send,d64bd1c6108a9293d1011a03b23409e1c399a8b5a4cf57ead21ba022b376bcc4,,,...,1.0,,,,,0.00899365,BTC,...,63933.83544259933,Coinbase Pro,34GNzJL3ynSxrhiaGGKxxjoXCxvbihdjrt,,,1.65e-06,BTC,...,,,bitcoin,16-11-2021
-258,258,2021-11-16 13:44:12,Send,651a6018e46ca02e0cac9e45547238377e62d687025c00b2ae1a4e141bda41f1,,,...,1.0,,,,,0.01046911,BTC,...,63933.83544259933,Coinbase Pro,34GNzJL3ynSxrhiaGGKxxjoXCxvbihdjrt,,,1.39e-06,BTC,...,,,bitcoin,16-11-2021
-259,259,2021-11-16 14:09:36,Sell,,1769.0,USD,...,1.0,Coinbase Pro,,,,0.029,BTC,...,63933.83544259933,Coinbase Pro,,,,6.19,USD,...,,,bitcoin,16-11-2021
-260,260,2021-11-18 15:57:07,Sell,,199.01,USD,...,1.0,Coinbase Pro,,,,0.0490558,ETH,...,4302.804958962834,Coinbase Pro,,,,0.7,USD,...,,,ethereum,18-11-2021
-261,261,2021-11-18 15:57:07,Sell,,5.25,USD,...,1.0,Coinbase Pro,,,,0.00129371,ETH,...,4302.804958962834,Coinbase Pro,,,,0.02,USD,...,,,ethereum,18-11-2021
-262,262,2021-11-18 15:57:07,Sell,,607.08,USD,...,1.0,Coinbase Pro,,,,0.14965049,ETH,...,4302.804958962834,Coinbase Pro,,,,2.12,USD,...,,,ethereum,18-11-2021
-263,263,2021-11-19 15:30:16,Buy,,37.0,LRC,...,2.209669031705584,Coinbase Pro,,,,100.25,USD,...,1.0,Coinbase Pro,,,,0.35,USD,...,,loopring,,19-11-2021
-264,264,2021-11-23 15:56:05,Buy,,10.0,AVAX,...,134.46974746173134,Coinbase Pro,,,,1304.55,USD,...,1.0,Coinbase Pro,,,,4.55,USD,...,,avalanche-2,,23-11-2021
-265,265,2021-11-23 15:57:01,Send,0x5e9c968674b301b634279e9ab6d8b1058205e0078fa9dd33a0cb2f0da2592fef,,,...,1.0,,,,,9.9996,AVAX,...,134.46974746173134,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.0126,AVAX,...,,,avalanche-2,23-11-2021
-266,266,2021-11-24 14:43:53,Buy,,191.97,ADA,...,1.7512785978033358,Coinbase Pro,,,,308.23,USD,...,1.0,Coinbase Pro,,,,1.08,USD,...,,cardano,,24-11-2021
-267,267,2021-11-24 14:43:53,Buy,,8.03,ADA,...,1.7512785978033358,Coinbase Pro,,,,12.89,USD,...,1.0,Coinbase Pro,,,,0.04,USD,...,,cardano,,24-11-2021
-268,268,2021-11-26 05:06:00,Buy,,200.0,CRO,...,0.8068637688908423,Coinbase Pro,,,,151.03,USD,...,1.0,Coinbase Pro,,,,0.53,USD,...,,crypto-com-chain,,26-11-2021
-269,269,2021-11-26 08:37:57,Buy,,0.01,BTC,...,58897.84698299794,Coinbase Pro,,,,551.92,USD,...,1.0,Coinbase Pro,,,,1.93,USD,...,,bitcoin,,26-11-2021
-270,270,2021-11-26 15:49:37,Buy,,0.05,ETH,...,4515.843300142739,Coinbase Pro,,,,203.96,USD,...,1.0,Coinbase Pro,,,,0.71,USD,...,,ethereum,,26-11-2021
-271,271,2021-11-26 16:01:49,Buy,,6.0,DOT,...,39.3973876308258,Coinbase Pro,,,,213.75,USD,...,1.0,Coinbase Pro,,,,0.75,USD,...,,polkadot,,26-11-2021
-272,272,2021-11-26 16:02:46,Buy,,125.0,ADA,...,1.6790577782821612,Coinbase Pro,,,,194.43,USD,...,1.0,Coinbase Pro,,,,0.68,USD,...,,cardano,,26-11-2021
-273,273,2021-11-28 02:32:02,Buy,,10.0,LINK,...,23.97103016980437,Coinbase Pro,,,,235.82,USD,...,1.0,Coinbase Pro,,,,0.82,USD,...,,chainlink,,28-11-2021
-274,274,2021-11-30 15:55:25,Buy,,200.0,CRO,...,0.7136107339718283,Coinbase Pro,,,,140.49,USD,...,1.0,Coinbase Pro,,,,0.49,USD,...,,crypto-com-chain,,30-11-2021
-275,275,2021-12-01 21:24:53,Buy,,5.0,AVAX,...,120.88233192704446,Coinbase Pro,,,,592.07,USD,...,1.0,Coinbase Pro,,,,2.06,USD,...,,avalanche-2,,01-12-2021
-276,276,2021-12-02 15:33:38,Send,0x61b3d84edd6be49322436a24098358b86fc0d7771986f322b7944e7bb67a8dd6,,,...,1.0,,,,,4.9996,AVAX,...,119.26942260381824,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.0126,AVAX,...,,,avalanche-2,02-12-2021
-277,277,2021-12-02 16:21:28,Send,945ca9efe7f1405e31dd7eea085a717cb43a804430e3580eaad616ad30075117,,,...,1.0,,,,,398.90395329,CRO,...,0.720451406866872,Coinbase Pro,0xbd7cDC67a73a52b41A5D9e8928e6aD7725EfF167,,,18.90395329,CRO,...,,,crypto-com-chain,02-12-2021
-278,278,2021-12-03 20:18:52,Buy,,0.01,BTC,...,56508.26805402271,Coinbase Pro,,,,531.86,USD,...,1.0,Coinbase Pro,,,,1.85,USD,...,,bitcoin,,03-12-2021
-279,279,2021-12-04 05:45:09,Receive,,10000.0,USD,...,1.0,Coinbase,,,Deposited funds From US Bank - Savings ********5401,,,...,1.0,,,,,,,...,,,,04-12-2021
-280,280,2021-12-04 05:45:11,Transfer,,10000.0,USD,...,1.0,Coinbase Pro,,,,10000.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,04-12-2021
-281,281,2021-12-04 06:18:21,Buy,,0.02998134,ETH,...,4240.155516808957,Coinbase Pro,,,,115.7,USD,...,1.0,Coinbase Pro,,,,0.58,USD,...,,ethereum,,04-12-2021
-282,282,2021-12-04 06:18:21,Buy,,0.01505715,ETH,...,4240.155516808957,Coinbase Pro,,,,58.11,USD,...,1.0,Coinbase Pro,,,,0.29,USD,...,,ethereum,,04-12-2021
-283,283,2021-12-04 06:18:21,Buy,,0.00496151,ETH,...,4240.155516808957,Coinbase Pro,,,,19.15,USD,...,1.0,Coinbase Pro,,,,0.1,USD,...,,ethereum,,04-12-2021
-284,284,2021-12-04 06:31:39,Buy,,5.0,DOT,...,33.797058582536444,Coinbase Pro,,,,140.7,USD,...,1.0,Coinbase Pro,,,,0.7,USD,...,,polkadot,,04-12-2021
-285,285,2021-12-04 06:35:55,Buy,,8.0,LINK,...,23.336541648949257,Coinbase Pro,,,,155.17,USD,...,1.0,Coinbase Pro,,,,0.77,USD,...,,chainlink,,04-12-2021
-286,286,2021-12-06 07:00:57,Buy,,380.0,CRO,...,0.5630077334739376,Coinbase Pro,,,,210.04,USD,...,1.0,Coinbase Pro,,,,1.04,USD,...,,crypto-com-chain,,06-12-2021
-287,287,2021-12-06 07:25:09,Buy,,5.0,AVAX,...,85.66709470944734,Coinbase Pro,,,,402.0,USD,...,1.0,Coinbase Pro,,,,2.0,USD,...,,avalanche-2,,06-12-2021
-288,288,2021-12-06 14:41:45,Send,bb2b5133e793e37a4bae16571b897c32993e9438b3b6ab6cf513f5f444435bfb,,,...,1.0,,,,,380.06971721,CRO,...,0.5630077334739376,Coinbase Pro,0xbd7cDC67a73a52b41A5D9e8928e6aD7725EfF167,,,14.06971721,CRO,...,,,crypto-com-chain,06-12-2021
-289,289,2021-12-10 14:45:41,Buy,,15.0,UNI,...,16.29163597776951,Coinbase Pro,,,,243.46,USD,...,1.0,Coinbase Pro,,,,1.21,USD,...,,uniswap,,10-12-2021
-290,290,2021-12-10 21:49:23,Buy,,150.0,ADA,...,1.2989397181732931,Coinbase Pro,,,,188.44,USD,...,1.0,Coinbase Pro,,,,0.94,USD,...,,cardano,,10-12-2021
-291,291,2021-12-12 05:26:37,Buy,,1000.0,USDC,...,0.997664222186558,Coinbase Pro,,,,1000.0,USD,...,1.0,Coinbase Pro,,,,,,...,,usd-coin,,12-12-2021
-292,292,2021-12-12 05:48:59,Trade,,998.4,USDT,...,1.0001308614696685,Coinbase Pro,,,,998.99908992,USDC,...,0.997664222186558,Coinbase Pro,,,,0.09988992,USDC,...,,tether,usd-coin,12-12-2021
-293,293,2021-12-12 05:50:25,Send,d2770210164979621dc52d702c477a432251b029ec35c3fd5a8ade99bc212eaf,,,...,1.0,,,,,998.337358,USDT,...,1.0001308614696685,Coinbase Pro,0x7a746fe69521d026280bf7a4ea1639cc27c891bb,,,4.837358,USDT,...,,,tether,12-12-2021
-294,294,2021-12-13 19:33:04,Buy,,0.05,ETH,...,4135.841510137412,Coinbase Pro,,,,185.93,USD,...,1.0,Coinbase Pro,,,,0.93,USD,...,,ethereum,,13-12-2021
-295,295,2021-12-15 15:08:10,Buy,,20.0,DOT,...,26.18198352434353,Coinbase Pro,,,,502.5,USD,...,1.0,Coinbase Pro,,,,2.5,USD,...,,polkadot,,15-12-2021
-296,296,2021-12-20 00:09:30,Buy,,200.0,LRC,...,2.043244052550705,Coinbase Pro,,,,409.04,USD,...,1.0,Coinbase Pro,,,,2.04,USD,...,,loopring,,20-12-2021
-297,297,2021-12-20 00:17:39,Buy,,0.01,BTC,...,46807.04861642627,Coinbase Pro,,,,464.81,USD,...,1.0,Coinbase Pro,,,,2.31,USD,...,,bitcoin,,20-12-2021
-298,298,2021-12-20 05:43:39,Buy,,15.0,UNI,...,14.959625340689453,Coinbase Pro,,,,218.59,USD,...,1.0,Coinbase Pro,,,,1.09,USD,...,,uniswap,,20-12-2021
-299,299,2021-12-26 00:58:49,Buy,,0.01,BTC,...,50663.48710213215,Coinbase Pro,,,,506.52,USD,...,1.0,Coinbase Pro,,,,2.52,USD,...,,bitcoin,,26-12-2021
-300,300,2021-12-27 14:39:02,Send,8024060ac4855f49889a97f7c6deae2ba0a776deedd699e6c03c0041fa804a68,,,...,1.0,,,,,0.02,ETH,...,4075.03161894955,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00417776,ETH,...,,,ethereum,27-12-2021
-301,301,2021-12-28 05:28:25,Buy,,0.01,BTC,...,50774.067814743,Coinbase Pro,,,,492.45,USD,...,1.0,Coinbase Pro,,,,2.45,USD,...,,bitcoin,,28-12-2021
-302,302,2021-12-28 10:30:43,Buy,,100.0,LRC,...,2.2661080541424643,Coinbase Pro,,,,213.06,USD,...,1.0,Coinbase Pro,,,,1.06,USD,...,,loopring,,28-12-2021
-303,303,2021-12-28 17:14:09,Buy,,2.0,AVAX,...,114.02689439817335,Coinbase Pro,,,,221.1,USD,...,1.0,Coinbase Pro,,,,1.1,USD,...,,avalanche-2,,28-12-2021
-304,304,2021-12-31 12:34:52,Buy,,0.00195772,BTC,...,47191.86838983951,Coinbase,,,Bought Bitcoin Using USD Wallet,97.47,USD,...,1.0,Coinbase,,,Bought Bitcoin Using USD Wallet,2.99,USD,...,,bitcoin,,31-12-2021
-305,305,2022-01-03 11:51:05,Send,0xaeaa4ea26fb3ef5554696a295d2c9eab56e67323ba19e1d99c3ff4d751467d8b,,,...,1.0,,,,,5.0126,AVAX,...,113.23228624603188,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.0126,AVAX,...,,,avalanche-2,03-01-2022
-306,306,2022-01-05 19:45:13,Buy,,5.0,AVAX,...,103.98916803062998,Coinbase Pro,,,,502.5,USD,...,1.0,Coinbase Pro,,,,2.5,USD,...,,avalanche-2,,05-01-2022
-307,307,2022-01-06 02:29:26,Buy,,0.2,ETH,...,3556.9062274078738,Coinbase Pro,,,,703.5,USD,...,1.0,Coinbase Pro,,,,3.5,USD,...,,ethereum,,06-01-2022
-308,308,2022-01-06 03:48:09,Buy,,0.01,BTC,...,43647.14750806805,Coinbase Pro,,,,432.15,USD,...,1.0,Coinbase Pro,,,,2.15,USD,...,,bitcoin,,06-01-2022
-309,309,2022-01-06 09:55:41,Buy,,0.01,BTC,...,43647.14750806805,Coinbase Pro,,,,427.12,USD,...,1.0,Coinbase Pro,,,,2.12,USD,...,,bitcoin,,06-01-2022
-310,310,2022-01-07 02:46:37,Buy,,8000.0,XLM,...,0.2689831242983596,Coinbase Pro,,,,2130.6,USD,...,1.0,Coinbase Pro,,,,10.6,USD,...,,stellar,,07-01-2022
-311,311,2022-01-07 02:51:35,Send,5354ea9a11188342301a6e30038f9bf7adf5e052e05fac4db1109d264bb473ec,,,...,1.0,,,,,8000.832,XLM,...,0.2689831242983596,Coinbase Pro,GAJ4BSGJE6UQHZAZ5U5IUOABPDCYPKPS3RFS2NVNGFGFXGVQDLBQJW2P,,,0.0,XLM,...,,,stellar,07-01-2022
-312,312,2022-01-07 06:32:29,Send,0x6b1c889018ba5ddd6eaaa235bf29f2d8761fe9311fb26747dcbdbb3c8eab32b9,,,...,1.0,,,,,6.9876,AVAX,...,95.53298443372404,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.0126,AVAX,...,,,avalanche-2,07-01-2022
-313,313,2022-01-08 00:00:16,Send,2a4867ab093d49a28a1611ddbe5fde2e76f1224bb5503e7a35911f7f8184e2e2,,,...,1.0,,,,,0.02527768,ETH,...,3201.79457434796,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00387662,ETH,...,,,ethereum,08-01-2022
-314,314,2022-01-10 16:24:32,Receive,,20000.0,USD,...,1.0,Coinbase,,,Deposited funds From US Bank - Savings ********5401,,,...,1.0,,,,,,,...,,,,10-01-2022
-315,315,2022-01-10 16:24:34,Transfer,,20000.0,USD,...,1.0,Coinbase Pro,,,,20000.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,10-01-2022
-316,316,2022-01-10 17:27:04,Buy,,0.3,ETH,...,3156.967262159481,Coinbase Pro,,,,904.5,USD,...,1.0,Coinbase Pro,,,,4.5,USD,...,,ethereum,,10-01-2022
-317,317,2022-01-16 18:42:23,Buy,,0.05,BTC,...,43226.65026980921,Coinbase Pro,,,,2160.75,USD,...,1.0,Coinbase Pro,,,,10.75,USD,...,,bitcoin,,16-01-2022
-318,318,2022-01-18 08:12:05,Buy,,20.0,DOT,...,25.75150585821581,Coinbase Pro,,,,502.5,USD,...,1.0,Coinbase Pro,,,,2.5,USD,...,,polkadot,,18-01-2022
-319,319,2022-01-18 16:14:34,Buy,,20.0,UNI,...,16.67824658931984,Coinbase Pro,,,,321.6,USD,...,1.0,Coinbase Pro,,,,1.6,USD,...,,uniswap,,18-01-2022
-320,320,2022-01-20 23:54:49,Buy,,0.3,ETH,...,3097.02146606268,Coinbase Pro,,,,903.15,USD,...,1.0,Coinbase Pro,,,,3.15,USD,...,,ethereum,,20-01-2022
-321,321,2022-01-21 00:03:42,Buy,,0.01,BTC,...,40707.6824143097,Coinbase Pro,,,,407.02,USD,...,1.0,Coinbase Pro,,,,2.02,USD,...,,bitcoin,,21-01-2022
-322,322,2022-01-21 01:41:15,Buy,,0.01,BTC,...,40707.6824143097,Coinbase Pro,,,,402.0,USD,...,1.0,Coinbase Pro,,,,2.0,USD,...,,bitcoin,,21-01-2022
-323,323,2022-01-21 01:58:56,Buy,,0.5,ETH,...,3015.588777543836,Coinbase Pro,,,,1457.25,USD,...,1.0,Coinbase Pro,,,,7.25,USD,...,,ethereum,,21-01-2022
-324,324,2022-01-21 11:06:46,Buy,,1.17,ATOM,...,39.07276164194776,Coinbase Pro,,,,43.44,USD,...,1.0,Coinbase Pro,,,,0.15,USD,...,,cosmos,,21-01-2022
-325,325,2022-01-21 11:06:46,Buy,,13.83,ATOM,...,39.07276164194776,Coinbase Pro,,,,513.5,USD,...,1.0,Coinbase Pro,,,,1.79,USD,...,,cosmos,,21-01-2022
-326,326,2022-01-21 12:33:49,Buy,,0.5,ETH,...,3015.588777543836,Coinbase Pro,,,,1404.9,USD,...,1.0,Coinbase Pro,,,,4.9,USD,...,,ethereum,,21-01-2022
-327,327,2022-01-21 12:37:28,Buy,,0.05,BTC,...,40707.6824143097,Coinbase Pro,,,,1909.5,USD,...,1.0,Coinbase Pro,,,,9.5,USD,...,,bitcoin,,21-01-2022
-328,328,2022-01-21 20:28:53,Buy,,15.0,ATOM,...,39.07276164194776,Coinbase Pro,,,,526.84,USD,...,1.0,Coinbase Pro,,,,1.84,USD,...,,cosmos,,21-01-2022
-329,329,2022-01-21 21:33:20,Buy,,2.144,AVAX,...,79.47966545534564,Coinbase Pro,,,,150.83,USD,...,1.0,Coinbase Pro,,,,0.75,USD,...,,avalanche-2,,21-01-2022
-330,330,2022-01-21 21:33:28,Buy,,2.856,AVAX,...,79.47966545534564,Coinbase Pro,,,,200.92,USD,...,1.0,Coinbase Pro,,,,1.0,USD,...,,avalanche-2,,21-01-2022
-331,331,2022-01-21 21:47:25,Buy,,20.0,DOT,...,23.02433121117125,Coinbase Pro,,,,402.0,USD,...,1.0,Coinbase Pro,,,,2.0,USD,...,,polkadot,,21-01-2022
-332,332,2022-01-22 03:08:36,Send,db8f26a9b8c81400f78fe9e0899d789ff5d741db48342ed31d0d7d708d5a0db2,,,...,1.0,,,,,0.10000202,BTC,...,36508.79978983082,Coinbase Pro,36fYoRq78k7u1XPFhU8bgNkKhpubUesBvu,,,2.02e-06,BTC,...,,,bitcoin,22-01-2022
-333,333,2022-01-22 03:09:28,Send,0509ef05106cc6dfa95c5a2a5539ccc1d780d651016df83dc31db976674fcb73,,,...,1.0,,,,,1.002058,ETH,...,2564.3433423740635,Coinbase Pro,0xE41358C021479352336D2005eC0745790aE23633,,,0.002058,ETH,...,,,ethereum,22-01-2022
-334,334,2022-01-22 05:37:36,Buy,,5.0,AVAX,...,65.92302814515385,Coinbase Pro,,,,326.14,USD,...,1.0,Coinbase Pro,,,,1.14,USD,...,,avalanche-2,,22-01-2022
-335,335,2022-01-22 07:29:12,Buy,,5.0,AVAX,...,65.92302814515385,Coinbase Pro,,,,301.05,USD,...,1.0,Coinbase Pro,,,,1.05,USD,...,,avalanche-2,,22-01-2022
-336,336,2022-01-23 16:19:30,Trade,,0.00627,BTC,...,35180.435462830384,Coinbase Pro,,,,200.0,ADA,...,1.071909388330883,Coinbase Pro,,,,2.195e-05,BTC,...,,bitcoin,cardano,23-01-2022
-337,337,2022-01-23 16:21:44,Trade,,0.0908,ETH,...,2407.377851608285,Coinbase Pro,,,,200.0,ADA,...,1.071909388330883,Coinbase Pro,,,,0.0003178,ETH,...,,ethereum,cardano,23-01-2022
-338,338,2022-01-24 10:51:04,Buy,,30.0,LINK,...,16.577912619930736,Coinbase Pro,,,,422.1,USD,...,1.0,Coinbase Pro,,,,2.1,USD,...,,chainlink,,24-01-2022
-339,339,2022-01-24 19:59:40,Trade,,0.014,WBTC,...,36349.21287344119,Coinbase Pro,,,,0.0140084,BTC,...,36306.409440464704,Coinbase Pro,,,,,,...,,wrapped-bitcoin,bitcoin,24-01-2022
-340,340,2022-01-24 20:02:06,Receive,0xd009590f93dad98ffc0d67bebf6f04d8c9a0bc373ad2358df1522cd210459f16,0.0014,WBTC,...,36349.21287344119,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,1.0,,,,,,,...,,wrapped-bitcoin,,24-01-2022
-341,341,2022-01-24 20:02:46,Send,d009590f93dad98ffc0d67bebf6f04d8c9a0bc373ad2358df1522cd210459f16,,,...,1.0,,,,,0.00161047,WBTC,...,36349.21287344119,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.00021047,WBTC,...,,,wrapped-bitcoin,24-01-2022
-342,342,2022-01-24 20:05:36,Transfer,de9901e5540e6b71227447ad58ea420e627a41fdd2942ae470e252050ecf1e1a,0.1,ETH,...,2537.836727861043,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.103192,ETH,...,2537.836727861043,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.003192,ETH,...,,ethereum,ethereum,24-01-2022
-343,343,2022-01-24 20:06:54,Send,0x7b4f1fd9c04470d4ffeb3195bf41ac53ab36d373eb55fb51a604f3f27d47922c,,,...,1.0,,,,,0.0014,WBTC,...,36349.21287344119,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00529458,ETH,...,,,wrapped-bitcoin,24-01-2022
-344,344,2022-01-24 20:15:55,Receive,0xc914995883bb76920786da0c9d4cf0748c425a394dcfa992c0242f5475d8cb7b,235.0,FTM,...,2.257639335442996,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,1.0,,,,,,,...,,fantom,,24-01-2022
-345,345,2022-01-24 20:24:07,Send,1ffb2a7b4bcf4b192f674b125d7a18ca1e08d26d32486b6ff521431393b8b749,,,...,1.0,,,,,0.0,ETH,...,2537.836727861043,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00750644,ETH,...,,,ethereum,24-01-2022
-346,346,2022-01-24 20:24:30,Trade,0x8d3faf516a9d20db87aaa359eedb2a1183b91245e1b2ff8bc3d75d74221a135e,235.0,anyFTM,...,1.0,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,1.0,,,,,,,...,,,,24-01-2022
-347,347,2022-01-24 20:24:30,Trade,0x8d3faf516a9d20db87aaa359eedb2a1183b91245e1b2ff8bc3d75d74221a135e,,,...,1.0,,,,,235.0,FTM,...,2.257639335442996,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,,,fantom,24-01-2022
-348,348,2022-01-24 20:24:30,Trade,0x8d3faf516a9d20db87aaa359eedb2a1183b91245e1b2ff8bc3d75d74221a135e,,,...,1.0,,,,,235.0,anyFTM,...,1.0,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,,,,24-01-2022
-349,349,2022-01-24 20:24:30,Trade,0x8d3faf516a9d20db87aaa359eedb2a1183b91245e1b2ff8bc3d75d74221a135e,,,...,1.0,,,,,0.0,ETH,...,2537.836727861043,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.01064607,ETH,...,,,ethereum,24-01-2022
-350,350,2022-01-24 20:35:36,Transfer,0x91cf91060c61e6ee1504aa0033bfdfaeaef68962e75f4f84b8b1a09b154f79ab,0.01218629,WBTC,...,36349.21287344119,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.01238952,WBTC,...,36349.21287344119,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.00020323,WBTC,...,,wrapped-bitcoin,wrapped-bitcoin,24-01-2022
-351,351,2022-01-24 20:36:10,Send,0x5629e169ba91beade4ed8b8c988ae2fab8134b620acab338214f04315823dd05,,,...,1.0,,,,,0.01218629,WBTC,...,36349.21287344119,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00448926,ETH,...,,,wrapped-bitcoin,24-01-2022
-352,352,2022-01-28 13:20:17,Buy,,5305.0,XLM,...,0.1942014210280968,Coinbase Pro,,,,1024.79,USD,...,1.0,Coinbase Pro,,,,3.57,USD,...,,stellar,,28-01-2022
-353,353,2022-01-28 13:20:17,Buy,,9695.0,XLM,...,0.1942014210280968,Coinbase Pro,,,,1872.82,USD,...,1.0,Coinbase Pro,,,,6.53,USD,...,,stellar,,28-01-2022
-354,354,2022-01-28 13:21:02,Send,34689094bf0c9de62d5dd33bcb8fe57885cc1cb73edf595845e21d37ac95e5ee,,,...,1.0,,,,,15000.0,XLM,...,0.1942014210280968,Coinbase Pro,GAJ4BSGJE6UQHZAZ5U5IUOABPDCYPKPS3RFS2NVNGFGFXGVQDLBQJW2P,,,0.0,XLM,...,,,stellar,28-01-2022
-355,355,2022-01-31 14:31:46,Buy,,250.0,LRC,...,1.010056424057225,Coinbase Pro,,,,240.84,USD,...,1.0,Coinbase Pro,,,,0.84,USD,...,,loopring,,31-01-2022
-356,356,2022-02-05 16:29:02,Buy,,200.0,LRC,...,0.9117287954449717,Coinbase Pro,,,,198.69,USD,...,1.0,Coinbase Pro,,,,0.69,USD,...,,loopring,,05-02-2022
-357,357,2022-02-05 16:45:08,Buy,,0.01,BTC,...,41673.8395543094,Coinbase Pro,,,,416.45,USD,...,1.0,Coinbase Pro,,,,1.45,USD,...,,bitcoin,,05-02-2022
-358,358,2022-02-05 16:59:31,Buy,,0.3,ETH,...,2993.0994395135976,Coinbase Pro,,,,903.15,USD,...,1.0,Coinbase Pro,,,,3.15,USD,...,,ethereum,,05-02-2022
-359,359,2022-02-06 14:51:31,Buy,,2.5,AVAX,...,77.49835136657174,Coinbase Pro,,,,188.16,USD,...,1.0,Coinbase Pro,,,,0.66,USD,...,,avalanche-2,,06-02-2022
-360,360,2022-02-10 13:30:43,Buy,,15.0,ATOM,...,30.963072795708523,Coinbase Pro,,,,451.57,USD,...,1.0,Coinbase Pro,,,,1.57,USD,...,,cosmos,,10-02-2022
-361,361,2022-02-10 15:26:01,Transfer,,1000.0,USD,...,1.0,Coinbase,,,Transferred funds From Coinbase Pro,1000.0,USD,...,1.0,Coinbase Pro,,,,,,...,,,,10-02-2022
-362,362,2022-02-10 16:54:59,Transfer,0x221644eddb717fa4de58d7ad66a23abf876813c722715e140490e49a5b8842bd,99.408852,UNI,...,12.341530975173566,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,99.99999996,UNI,...,12.341530975173566,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.59114796,UNI,...,,uniswap,uniswap,10-02-2022
-363,363,2022-02-11 02:15:02,Trade,0x678a9c55bb69e2d5c65cda390e2351631342f51550d391e31a00ed7e2854a679,1.43774405,BTRFLY,...,1.0,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,1.0,,,,,,,...,,,,11-02-2022
-364,364,2022-02-11 02:15:02,Trade,0x678a9c55bb69e2d5c65cda390e2351631342f51550d391e31a00ed7e2854a679,,,...,1.0,,,,,99.408852,UNI,...,11.46695508483038,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,,,uniswap,11-02-2022
-365,365,2022-02-11 02:15:02,Trade,0x678a9c55bb69e2d5c65cda390e2351631342f51550d391e31a00ed7e2854a679,,,...,1.0,,,,,0.0,ETH,...,3081.911501840844,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.02529987,ETH,...,,,ethereum,11-02-2022
-366,366,2022-02-11 18:54:08,Buy,,43.846641,LRC,...,1.0144235333654228,Coinbase,,,,44.99,USD,...,1.0,Coinbase,,,,0.18,USD,...,,loopring,,11-02-2022
-367,367,2022-02-11 19:21:31,Sell,,106.0,USD,...,1.0,Coinbase,,,,100.0,LRC,...,1.0144235333654228,Coinbase,,,,0.37,USD,...,,,loopring,11-02-2022
-368,368,2022-02-11 21:25:25,Buy,,102.0,LRC,...,1.0144235333654228,Coinbase Pro,,,,100.82,USD,...,1.0,Coinbase Pro,,,,0.35,USD,...,,loopring,,11-02-2022
-369,369,2022-02-11 23:43:47,Buy,,106.46,LRC,...,1.0144235333654228,Coinbase,,,,99.59,USD,...,1.0,Coinbase,,,,0.35,USD,...,,loopring,,11-02-2022
-370,370,2022-02-12 02:28:22,Sell,,104.33,USD,...,1.0,Coinbase,,,,106.467129,LRC,...,0.9386163819724374,Coinbase,,,,0.37,USD,...,,,loopring,12-02-2022
-371,371,2022-02-14 00:03:15,Send,6CF10A048A0675FDD17D350C510B668E9F5832B0FAC52E1973E7CD7E34CAC350,,,...,1.0,,,,,1.0025,ATOM,...,26.38992746168969,Coinbase Pro,cosmos1k9hqgkzuqqgturdahg9f3qsscj85nxwt8xn4kr,,,0.0025,ATOM,...,,,cosmos,14-02-2022
-372,372,2022-02-14 00:04:29,Send,8FBF3ABB25D06D9017194368C5B8532AD23E3BC8E206F29869F3E565CCF1A1B3,,,...,1.0,,,,,43.9975,ATOM,...,26.38992746168969,Coinbase Pro,cosmos1k9hqgkzuqqgturdahg9f3qsscj85nxwt8xn4kr,,,0.0025,ATOM,...,,,cosmos,14-02-2022
-373,373,2022-02-14 17:45:36,Send,71a89322acccc3e11153e37574c44b06511b662d81faf89adf6d2d27da15def2,,,...,1.0,,,,,0.01,ETH,...,2889.235678281073,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00176857,ETH,...,,,ethereum,14-02-2022
-374,374,2022-02-16 05:28:07,Send,8ed89f7b362fd76e012ac52a7869386e433638f0d7a66e4d282b3175c47fe409,,,...,1.0,,,,,0.0,ETH,...,3179.3002065350443,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00312684,ETH,...,,,ethereum,16-02-2022
-375,375,2022-02-16 05:30:16,Trade,0xb7870736590f61ee99d719eb11502b70ce25f5770d7271f87d7f26d84cb6ef55,1.43774405,xBTRFLY,...,1.0,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,1.0,,,,,,,...,,,,16-02-2022
-376,376,2022-02-16 05:30:16,Trade,0xb7870736590f61ee99d719eb11502b70ce25f5770d7271f87d7f26d84cb6ef55,,,...,1.0,,,,,1.43774405,BTRFLY,...,1.0,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,,,,16-02-2022
-377,377,2022-02-16 05:30:16,Trade,0xb7870736590f61ee99d719eb11502b70ce25f5770d7271f87d7f26d84cb6ef55,,,...,1.0,,,,,0.0,ETH,...,3179.3002065350443,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.01006138,ETH,...,,,ethereum,16-02-2022
-378,378,2022-02-16 15:31:01,Buy,,41.24717,LRC,...,0.9880106166508816,Coinbase,,,,39.18,USD,...,1.0,Coinbase,,,,0.14,USD,...,,loopring,,16-02-2022
-379,379,2022-02-16 19:22:39,Sell,,103.42,USD,...,1.0,Coinbase,,,,105.534062,LRC,...,0.9880106166508816,Coinbase,,,,0.36,USD,...,,,loopring,16-02-2022
-380,380,2022-02-17 04:38:59,Buy,,105.285412,LRC,...,0.9623320906935748,Coinbase,,,,99.59,USD,...,1.0,Coinbase,,,,0.35,USD,...,,loopring,,17-02-2022
-381,381,2022-02-17 13:57:11,Buy,,107.292901,LRC,...,0.9623320906935748,Coinbase,,,,99.48,USD,...,1.0,Coinbase,,,,0.4,USD,...,,loopring,,17-02-2022
-382,382,2022-02-20 21:48:40,Buy,,0.06193703,ETH,...,2768.97165203486,Coinbase Pro,,,,161.1,USD,...,1.0,Coinbase Pro,,,,0.56,USD,...,,ethereum,,20-02-2022
-383,383,2022-02-20 21:48:41,Buy,,0.02,ETH,...,2768.97165203486,Coinbase Pro,,,,52.02,USD,...,1.0,Coinbase Pro,,,,0.18,USD,...,,ethereum,,20-02-2022
-384,384,2022-02-20 21:48:42,Buy,,0.00785894,ETH,...,2768.97165203486,Coinbase Pro,,,,20.44,USD,...,1.0,Coinbase Pro,,,,0.07,USD,...,,ethereum,,20-02-2022
-385,385,2022-02-20 21:48:42,Buy,,0.0102,ETH,...,2768.97165203486,Coinbase Pro,,,,26.53,USD,...,1.0,Coinbase Pro,,,,0.09,USD,...,,ethereum,,20-02-2022
-386,386,2022-02-20 21:48:43,Buy,,4.03e-06,ETH,...,2768.97165203486,Coinbase Pro,,,,0.01,USD,...,1.0,Coinbase Pro,,,,0.0,USD,...,,ethereum,,20-02-2022
-387,387,2022-02-24 03:47:07,Trade,,0.335,ETH,...,2594.700959110155,Coinbase Pro,,,,1000.0,ADA,...,0.8705609629608357,Coinbase Pro,,,,0.001675,ETH,...,,ethereum,cardano,24-02-2022
-388,388,2022-02-24 04:10:53,Send,85295a30d123de6c1bab5f5480f02930f25136555fbcbfa2d4464222278bf325,,,...,1.0,,,,,0.00500103,BTC,...,37372.2926803477,Coinbase Pro,bc1qh530ragzc0tmvnhp87fgjzgfltmjd473akm6fc,,,1.03e-06,BTC,...,,,bitcoin,24-02-2022
-389,389,2022-02-24 04:15:37,Send,e448b8b479778256d22049c2445697212a5de0c9590048dcd30f398540ea4908,,,...,1.0,,,,,0.0872366,BTC,...,37372.2926803477,Coinbase Pro,bc1qaspw4na7v9y8wkmjmyw6904307lv073738m7ff,,,1.03e-06,BTC,...,,,bitcoin,24-02-2022
-390,390,2022-02-24 04:22:35,Transfer,3ac196b6cf48de2f1e8be59fb61b6725dba56317bd6c1f1c75d3ebc705e15bcb,1.0,ETH,...,2594.700959110155,ETH Wallet ...C8859C,0xb53eFe6ded3a59c2cb6A2AF1B1AD0ffF7bC8859C,,,1.003633,ETH,...,2594.700959110155,Coinbase Pro,0xb53eFe6ded3a59c2cb6A2AF1B1AD0ffF7bC8859C,,,0.003633,ETH,...,,ethereum,ethereum,24-02-2022
-391,391,2022-02-24 04:26:08,Transfer,005b3c26ae0236d64e9096b8ccb1ffbc2ee917bd8bae4f6ea26df7b0a00df657,0.5,ETH,...,2594.700959110155,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.503633,ETH,...,2594.700959110155,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.003633,ETH,...,,ethereum,ethereum,24-02-2022
-392,392,2022-02-25 16:10:44,Send,0x96690c2a27e92b60c6ea7ff1780c41ad104f279bcead72a80632e12df430e02d,,,...,1.0,,,,,17.5006,AVAX,...,76.61415673133952,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.0126,AVAX,...,,,avalanche-2,25-02-2022
-393,393,2022-03-03 15:49:47,Buy,,5.0,ATOM,...,32.27560276787394,Coinbase Pro,,,,159.9,USD,...,1.0,Coinbase Pro,,,,0.95,USD,...,,cosmos,,03-03-2022
-394,394,2022-03-03 23:49:18,Send,BD1FA41AD3A85B8F8E0ACD1C751FA520F0B37EFFC660F2CF9893BE3BE8CB1745,,,...,1.0,,,,,5.0,ATOM,...,32.27560276787394,Coinbase Pro,cosmos1k9hqgkzuqqgturdahg9f3qsscj85nxwt8xn4kr,,,0.0025,ATOM,...,,,cosmos,03-03-2022
-395,395,2022-03-07 01:51:53,Buy,,10.0,ATOM,...,28.166506287410535,Coinbase Pro,,,,281.12,USD,...,1.0,Coinbase Pro,,,,1.12,USD,...,,cosmos,,07-03-2022
-396,396,2022-03-14 03:19:31,Buy,,500.0,USDC,...,1.0010941313432664,Coinbase Pro,,,,500.0,USD,...,1.0,Coinbase Pro,,,,,,...,,usd-coin,,14-03-2022
-397,397,2022-03-14 03:23:17,Transfer,0x693b4e6f0b524a1c4959d86a81f785ff9397bbbb1d4f4d08c43949d0615829eb,496.485537,USDC,...,1.0010941313432664,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,501.00091,USDC,...,1.0010941313432664,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,4.515373,USDC,...,,usd-coin,usd-coin,14-03-2022
-398,398,2022-03-14 03:24:42,Send,e6b25c3f22bf7f7ccc093e6e1354171b1e9d26be747d69ed795aa08b452900a4,,,...,1.0,,,,,0.0,ETH,...,2518.492845270615,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00145302,ETH,...,,,ethereum,14-03-2022
-399,399,2022-03-14 03:25:57,Send,0xae6319252aa5007a911e19cd619ebd745350991e767c3d0f7c7bbbaedb4190c3,,,...,1.0,,,,,496.485537,USDC,...,1.0010941313432664,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00534813,ETH,...,,,usd-coin,14-03-2022
+,Date,Type,Transaction ID,Received Quantity,Received Currency,Received Currency Balance,Received Cost Basis (USD),Received Wallet,Received Address,Received Tag,Received Comment,Sent Quantity,Sent Currency,Sent Currency Balance,Sent Cost Basis (USD),Sent Wallet,Sent Address,Sent Tag,Sent Comment,Fee Amount,Fee Currency,Realized Return (USD),Disabled,received_id,sent_id,day,received_wallet,sent_wallet
+0,2017-12-12 18:27:37,Buy,,0.56338723,LTC,...,320.907411291884,Coinbase,,,Bought Litecoin Using Visa debit ********6305,200.0,USD,...,1.0,Coinbase,,,Bought Litecoin Using Visa debit ********6305,5.85,USD,...,,litecoin,,12-12-2017,cb,cb
+1,2017-12-13 04:22:41,Buy,,0.30762244,LTC,...,305.277042325734,Coinbase,,,Bought Litecoin Using Visa debit ********6305,100.0,USD,...,1.0,Coinbase,,,Bought Litecoin Using Visa debit ********6305,3.41,USD,...,,litecoin,,13-12-2017,cb,cb
+2,2017-12-13 18:35:49,Buy,,0.01782139,BTC,...,16525.0444892988,Coinbase,,,Bought Bitcoin Using Visa debit ********6305,300.0,USD,...,1.0,Coinbase,,,Bought Bitcoin Using Visa debit ********6305,9.26,USD,...,,bitcoin,,13-12-2017,cb,cb
+3,2017-12-15 06:34:23,Buy,,0.14197607,ETH,...,693.09706413276,Coinbase,,,Bought Ethereum Using Visa debit ********6305,100.0,USD,...,1.0,Coinbase,,,Bought Ethereum Using Visa debit ********6305,3.41,USD,...,,ethereum,,15-12-2017,cb,cb
+4,2017-12-21 16:13:38,Buy,,0.00599276,BTC,...,16355.2382257401,Coinbase,,,Bought Bitcoin Using Visa debit ********6305,100.0,USD,...,1.0,Coinbase,,,Bought Bitcoin Using Visa debit ********6305,3.41,USD,...,,bitcoin,,21-12-2017,cb,cb
+5,2017-12-31 10:28:46,Send,,,,...,1.0,,,,,0.00894174,BTC,...,14839.5907854184,Coinbase,1Aw8fBYBnEKM2pGav7NueyUoYFDNToVByG,,Sent Bitcoin To Bitcoin address,0.00114174,BTC,...,,,bitcoin,31-12-2017,,cb
+6,2017-12-31 10:53:15,Receive,,0.0078,BTC,...,14839.5907854184,Binance,1Aw8fBYBnEKM2pGav7NueyUoYFDNToVByG,,,,,...,1.0,,,,,,,...,,bitcoin,,31-12-2017,binance,
+7,2017-12-31 19:27:54,Trade,,25.0,MIOTA,...,3.80833550971746,Binance,,,,0.0065375,BTC,...,14839.5907854184,Binance,,,,0.025,MIOTA,...,,iota,bitcoin,31-12-2017,binance,binance
+8,2018-01-05 09:03:18,Send,,,,...,1.0,,,,,0.01487241,BTC,...,18336.9229801691,Coinbase,1Aw8fBYBnEKM2pGav7NueyUoYFDNToVByG,,Sent Bitcoin To Bitcoin address,0.00108737,BTC,...,,,bitcoin,05-01-2018,,cb
+9,2018-01-05 21:11:33,Receive,,0.01378504,BTC,...,18336.9229801691,Binance,1Aw8fBYBnEKM2pGav7NueyUoYFDNToVByG,,,,,...,1.0,,,,,,,...,,bitcoin,,05-01-2018,binance,
+10,2018-01-05 22:13:01,Trade,,100.0,XLM,...,0.7032173861675213,Binance,,,,0.004,BTC,...,18336.9229801691,Binance,,,,0.1,XLM,...,,stellar,bitcoin,05-01-2018,binance,binance
+11,2018-01-09 10:08:24,Trade,,52.0,POWR,...,1.7739354310867523,Binance,,,,0.005512,BTC,...,15604.7234082405,Binance,,,,0.052,POWR,...,,power-ledger,bitcoin,09-01-2018,binance,binance
+12,2018-01-09 13:16:31,Trade,,1.53,QTUM,...,52.7903,Binance,,,,0.005508,BTC,...,15604.7234082405,Binance,,,,0.00153,QTUM,...,,qtum,bitcoin,09-01-2018,binance,binance
+13,2018-01-10 07:55:45,Buy,,0.01396827,BTC,...,15509.2701268168,Coinbase,,,Bought Bitcoin Using Visa debit ********6305,206.0,USD,...,1.0,Coinbase,,,Bought Bitcoin Using Visa debit ********6305,6.0,USD,...,,bitcoin,,10-01-2018,cb,cb
+14,2018-05-04 02:28:02,Buy,,0.00995665,BTC,...,9551.13518381566,Coinbase,,,Bought Bitcoin Using Visa debit ********6305,100.0,USD,...,1.0,Coinbase,,,Bought Bitcoin Using Visa debit ********6305,3.41,USD,...,,bitcoin,,04-05-2018,cb,cb
+15,2018-05-30 13:31:50,Buy,,0.17440936,ETH,...,561.7406614509548,Coinbase,,,Bought Ethereum Using US Bank - Checking ********3939,100.0,USD,...,1.0,Coinbase,,,Bought Ethereum Using US Bank - Checking ********3939,1.0,USD,...,,ethereum,,30-05-2018,cb,cb
+16,2018-07-12 01:01:06,Buy,,0.22115383,ETH,...,443.0254304264658,Coinbase,,,Bought Ethereum Using US Bank - Checking ********3939,100.0,USD,...,1.0,Coinbase,,,Bought Ethereum Using US Bank - Checking ********3939,1.0,USD,...,,ethereum,,12-07-2018,cb,cb
+17,2018-07-26 03:55:03,Buy,,0.20298474,ETH,...,468.73749232171497,Coinbase,,,Bought Ethereum Using US Bank - Checking ********3939,100.0,USD,...,1.0,Coinbase,,,Bought Ethereum Using US Bank - Checking ********3939,2.99,USD,...,,ethereum,,26-07-2018,cb,cb
+18,2018-09-02 20:19:59,Buy,,0.013259,BTC,...,7211.270767868822,Coinbase,,,Bought Bitcoin Using US Bank - Checking ********3939,100.0,USD,...,1.0,Coinbase,,,Bought Bitcoin Using US Bank - Checking ********3939,2.99,USD,...,,bitcoin,,02-09-2018,cb,cb
+19,2018-09-02 20:20:24,Buy,,0.32961367,ETH,...,295.6461617616964,Coinbase,,,Bought Ethereum Using US Bank - Checking ********3939,100.0,USD,...,1.0,Coinbase,,,Bought Ethereum Using US Bank - Checking ********3939,2.99,USD,...,,ethereum,,02-09-2018,cb,cb
+20,2018-09-05 12:05:38,Sell,,100.0,USD,...,1.0,Coinbase,,,Sold Bitcoin Using USD Wallet,0.0147995,BTC,...,7359.462992923027,Coinbase,,,Sold Bitcoin Using USD Wallet,2.99,USD,...,,,bitcoin,05-09-2018,cb,cb
+21,2018-09-05 12:05:54,Sell,,100.0,USD,...,1.0,Coinbase,,,Sold Ethereum Using USD Wallet,0.40150325,ETH,...,285.4857566471215,Coinbase,,,Sold Ethereum Using USD Wallet,2.99,USD,...,,,ethereum,05-09-2018,cb,cb
+22,2018-09-14 05:04:47,Transfer,,200.0,USD,...,1.0,Coinbase Pro,,,,200.0,USD,...,1.0,Coinbase,,,Withdrew funds To US Bank - Checking ********3939,,,...,,,,14-09-2018,cbpro,cb
+23,2018-09-14 05:32:27,Receive,,200.0,USD,...,1.0,Coinbase,,,Deposited funds From US Bank - Checking ********3939,,,...,1.0,,,,,,,...,,,,14-09-2018,cb,
+24,2018-09-21 05:32:31,Send,,,,...,1.0,,,,,200.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,21-09-2018,,cb
+25,2018-09-24 06:41:37,Buy,,0.85106382,ETH,...,244.7847954629194,Coinbase Pro,,,,200.0,USD,...,1.0,Coinbase Pro,,,,,,...,,ethereum,,24-09-2018,cbpro,cbpro
+26,2018-09-24 14:01:23,Transfer,02fea3242688a12939f9c5aa635f4cd553899f76db7c9f2892cc697642a7e3a4,0.85106382,ETH,...,244.7847954629194,Coinbase,,,Transferred Ethereum From Coinbase Pro,0.85106382,ETH,...,244.7847954629194,Coinbase Pro,0xb31b24cfdfc08d47b1c6fdfdca8c0f072395a1f2,,,,,...,,ethereum,ethereum,24-09-2018,cb,cbpro
+27,2018-09-24 14:01:23,Transfer,,0.85106382,ETH,...,244.7847954629194,Binance,0xb31b24cfdfc08d47b1c6fdfdca8c0f072395a1f2,,,0.85106382,ETH,...,244.7847954629194,Coinbase,0xb31b24CfDfc08d47B1c6FDfDCA8C0f072395A1f2,,Sent Ethereum To Ethereum address,0.0,ETH,...,,ethereum,ethereum,24-09-2018,binance,cb
+28,2018-09-24 20:09:06,Trade,,175.0,MIOTA,...,0.6120512843392037,Binance,,,,0.424375,ETH,...,244.7847954629194,Binance,,,,0.175,MIOTA,...,,iota,ethereum,24-09-2018,binance,binance
+29,2018-09-24 23:04:24,Trade,,377.0,XLM,...,0.2821793414279111,Binance,,,,0.42601,ETH,...,244.7847954629194,Binance,,,,0.377,XLM,...,,stellar,ethereum,24-09-2018,binance,binance
+30,2018-10-02 22:29:34,Receive,,1800.0,USD,...,1.0,Coinbase Pro,,,,,,...,1.0,,,,,,,...,,,,02-10-2018,cbpro,
+31,2018-10-02 22:29:35,Receive,,1800.0,USD,...,1.0,Coinbase,,,Deposited funds From US Bank - Savings ********5401,,,...,1.0,,,,,,,...,,,,02-10-2018,cb,
+32,2018-10-09 22:29:57,Send,,,,...,1.0,,,,,1800.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,09-10-2018,,cb
+33,2018-10-14 23:42:15,Buy,,0.5263,ETH,...,201.05349968429928,Coinbase Pro,,,,100.0,USD,...,1.0,Coinbase Pro,,,,,,...,,ethereum,,14-10-2018,cbpro,cbpro
+34,2018-10-17 18:07:50,Transfer,eb9519ed458351cca652376596ac69b46bbd72e617c4e8ccd09d59e2e52f08dc,0.5263,ETH,...,212.4442865474299,Coinbase,,,Transferred Ethereum From Coinbase Pro,0.5263,ETH,...,212.4442865474299,Coinbase Pro,0xb31b24cfdfc08d47b1c6fdfdca8c0f072395a1f2,,,,,...,,ethereum,ethereum,17-10-2018,cb,cbpro
+35,2018-10-17 18:07:51,Transfer,,0.5263,ETH,...,212.4442865474299,Binance,0xb31b24cfdfc08d47b1c6fdfdca8c0f072395a1f2,,,0.5263,ETH,...,212.4442865474299,Coinbase,0xb31b24CfDfc08d47B1c6FDfDCA8C0f072395A1f2,,Sent Ethereum To Ethereum address,0.0,ETH,...,,ethereum,ethereum,17-10-2018,binance,cb
+36,2018-10-18 15:07:55,Buy,,1.0,ETH,...,211.08269302502703,Coinbase Pro,,,,200.0,USD,...,1.0,Coinbase Pro,,,,,,...,,ethereum,,18-10-2018,cbpro,cbpro
+37,2018-10-24 16:31:14,Transfer,7b9eae62afd3db1158b7ea74df46b9697095f4f018e8497c9dfcc2194d338644,1.0,ETH,...,204.08394558056767,Coinbase,,,Transferred Ethereum From Coinbase Pro,1.0,ETH,...,204.08394558056767,Coinbase Pro,0xb31b24cfdfc08d47b1c6fdfdca8c0f072395a1f2,,,,,...,,ethereum,ethereum,24-10-2018,cb,cbpro
+38,2018-10-24 16:31:14,Transfer,,1.0,ETH,...,204.08394558056767,Binance,0xb31b24cfdfc08d47b1c6fdfdca8c0f072395a1f2,,,1.0,ETH,...,204.08394558056767,Coinbase,0xb31b24CfDfc08d47B1c6FDfDCA8C0f072395A1f2,,Sent Ethereum To Ethereum address,0.0,ETH,...,,ethereum,ethereum,24-10-2018,binance,cb
+39,2018-10-25 02:03:42,Buy,,2.0,ETH,...,203.52219877380867,Coinbase Pro,,,,400.0,USD,...,1.0,Coinbase Pro,,,,,,...,,ethereum,,25-10-2018,cbpro,cbpro
+40,2018-10-25 02:09:27,Buy,,0.1,BTC,...,6481.443589558082,Coinbase Pro,,,,640.0,USD,...,1.0,Coinbase Pro,,,,,,...,,bitcoin,,25-10-2018,cbpro,cbpro
+41,2018-10-25 08:13:51,Trade,,326.0,XLM,...,0.2388683113779056,Binance,,,,0.38142,ETH,...,203.52219877380867,Binance,,,,0.326,XLM,...,,stellar,ethereum,25-10-2018,binance,binance
+42,2018-10-26 08:48:59,Trade,,118.0,MIOTA,...,0.4944191704391529,Binance,,,,0.28438,ETH,...,202.35302275695463,Binance,,,,0.118,MIOTA,...,,iota,ethereum,26-10-2018,binance,binance
+43,2018-11-08 02:41:06,Buy,,1.0,ETH,...,219.0157747507676,Coinbase Pro,,,,215.0,USD,...,1.0,Coinbase Pro,,,,,,...,,ethereum,,08-11-2018,cbpro,cbpro
+44,2018-11-08 23:52:49,Buy,,1.16668096,ETH,...,219.0157747507676,Coinbase Pro,,,,245.0,USD,...,1.0,Coinbase Pro,,,,,,...,,ethereum,,08-11-2018,cbpro,cbpro
+45,2018-11-13 07:16:51,Trade,,168.0,XLM,...,0.2700057538787322,Binance,,,,0.2142,ETH,...,211.656909248752,Binance,,,,0.168,XLM,...,,stellar,ethereum,13-11-2018,binance,binance
+46,2018-11-23 08:50:17,Transfer,a6cc171970c443f7f8027cdef734e531714682b1d45b150393da7aad3ea50fb7,4.16668096,ETH,...,126.06638760845392,Coinbase,,,Transferred Ethereum From Coinbase Pro,4.16668096,ETH,...,126.06638760845392,Coinbase Pro,0xb31b24CfDfc08d47B1c6FDfDCA8C0f072395A1f2,,,,,...,,ethereum,ethereum,23-11-2018,cb,cbpro
+47,2018-11-23 08:50:18,Transfer,,4.16668096,ETH,...,126.06638760845392,Binance,0xb31b24cfdfc08d47b1c6fdfdca8c0f072395a1f2,,,4.16668096,ETH,...,126.06638760845392,Coinbase,0xb31b24CfDfc08d47B1c6FDfDCA8C0f072395A1f2,,Sent Ethereum To Ethereum address,0.0,ETH,...,,ethereum,ethereum,23-11-2018,binance,cb
+48,2018-11-28 05:39:06,Trade,,187.0,XLM,...,0.1450519698147842,Binance,,,,0.24933271,ETH,...,110.4349435886608,Binance,,,,0.187,XLM,...,,stellar,ethereum,28-11-2018,binance,binance
+49,2018-11-28 06:48:56,Trade,,100.0,MIOTA,...,0.2707815367585897,Binance,,,,0.25,ETH,...,110.4349435886608,Binance,,,,0.1,MIOTA,...,,iota,ethereum,28-11-2018,binance,binance
+50,2019-04-30 14:23:56,Receive,,20.1587502,XLM,...,0.0954770462062175,Coinbase,,Payment,Received Stellar Lumens From Coinbase Earn,,,...,1.0,,,,,,,...,,stellar,,30-04-2019,cb,
+51,2019-04-30 14:24:25,Receive,,20.1537733,XLM,...,0.0954770462062175,Coinbase,,Payment,Received Stellar Lumens From Coinbase Earn,,,...,1.0,,,,,,,...,,stellar,,30-04-2019,cb,
+52,2019-04-30 14:25:58,Receive,,20.1486974,XLM,...,0.0954770462062175,Coinbase,,Payment,Received Stellar Lumens From Coinbase Earn,,,...,1.0,,,,,,,...,,stellar,,30-04-2019,cb,
+53,2019-04-30 14:26:30,Receive,,20.1497124,XLM,...,0.0954770462062175,Coinbase,,Payment,Received Stellar Lumens From Coinbase Earn,,,...,1.0,,,,,,,...,,stellar,,30-04-2019,cb,
+54,2019-04-30 14:29:24,Receive,,20.1383505,XLM,...,0.0954770462062175,Coinbase,,Payment,Received Stellar Lumens From Coinbase Earn,,,...,1.0,,,,,,,...,,stellar,,30-04-2019,cb,
+55,2019-04-30 14:34:07,Receive,,2.56275876,BAT,...,0.3754104175248963,Coinbase,,Payment,Received Basic Attention Token From Coinbase Earn,,,...,1.0,,,,,,,...,,basic-attention-token,,30-04-2019,cb,
+56,2019-04-30 14:34:35,Receive,,2.56290326,BAT,...,0.3754104175248963,Coinbase,,Payment,Received Basic Attention Token From Coinbase Earn,,,...,1.0,,,,,,,...,,basic-attention-token,,30-04-2019,cb,
+57,2019-04-30 14:35:03,Receive,,2.56487861,BAT,...,0.3754104175248963,Coinbase,,Payment,Received Basic Attention Token From Coinbase Earn,,,...,1.0,,,,,,,...,,basic-attention-token,,30-04-2019,cb,
+58,2019-04-30 14:35:11,Receive,,17.95415023,BAT,...,0.3754104175248963,Coinbase,,Payment,Received Basic Attention Token From Coinbase Earn,,,...,1.0,,,,,,,...,,basic-attention-token,,30-04-2019,cb,
+59,2019-06-27 04:50:08,Transfer,,4.30432707,ETH,...,337.3409578098138,Coinbase,,,Received Ethereum From Ethereum address,4.30432707,ETH,...,337.3409578098138,Binance,0x87B31Afbe20E02e9878FB93C2eCBbeC452CEbbE8,,,,,...,,ethereum,ethereum,27-06-2019,cb,binance
+60,2019-06-27 04:51:52,Trade,,0.14491272,ETH,...,337.3409578098138,Binance,,,,111.0,MIOTA,...,0.4451111949761572,Binance,,,,0.00014491,ETH,...,,ethereum,iota,27-06-2019,binance,binance
+61,2019-06-27 04:51:52,Trade,,0.2493505,ETH,...,337.3409578098138,Binance,,,,191.0,MIOTA,...,0.4451111949761572,Binance,,,,0.00024935,ETH,...,,ethereum,iota,27-06-2019,binance,binance
+62,2019-06-27 04:51:52,Trade,,0.15011295,ETH,...,337.3409578098138,Binance,,,,115.0,MIOTA,...,0.4451111949761572,Binance,,,,0.00015011,ETH,...,,ethereum,iota,27-06-2019,binance,binance
+63,2019-06-27 04:56:28,Transfer,,0.5338318,ETH,...,337.3409578098138,Coinbase,,,Received Ethereum From Ethereum address,0.5338318,ETH,...,337.3409578098138,Binance,0x87B31Afbe20E02e9878FB93C2eCBbeC452CEbbE8,,,,,...,,ethereum,ethereum,27-06-2019,cb,binance
+64,2019-06-27 04:57:02,Transfer,0894ba31504682230ded4eaa6f80b38493bc2c8f9e009f8889ffe3872a975f56,4.30432707,ETH,...,337.3409578098138,Coinbase Pro,,,,4.30432707,ETH,...,337.3409578098138,Coinbase,,,Transferred Ethereum To Coinbase Pro,,,...,,ethereum,ethereum,27-06-2019,cbpro,cb
+65,2019-06-27 05:05:47,Transfer,edcc910eb6ed919fe56525c6f82f3b7cc068c1d86ee66bde295f50ca49f90793,0.5338318,ETH,...,337.3409578098138,Coinbase Pro,,,,0.5338318,ETH,...,337.3409578098138,Coinbase,,,Transferred Ethereum To Coinbase Pro,,,...,,ethereum,ethereum,27-06-2019,cbpro,cb
+66,2019-07-10 03:59:12,Transfer,,1156.832,XLM,...,0.101592618832729,Coinbase,,,Received Stellar Lumens From Stellar Lumens address,1156.832,XLM,...,0.101592618832729,Binance,GDQP2KPQGKIHYJGXNUIYOMHARUARCA7DJT5FO2FFOOKY3B2WSQHG4W37,,,,,...,,stellar,stellar,10-07-2019,cb,binance
+67,2019-07-10 03:59:47,Transfer,352a13cbec875ff3edf8fe942509b5d4198b67aa2d57087c6b71262d45168eeb,1156.832,XLM,...,0.101592618832729,Coinbase Pro,,,,1156.832,XLM,...,0.101592618832729,Coinbase,,,Transferred Stellar Lumens To Coinbase Pro,,,...,,stellar,stellar,10-07-2019,cbpro,cb
+68,2020-02-06 05:08:18,Trade,,0.00039967,BTC,...,9592.18387389791,Binance,,,,1.56,QTUM,...,2.438420883095997,Binance,,,,4e-07,BTC,...,,bitcoin,qtum,06-02-2020,binance,binance
+69,2020-02-06 05:11:46,Trade,,0.00027336,BTC,...,9592.18387389791,Binance,,,,51.0,POWR,...,0.0498653232878508,Binance,,,,2.7e-07,BTC,...,,bitcoin,power-ledger,06-02-2020,binance,binance
+70,2020-02-06 05:20:40,Trade,,0.00651293,BTC,...,9592.18387389791,Coinbase,,,Converted from Litecoin Using LTC Wallet,0.87100967,LTC,...,72.50229101409012,Coinbase,,,Converted from Litecoin Using LTC Wallet,,,...,,bitcoin,litecoin,06-02-2020,cb,cb
+71,2020-02-12 19:04:40,Sell,,293.33,USD,...,1.0,Coinbase,,,Sold Bitcoin Using USD Wallet,0.02889667,BTC,...,10226.925769215322,Coinbase,,,Sold Bitcoin Using USD Wallet,4.44,USD,...,,,bitcoin,12-02-2020,cb,cb
+72,2020-02-12 19:05:11,Sell,,174.63,USD,...,1.0,Coinbase,,,Sold Ethereum Using USD Wallet,0.66863442,ETH,...,236.78534852972567,Coinbase,,,Sold Ethereum Using USD Wallet,2.99,USD,...,,,ethereum,12-02-2020,cb,cb
+73,2020-02-12 19:06:17,Send,,,,...,1.0,,,,,467.96,USD,...,1.0,Coinbase,,,Withdrew funds To US Bank - Savings ********5401,,,...,,,,12-02-2020,,cb
+74,2020-02-18 01:30:16,Transfer,262e628ec96b022d52bc5e52e306cf8fa278df83d2a7780c28d69784e8d19c32,0.1,BTC,...,9723.605026422496,Coinbase,,,Transferred Bitcoin From Coinbase Pro,0.1,BTC,...,9723.605026422496,Coinbase Pro,bc1qm42h4key3w92tdsqt76ghspu99c9sgf7gp7e55,,,,,...,,bitcoin,bitcoin,18-02-2020,cb,cbpro
+75,2020-02-18 01:30:17,Send,,,,...,1.0,,,,,0.1,BTC,...,9723.605026422496,Coinbase,bc1qm42h4key3w92tdsqt76ghspu99c9sgf7gp7e55,,Sent Bitcoin To Bitcoin address,0.0,BTC,...,,,bitcoin,18-02-2020,,cb
+76,2020-02-18 01:31:44,Transfer,b9c9044c51ef88fb65ed28a1c1b9f7c55a00b4cfd0542cab17514f7116aca8ad,4.83815887,ETH,...,267.9356656159883,Coinbase,,,Transferred Ethereum From Coinbase Pro,4.83815887,ETH,...,267.9356656159883,Coinbase Pro,0xb53eFe6ded3a59c2cb6A2AF1B1AD0ffF7bC8859C,,,,,...,,ethereum,ethereum,18-02-2020,cb,cbpro
+77,2020-02-18 01:31:45,Transfer,b9c9044c51ef88fb65ed28a1c1b9f7c55a00b4cfd0542cab17514f7116aca8ad,4.83815887,ETH,...,267.9356656159883,ETH Wallet ...C8859C,0xb53eFe6ded3a59c2cb6A2AF1B1AD0ffF7bC8859C,,,4.83815887,ETH,...,267.9356656159883,Coinbase,0xb53eFe6ded3a59c2cb6A2AF1B1AD0ffF7bC8859C,,Sent Ethereum To Ethereum address,0.0,ETH,...,,ethereum,ethereum,18-02-2020,blockfi,cb
+78,2020-03-12 13:52:46,Receive,,1000.0,USD,...,1.0,Coinbase Pro,,,,,,...,1.0,,,,,,,...,,,,12-03-2020,cbpro,
+79,2020-03-12 13:52:48,Receive,,1000.0,USD,...,1.0,Coinbase,,,Deposited funds From Wells Fargo - CHECKING ******1534,,,...,1.0,,,,,,,...,,,,12-03-2020,cb,
+80,2020-03-18 13:52:51,Send,,,,...,1.0,,,,,1000.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,18-03-2020,,cb
+81,2020-03-20 13:13:47,Buy,,0.00242324,BTC,...,6170.200600237675,Coinbase Pro,,,,15.95,USD,...,1.0,Coinbase Pro,,,,0.08,USD,...,,bitcoin,,20-03-2020,cbpro,cbpro
+82,2020-03-20 13:16:31,Buy,,0.0279922,BTC,...,6170.200600237675,Coinbase Pro,,,,184.27,USD,...,1.0,Coinbase Pro,,,,0.92,USD,...,,bitcoin,,20-03-2020,cbpro,cbpro
+83,2020-03-20 13:16:38,Buy,,0.01958456,BTC,...,6170.200600237675,Coinbase Pro,,,,128.92,USD,...,1.0,Coinbase Pro,,,,0.64,USD,...,,bitcoin,,20-03-2020,cbpro,cbpro
+84,2020-03-20 20:21:52,Buy,,0.05,BTC,...,6170.200600237675,Coinbase Pro,,,,301.5,USD,...,1.0,Coinbase Pro,,,,1.5,USD,...,,bitcoin,,20-03-2020,cbpro,cbpro
+85,2020-03-24 15:10:14,Buy,,0.05654228,BTC,...,6456.347485963419,Coinbase Pro,,,,369.36,USD,...,1.0,Coinbase Pro,,,,1.84,USD,...,,bitcoin,,24-03-2020,cbpro,cbpro
+86,2020-03-25 13:38:10,Receive,,1000.0,USD,...,1.0,Coinbase Pro,,,,,,...,1.0,,,,,,,...,,,,25-03-2020,cbpro,
+87,2020-03-25 13:38:11,Receive,,1000.0,USD,...,1.0,Coinbase,,,Deposited funds From Wells Fargo - CHECKING ******1534,,,...,1.0,,,,,,,...,,,,25-03-2020,cb,
+88,2020-03-31 13:38:11,Send,,,,...,1.0,,,,,1000.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,31-03-2020,,cb
+89,2020-03-31 14:42:17,Buy,,0.05,BTC,...,6403.141235565223,Coinbase Pro,,,,325.12,USD,...,1.0,Coinbase Pro,,,,1.62,USD,...,,bitcoin,,31-03-2020,cbpro,cbpro
+90,2020-03-31 15:19:06,Buy,,0.05,BTC,...,6403.141235565223,Coinbase Pro,,,,324.11,USD,...,1.0,Coinbase Pro,,,,1.61,USD,...,,bitcoin,,31-03-2020,cbpro,cbpro
+91,2020-04-24 06:42:29,Transfer,74590baed6a18aeb3c4bfe3dec25d2d04067953511634865e0ecbde138e5fe1a,0.25654228,BTC,...,7382.793144116689,Coinbase,,,Transferred Bitcoin From Coinbase Pro,0.25654228,BTC,...,7382.793144116689,Coinbase Pro,bc1q7uvvj5fkc8vncf04e7dh9fuqvp2jstjtrwg68a,,,,,...,,bitcoin,bitcoin,24-04-2020,cb,cbpro
+92,2020-04-24 06:42:30,Send,,,,...,1.0,,,,,0.25654228,BTC,...,7382.793144116689,Coinbase,bc1q7uvvj5fkc8vncf04e7dh9fuqvp2jstjtrwg68a,,Sent Bitcoin To Bitcoin address,0.0,BTC,...,,,bitcoin,24-04-2020,,cb
+93,2020-07-09 16:57:42,Receive,,0.35647928,BTC,...,9432.17251582794,Coinbase,,,Received Bitcoin From Bitcoin address,,,...,1.0,,,,,,,...,,bitcoin,,09-07-2020,cb,
+94,2020-07-09 21:23:40,Sell,,51.71,USD,...,1.0,Coinbase Pro,,,,556.0,XLM,...,0.0846984442150706,Coinbase Pro,,,,0.26,USD,...,,,stellar,09-07-2020,cbpro,cbpro
+95,2020-07-09 21:23:40,Sell,,18.6,USD,...,1.0,Coinbase Pro,,,,200.0,XLM,...,0.0846984442150706,Coinbase Pro,,,,0.09,USD,...,,,stellar,09-07-2020,cbpro,cbpro
+96,2020-07-09 21:54:23,Transfer,0f54d0607a37e0cb4e1f73358193c19620b1028b5ad4cd7975de59b6a2ca575a,0.35647928,BTC,...,9432.17251582794,Coinbase Pro,,,,0.35647928,BTC,...,9432.17251582794,Coinbase,,,Transferred Bitcoin To Coinbase Pro,,,...,,bitcoin,bitcoin,09-07-2020,cbpro,cb
+97,2020-07-11 00:52:08,Sell,,18.8,USD,...,1.0,Coinbase Pro,,,,200.0,XLM,...,0.088868089271011,Coinbase Pro,,,,0.09,USD,...,,,stellar,11-07-2020,cbpro,cbpro
+98,2020-07-11 00:53:00,Sell,,19.0,USD,...,1.0,Coinbase Pro,,,,200.0,XLM,...,0.088868089271011,Coinbase Pro,,,,0.1,USD,...,,,stellar,11-07-2020,cbpro,cbpro
+99,2020-07-14 20:39:48,Sell,,927.5,USD,...,1.0,Coinbase Pro,,,,0.1,BTC,...,9240.76251972468,Coinbase Pro,,,,4.64,USD,...,,,bitcoin,14-07-2020,cbpro,cbpro
+100,2020-07-21 07:43:58,Sell,,930.0,USD,...,1.0,Coinbase Pro,,,,0.1,BTC,...,9163.159654576915,Coinbase Pro,,,,4.65,USD,...,,,bitcoin,21-07-2020,cbpro,cbpro
+101,2020-07-21 07:44:13,Sell,,932.5,USD,...,1.0,Coinbase Pro,,,,0.1,BTC,...,9163.159654576915,Coinbase Pro,,,,4.66,USD,...,,,bitcoin,21-07-2020,cbpro,cbpro
+102,2020-07-21 07:44:25,Sell,,528.08,USD,...,1.0,Coinbase Pro,,,,0.05647928,BTC,...,9163.159654576915,Coinbase Pro,,,,2.64,USD,...,,,bitcoin,21-07-2020,cbpro,cbpro
+103,2020-07-28 19:19:53,Transfer,,3759.82,USD,...,1.0,Coinbase,,,Transferred funds From Coinbase Pro,3759.82,USD,...,1.0,Coinbase Pro,,,,,,...,,,,28-07-2020,cb,cbpro
+104,2020-07-28 19:19:54,Send,,,,...,1.0,,,,,3759.82,USD,...,1.0,Coinbase,,,Withdrew funds To Wells Fargo - CHECKING ******1534,,,...,,,,28-07-2020,,cb
+105,2020-12-16 07:52:07,Receive,,10.0,USD,...,1.0,Coinbase,,,Deposited funds From US Bank - Savings ********5401,,,...,1.0,,,,,,,...,,,,16-12-2020,cb,
+106,2020-12-16 07:52:09,Transfer,,10.0,USD,...,1.0,Coinbase Pro,,,,10.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,16-12-2020,cbpro,cb
+107,2020-12-16 07:57:52,Buy,,0.01701275,ETH,...,589.0668316450424,Coinbase Pro,,,,10.0,USD,...,1.0,Coinbase Pro,,,,0.05,USD,...,,ethereum,,16-12-2020,cbpro,cbpro
+108,2020-12-21 05:50:14,Receive,ca625b86f7c34ed42b145bfb8cb025f690ba178c407e14c2c98e2461f4a2cd06,0.005,ETH,...,639.5154368778184,ETH Wallet ...C8859C,0xb53eFe6ded3a59c2cb6A2AF1B1AD0ffF7bC8859C,,,,,...,1.0,,,,,,,...,,ethereum,,21-12-2020,blockfi,
+109,2020-12-21 06:07:16,Transfer,0be825f4e9aaeb39a8aa6fc8dfe4418e46397ff57cd61a3d9f571c1bfb82705d,3.83,ETH,...,639.5154368778184,Coinbase,,,Received Ethereum From Ethereum address,3.83,ETH,...,639.5154368778184,ETH Wallet ...C8859C,0xb53eFe6ded3a59c2cb6A2AF1B1AD0ffF7bC8859C,,,0.00063,ETH,...,,ethereum,ethereum,21-12-2020,cb,blockfi
+110,2020-12-21 06:13:21,Transfer,0be825f4e9aaeb39a8aa6fc8dfe4418e46397ff57cd61a3d9f571c1bfb82705d,3.83,ETH,...,639.5154368778184,Coinbase Pro,,,,3.83,ETH,...,639.5154368778184,Coinbase,,,Transferred Ethereum To Coinbase Pro,,,...,,ethereum,ethereum,21-12-2020,cbpro,cb
+111,2020-12-21 06:24:53,Sell,,59.56,USD,...,1.0,Coinbase Pro,,,,0.09306478,ETH,...,639.5154368778184,Coinbase Pro,,,,0.3,USD,...,,,ethereum,21-12-2020,cbpro,cbpro
+112,2020-12-21 06:24:53,Sell,,27.89,USD,...,1.0,Coinbase Pro,,,,0.04358466,ETH,...,639.5154368778184,Coinbase Pro,,,,0.14,USD,...,,,ethereum,21-12-2020,cbpro,cbpro
+113,2020-12-21 06:24:53,Sell,,49.75,USD,...,1.0,Coinbase Pro,,,,0.07773631,ETH,...,639.5154368778184,Coinbase Pro,,,,0.25,USD,...,,,ethereum,21-12-2020,cbpro,cbpro
+114,2020-12-21 06:24:53,Sell,,23.4,USD,...,1.0,Coinbase Pro,,,,0.03656076,ETH,...,639.5154368778184,Coinbase Pro,,,,0.12,USD,...,,,ethereum,21-12-2020,cbpro,cbpro
+115,2020-12-21 06:24:54,Sell,,392.2,USD,...,1.0,Coinbase Pro,,,,0.61280791,ETH,...,639.5154368778184,Coinbase Pro,,,,1.96,USD,...,,,ethereum,21-12-2020,cbpro,cbpro
+116,2020-12-21 06:24:57,Sell,,29.69,USD,...,1.0,Coinbase Pro,,,,0.04639303,ETH,...,639.5154368778184,Coinbase Pro,,,,0.15,USD,...,,,ethereum,21-12-2020,cbpro,cbpro
+117,2020-12-21 06:25:00,Sell,,57.51,USD,...,1.0,Coinbase Pro,,,,0.08985255,ETH,...,639.5154368778184,Coinbase Pro,,,,0.29,USD,...,,,ethereum,21-12-2020,cbpro,cbpro
+118,2020-12-26 20:38:15,Sell,,650.0,USD,...,1.0,Coinbase Pro,,,,1.0,ETH,...,626.4567387784558,Coinbase Pro,,,,3.25,USD,...,,,ethereum,26-12-2020,cbpro,cbpro
+119,2021-01-03 22:45:25,Sell,,1000.0,USD,...,1.0,Coinbase Pro,,,,1.0,ETH,...,777.6960653039432,Coinbase Pro,,,,5.0,USD,...,,,ethereum,03-01-2021,cbpro,cbpro
+120,2021-04-08 18:17:06,Buy,,0.00171948,BTC,...,56134.41738866435,Coinbase Pro,,,,100.0,USD,...,1.0,Coinbase Pro,,,,0.5,USD,...,,bitcoin,,08-04-2021,cbpro,cbpro
+121,2021-04-20 00:23:24,Buy,,0.002,BTC,...,55721.166052695626,Coinbase Pro,,,,110.55,USD,...,1.0,Coinbase Pro,,,,0.55,USD,...,,bitcoin,,20-04-2021,cbpro,cbpro
+122,2021-04-23 01:13:14,Buy,,0.0025,BTC,...,51965.5664304852,Coinbase Pro,,,,128.14,USD,...,1.0,Coinbase Pro,,,,0.64,USD,...,,bitcoin,,23-04-2021,cbpro,cbpro
+123,2021-04-23 01:16:47,Buy,,0.05,ETH,...,2426.0711497906045,Coinbase Pro,,,,118.09,USD,...,1.0,Coinbase Pro,,,,0.59,USD,...,,ethereum,,23-04-2021,cbpro,cbpro
+124,2021-04-23 09:20:32,Buy,,0.0025,BTC,...,51965.5664304852,Coinbase Pro,,,,121.35,USD,...,1.0,Coinbase Pro,,,,0.6,USD,...,,bitcoin,,23-04-2021,cbpro,cbpro
+125,2021-04-23 09:39:43,Buy,,0.05,ETH,...,2426.0711497906045,Coinbase Pro,,,,108.99,USD,...,1.0,Coinbase Pro,,,,0.54,USD,...,,ethereum,,23-04-2021,cbpro,cbpro
+126,2021-05-04 08:23:39,Buy,,50.0,USDC,...,0.9999726977910728,Coinbase,,,Bought USD Coin Using Wells Fargo - CHECKING ******1534,50.0,USD,...,1.0,Coinbase,,,Bought USD Coin Using Wells Fargo - CHECKING ******1534,,,...,,usd-coin,,04-05-2021,cb,cb
+127,2021-05-04 08:27:36,Buy,,1591.43,USDC,...,0.9999726977910728,Coinbase Pro,,,,1591.43,USD,...,1.0,Coinbase Pro,,,,,,...,,usd-coin,,04-05-2021,cbpro,cbpro
+128,2021-05-04 08:36:38,Transfer,4c5d9a1732ece1825ecce384f3bb60485094cd9546e96303658195dfa4fcb255,0.300903,ETH,...,3439.8550695192603,Coinbase,,,Transferred Ethereum From Coinbase Pro,0.300903,ETH,...,3439.8550695192603,Coinbase Pro,0xe41358c021479352336d2005ec0745790ae23633,,,0.000903,ETH,...,,ethereum,ethereum,04-05-2021,cb,cbpro
+129,2021-05-04 08:36:40,Send,,,,...,1.0,,,,,0.300903,ETH,...,3439.8550695192603,Coinbase,0xE41358C021479352336D2005eC0745790aE23633,,Sent Ethereum To Ethereum address,0.000903,ETH,...,,,ethereum,04-05-2021,,cb
+130,2021-05-04 08:38:04,Transfer,70e0b8b7dc60f331e5ea654f1f74d705ccc7cda5cba724dc3b6d3978360c1159,1002.983688,USDC,...,0.9999726977910728,Coinbase,,,Transferred USD Coin From Coinbase Pro,1002.983688,USDC,...,0.9999726977910728,Coinbase Pro,0xe41358c021479352336d2005ec0745790ae23633,,,2.983688,USDC,...,,usd-coin,usd-coin,04-05-2021,cb,cbpro
+131,2021-05-04 08:38:05,Send,,,,...,1.0,,,,,1002.983688,USDC,...,0.9999726977910728,Coinbase,0xE41358C021479352336D2005eC0745790aE23633,,Sent USD Coin To USD Coin address,2.983688,USDC,...,,,usd-coin,04-05-2021,,cb
+132,2021-05-04 13:50:12,Trade,,0.002,BTC,...,57200.30029871162,Coinbase Pro,,,,111.555,USDC,...,0.9999726977910728,Coinbase Pro,,,,0.555,USDC,...,,bitcoin,usd-coin,04-05-2021,cbpro,cbpro
+133,2021-05-10 18:45:54,Sell,,165.2,USD,...,1.0,Coinbase Pro,,,,0.04,ETH,...,3932.754068170969,Coinbase Pro,,,,0.83,USD,...,,,ethereum,10-05-2021,cbpro,cbpro
+134,2021-05-11 00:05:45,Trade,,0.00035118,BTC,...,55901.66759456145,Coinbase,,,Converted from Stellar Lumens Using XLM Wallet,30.5627675,XLM,...,0.6670113233317664,Coinbase,,,Converted from Stellar Lumens Using XLM Wallet,,,...,,bitcoin,stellar,11-05-2021,cb,cb
+135,2021-05-11 00:06:06,Trade,,0.00035168,BTC,...,55901.66759456145,Coinbase,,,Converted from Basic Attention Token Using BAT Wallet,15.26419847,BAT,...,1.314944521971142,Coinbase,,,Converted from Basic Attention Token Using BAT Wallet,,,...,,bitcoin,basic-attention-token,11-05-2021,cb,cb
+136,2021-05-11 23:52:47,Sell,,166.8,USD,...,1.0,Coinbase Pro,,,,0.04,ETH,...,3979.608651921282,Coinbase Pro,,,,0.83,USD,...,,,ethereum,11-05-2021,cbpro,cbpro
+137,2021-05-12 00:56:40,Sell,,168.0,USD,...,1.0,Coinbase Pro,,,,0.04,ETH,...,4182.790285752286,Coinbase Pro,,,,0.84,USD,...,,,ethereum,12-05-2021,cbpro,cbpro
+138,2021-05-12 14:20:29,Trade,,0.00084193,BTC,...,56928.97235660158,Coinbase,,,Converted from USD Coin Using USDC Wallet,50.0,USDC,...,1.0018008648423171,Coinbase,,,Converted from USD Coin Using USDC Wallet,3.5e-05,BTC,...,,bitcoin,usd-coin,12-05-2021,cb,cb
+139,2021-05-13 20:15:52,Sell,,370.0,USD,...,1.0,Coinbase Pro,,,,0.1,ETH,...,3906.108903329409,Coinbase Pro,,,,1.85,USD,...,,,ethereum,13-05-2021,cbpro,cbpro
+140,2021-05-17 03:24:07,Buy,,0.05,ETH,...,3602.0048969299023,Coinbase Pro,,,,165.82,USD,...,1.0,Coinbase Pro,,,,0.82,USD,...,,ethereum,,17-05-2021,cbpro,cbpro
+141,2021-05-17 17:12:34,Buy,,50.0,ADA,...,2.286208576781481,Coinbase Pro,,,,100.5,USD,...,1.0,Coinbase Pro,,,,0.5,USD,...,,cardano,,17-05-2021,cbpro,cbpro
+142,2021-05-17 17:45:13,Sell,,320.5,USD,...,1.0,Coinbase Pro,,,,0.1,ETH,...,3602.0048969299023,Coinbase Pro,,,,1.6,USD,...,,,ethereum,17-05-2021,cbpro,cbpro
+143,2021-05-17 18:33:02,Sell,,330.0,USD,...,1.0,Coinbase Pro,,,,0.1,ETH,...,3602.0048969299023,Coinbase Pro,,,,1.65,USD,...,,,ethereum,17-05-2021,cbpro,cbpro
+144,2021-05-17 19:20:54,Sell,,340.0,USD,...,1.0,Coinbase Pro,,,,0.1,ETH,...,3602.0048969299023,Coinbase Pro,,,,1.7,USD,...,,,ethereum,17-05-2021,cbpro,cbpro
+145,2021-05-18 04:43:19,Sell,,350.0,USD,...,1.0,Coinbase Pro,,,,0.1,ETH,...,3288.229887237864,Coinbase Pro,,,,1.75,USD,...,,,ethereum,18-05-2021,cbpro,cbpro
+146,2021-05-19 05:53:06,Sell,,476.89,USD,...,1.0,Coinbase Pro,,,,476.89,USDC,...,1.0017199118044835,Coinbase Pro,,,,,,...,,,usd-coin,19-05-2021,cbpro,cbpro
+147,2021-05-19 05:55:45,Transfer,,2410.02,USD,...,1.0,Coinbase,,,Transferred funds From Coinbase Pro,2410.02,USD,...,1.0,Coinbase Pro,,,,,,...,,,,19-05-2021,cb,cbpro
+148,2021-05-19 05:55:47,Send,,,,...,1.0,,,,,2410.02,USD,...,1.0,Coinbase,,,Withdrew funds To US Bank - Savings ********5401,,,...,,,,19-05-2021,,cb
+149,2021-05-20 00:57:42,Transfer,21352f6fa76a10880c992bec599356755661ee2a073a3ce4d44c62ab966565d7,0.049809,ETH,...,2505.014945945662,Coinbase,,,Transferred Ethereum From Coinbase Pro,0.049809,ETH,...,2505.014945945662,Coinbase Pro,0x1Fc9F96748aC6f36bEA9184549656550f6734E45,,,0.004809,ETH,...,,ethereum,ethereum,20-05-2021,cb,cbpro
+150,2021-05-20 00:57:43,Send,,,,...,1.0,,,,,0.049809,ETH,...,2505.014945945662,Coinbase,0x1Fc9F96748aC6f36bEA9184549656550f6734E45,,Sent Ethereum To Ethereum address,0.004809,ETH,...,,,ethereum,20-05-2021,,cb
+151,2021-06-02 17:21:20,Receive,,0.001694,USDC,...,1.0006914837242176,Coinbase,,,USD Coin reward From Coinbase,,,...,1.0,,,,,,,...,,usd-coin,,02-06-2021,cb,
+152,2021-06-04 08:20:05,Buy,,265.47679644,DOGE,...,0.3980072700482743,Coinbase,,,Bought Dogecoin Using Wells Fargo - CHECKING ******1534,100.0,USD,...,1.0,Coinbase,,,Bought Dogecoin Using Wells Fargo - CHECKING ******1534,,,...,,dogecoin,,04-06-2021,cb,cb
+153,2021-06-12 15:20:39,Receive,,0.01003614,COMP,...,295.937262121799,Coinbase,,Payment,Received Compound From Coinbase Earn,,,...,1.0,,,,,,,...,,compound-governance-token,,12-06-2021,cb,
+154,2021-06-12 15:21:08,Receive,,0.0100167,COMP,...,295.937262121799,Coinbase,,Payment,Received Compound From Coinbase Earn,,,...,1.0,,,,,,,...,,compound-governance-token,,12-06-2021,cb,
+155,2021-06-12 15:21:28,Receive,,0.01001035,COMP,...,295.937262121799,Coinbase,,Payment,Received Compound From Coinbase Earn,,,...,1.0,,,,,,,...,,compound-governance-token,,12-06-2021,cb,
+156,2021-07-12 17:41:57,Receive,,1000.0,USD,...,1.0,Coinbase,,,Deposited funds From Wells Fargo - CHECKING ******1534,,,...,1.0,,,,,,,...,,,,12-07-2021,cb,
+157,2021-07-12 17:41:59,Transfer,,1000.0,USD,...,1.0,Coinbase Pro,,,,1000.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,12-07-2021,cbpro,cb
+158,2021-07-12 18:56:24,Buy,,0.006,BTC,...,34299.938016517444,Coinbase Pro,,,,198.99,USD,...,1.0,Coinbase Pro,,,,0.99,USD,...,,bitcoin,,12-07-2021,cbpro,cbpro
+159,2021-07-12 19:34:49,Buy,,75.0,ADA,...,1.3486761116535069,Coinbase Pro,,,,97.99,USD,...,1.0,Coinbase Pro,,,,0.49,USD,...,,cardano,,12-07-2021,cbpro,cbpro
+160,2021-07-13 05:15:40,Buy,,0.1,ETH,...,2042.4991866143628,Coinbase Pro,,,,201.0,USD,...,1.0,Coinbase Pro,,,,1.0,USD,...,,ethereum,,13-07-2021,cbpro,cbpro
+161,2021-07-28 15:57:08,Buy,,0.05,ETH,...,2292.579636803809,Coinbase Pro,,,,115.07,USD,...,1.0,Coinbase Pro,,,,0.57,USD,...,,ethereum,,28-07-2021,cbpro,cbpro
+162,2021-07-28 17:35:50,Buy,,0.003,BTC,...,39076.59377063225,Coinbase Pro,,,,118.79,USD,...,1.0,Coinbase Pro,,,,0.59,USD,...,,bitcoin,,28-07-2021,cbpro,cbpro
+163,2021-07-29 01:22:38,Buy,,75.0,ADA,...,1.2840181960693164,Coinbase Pro,,,,94.97,USD,...,1.0,Coinbase Pro,,,,0.47,USD,...,,cardano,,29-07-2021,cbpro,cbpro
+164,2021-08-12 16:23:11,Buy,,0.05744168,ETH,...,3166.647217967929,Coinbase Pro,,,,173.19,USD,...,1.0,Coinbase Pro,,,,0.86,USD,...,,ethereum,,12-08-2021,cbpro,cbpro
+165,2021-08-13 05:20:22,Receive,,600.0,USD,...,1.0,Coinbase,,,Deposited funds From US Bank - Savings ********5401,,,...,1.0,,,,,,,...,,,,13-08-2021,cb,
+166,2021-08-13 05:20:24,Transfer,,600.0,USD,...,1.0,Coinbase Pro,,,,600.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,13-08-2021,cbpro,cb
+167,2021-08-17 20:00:18,Buy,,0.015,ETH,...,3153.583683763619,Coinbase Pro,,,,46.73,USD,...,1.0,Coinbase Pro,,,,0.23,USD,...,,ethereum,,17-08-2021,cbpro,cbpro
+168,2021-08-17 20:15:16,Buy,,0.001,BTC,...,46031.75754362583,Coinbase Pro,,,,45.23,USD,...,1.0,Coinbase Pro,,,,0.23,USD,...,,bitcoin,,17-08-2021,cbpro,cbpro
+169,2021-08-18 00:44:29,Buy,,30.0,ADA,...,1.9222342258147989,Coinbase Pro,,,,57.28,USD,...,1.0,Coinbase Pro,,,,0.28,USD,...,,cardano,,18-08-2021,cbpro,cbpro
+170,2021-08-26 05:47:02,Buy,,50.0,ADA,...,2.73788375049086,Coinbase Pro,,,,130.65,USD,...,1.0,Coinbase Pro,,,,0.65,USD,...,,cardano,,26-08-2021,cbpro,cbpro
+171,2021-09-09 12:37:50,Buy,,0.004,BTC,...,46085.02861578186,Coinbase Pro,,,,184.12,USD,...,1.0,Coinbase Pro,,,,0.92,USD,...,,bitcoin,,09-09-2021,cbpro,cbpro
+172,2021-09-09 12:39:12,Buy,,0.02391616,ETH,...,3496.859022996073,Coinbase Pro,,,,81.72,USD,...,1.0,Coinbase Pro,,,,0.41,USD,...,,ethereum,,09-09-2021,cbpro,cbpro
+173,2021-09-23 05:36:25,Receive,,2000.0,USD,...,1.0,Coinbase,,,Deposited funds From Wells Fargo - CHECKING ******1534,,,...,1.0,,,,,,,...,,,,23-09-2021,cb,
+174,2021-09-23 05:36:27,Transfer,,2000.0,USD,...,1.0,Coinbase Pro,,,,2000.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,23-09-2021,cbpro,cb
+175,2021-09-24 09:05:42,Buy,,0.07,ETH,...,3159.269865581771,Coinbase Pro,,,,211.05,USD,...,1.0,Coinbase Pro,,,,1.05,USD,...,,ethereum,,24-09-2021,cbpro,cbpro
+176,2021-09-24 09:56:30,Buy,,0.005,BTC,...,44980.898214810935,Coinbase Pro,,,,213.56,USD,...,1.0,Coinbase Pro,,,,1.06,USD,...,,bitcoin,,24-09-2021,cbpro,cbpro
+177,2021-10-01 11:48:48,Receive,,10000.0,USD,...,1.0,Coinbase,,,Deposited funds From US Bank - Savings ********5401,,,...,1.0,,,,,,,...,,,,01-10-2021,cb,
+178,2021-10-01 11:48:50,Transfer,,10000.0,USD,...,1.0,Coinbase Pro,,,,10000.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,01-10-2021,cbpro,cb
+179,2021-10-01 12:24:40,Buy,,11374.38,USDC,...,1.004599483169473,Coinbase Pro,,,,11374.38,USD,...,1.0,Coinbase Pro,,,,,,...,,usd-coin,,01-10-2021,cbpro,cbpro
+180,2021-10-01 12:26:21,Transfer,e6ee051fd326357f80aed6b552bef729dc044bdd3caa7bc8114d2407a5d8a7a9,4003.341328,USDC,...,1.004599483169473,Coinbase,,,Transferred USD Coin From Coinbase Pro,4003.341328,USDC,...,1.004599483169473,Coinbase Pro,0xe41358c021479352336d2005ec0745790ae23633,,,3.341328,USDC,...,,usd-coin,usd-coin,01-10-2021,cb,cbpro
+181,2021-10-01 12:26:23,Send,,,,...,1.0,,,,,4003.341328,USDC,...,1.004599483169473,Coinbase,0xE41358C021479352336D2005eC0745790aE23633,,Sent USD Coin To USD Coin address,3.341328,USDC,...,,,usd-coin,01-10-2021,,cb
+182,2021-10-02 23:31:37,Trade,,100.0,ADA,...,2.2467692592329,Coinbase Pro,,,,226.125,USDC,...,1.0020170321137416,Coinbase Pro,,,,1.125,USDC,...,,cardano,usd-coin,02-10-2021,cbpro,cbpro
+183,2021-10-03 20:23:51,Receive,41f11b1dade305c16da358e0d6ec60879ff7a917b28005377726e979437b93bf,0.029,ETH,...,3393.9242492696653,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,1.0,,,,,,,...,,ethereum,,03-10-2021,metamask,
+184,2021-10-03 20:23:56,Transfer,41f11b1dade305c16da358e0d6ec60879ff7a917b28005377726e979437b93bf,0.031142,ETH,...,3393.9242492696653,Coinbase,,,Transferred Ethereum From Coinbase Pro,0.031142,ETH,...,3393.9242492696653,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.002142,ETH,...,,ethereum,ethereum,03-10-2021,cb,cbpro
+185,2021-10-03 20:23:58,Send,,,,...,1.0,,,,,0.031142,ETH,...,3393.9242492696653,Coinbase,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,Sent Ethereum To Ethereum address,0.002142,ETH,...,,,ethereum,03-10-2021,,cb
+186,2021-10-03 20:25:34,Send,143590e50b1c0a91b5ad20f2baf40842b5a3721027f1749c2fd7b643c8f29147,,,...,1.0,,,,,0.015,ETH,...,3393.9242492696653,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00174986,ETH,...,,,ethereum,03-10-2021,,metamask
+187,2021-10-03 21:07:41,Receive,0x0c663c6076112202b5f44d227f4de3a59b6a7315bdfcd30cd98941dc0aebdf85,350000.0,LIL,...,1.0,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,1.0,,,,,,,...,Disabled,,,03-10-2021,metamask,
+188,2021-10-04 14:01:03,Sell,,500.0,USD,...,1.0,Coinbase Pro,,,,500.0,USDC,...,1.0017906890260833,Coinbase Pro,,,,,,...,,,usd-coin,04-10-2021,cbpro,cbpro
+189,2021-10-04 14:02:25,Buy,,3.0,DOT,...,32.200486900159035,Coinbase Pro,,,,94.97,USD,...,1.0,Coinbase Pro,,,,0.47,USD,...,,polkadot,,04-10-2021,cbpro,cbpro
+190,2021-10-04 14:05:59,Buy,,3.0,LINK,...,27.609012037186663,Coinbase Pro,,,,81.41,USD,...,1.0,Coinbase Pro,,,,0.41,USD,...,,chainlink,,04-10-2021,cbpro,cbpro
+191,2021-10-06 13:33:10,Buy,,0.09091855,ETH,...,3520.3422566393974,Coinbase Pro,,,,323.63,USD,...,1.0,Coinbase Pro,,,,1.61,USD,...,,ethereum,,06-10-2021,cbpro,cbpro
+192,2021-10-09 19:56:14,Trade,,0.05,ETH,...,3558.549577083409,Coinbase Pro,,,,179.895,USDC,...,0.9996156903667468,Coinbase Pro,,,,0.895,USDC,...,,ethereum,usd-coin,09-10-2021,cbpro,cbpro
+193,2021-10-11 21:18:27,Sell,,1000.0,USD,...,1.0,Coinbase Pro,,,,1000.0,USDC,...,1.0009516153413305,Coinbase Pro,,,,,,...,,,usd-coin,11-10-2021,cbpro,cbpro
+194,2021-10-11 21:26:05,Transfer,f57bcdcf13ca43d4d6c4f50304ecef6ea241058f59fd603c7985a0f43315cc24,0.103066,ETH,...,3431.0193069150096,Coinbase,,,Transferred Ethereum From Coinbase Pro,0.103066,ETH,...,3431.0193069150096,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.003066,ETH,...,,ethereum,ethereum,11-10-2021,cb,cbpro
+195,2021-10-11 21:26:07,Transfer,f57bcdcf13ca43d4d6c4f50304ecef6ea241058f59fd603c7985a0f43315cc24,0.1,ETH,...,3431.0193069150096,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.103066,ETH,...,3431.0193069150096,Coinbase,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,Sent Ethereum To Ethereum address,0.003066,ETH,...,,ethereum,ethereum,11-10-2021,metamask,cb
+196,2021-10-11 23:04:46,Mint,0xceb1bbb092f08a7da0bebaee464968cd53553590b95e1f6b053dc66568d0322b,1.0,LILGUYS,...,1.0,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.045,ETH,...,3431.0193069150096,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.0114947,ETH,...,,,ethereum,11-10-2021,metamask,metamask
+197,2021-10-12 00:33:06,Buy,,3.0,DOT,...,34.113785679254384,Coinbase Pro,,,,100.49,USD,...,1.0,Coinbase Pro,,,,0.5,USD,...,,polkadot,,12-10-2021,cbpro,cbpro
+198,2021-10-12 02:48:07,Buy,,4.0,LINK,...,25.213360925257305,Coinbase Pro,,,,98.49,USD,...,1.0,Coinbase Pro,,,,0.49,USD,...,,chainlink,,12-10-2021,cbpro,cbpro
+199,2021-10-13 05:39:04,Buy,,50.0,ADA,...,2.117958281981731,Coinbase Pro,,,,105.53,USD,...,1.0,Coinbase Pro,,,,0.53,USD,...,,cardano,,13-10-2021,cbpro,cbpro
+200,2021-10-15 12:21:13,Trade,,100.0,ADA,...,2.174487310923188,Coinbase Pro,,,,216.7785,USDC,...,1.0013608362328688,Coinbase Pro,,,,1.0785,USDC,...,,cardano,usd-coin,15-10-2021,cbpro,cbpro
+201,2021-10-15 12:24:35,Trade,,100.0,ADA,...,2.174487310923188,Coinbase Pro,,,,216.5775,USDC,...,1.0013608362328688,Coinbase Pro,,,,1.0775,USDC,...,,cardano,usd-coin,15-10-2021,cbpro,cbpro
+202,2021-10-15 12:34:31,Trade,,100.0,ADA,...,2.174487310923188,Coinbase Pro,,,,216.075,USDC,...,1.0013608362328688,Coinbase Pro,,,,1.075,USDC,...,,cardano,usd-coin,15-10-2021,cbpro,cbpro
+203,2021-10-15 12:34:48,Trade,,0.05,ETH,...,3794.516888224821,Coinbase Pro,,,,189.69375,USDC,...,1.0013608362328688,Coinbase Pro,,,,0.94375,USDC,...,,ethereum,usd-coin,15-10-2021,cbpro,cbpro
+204,2021-10-16 12:39:38,Trade,,100.0,ADA,...,2.2256475894093337,Coinbase Pro,,,,223.11,USDC,...,1.0052069403859871,Coinbase Pro,,,,1.11,USDC,...,,cardano,usd-coin,16-10-2021,cbpro,cbpro
+205,2021-10-16 12:50:47,Buy,,0.002,BTC,...,61809.02394427028,Coinbase Pro,,,,122.61,USD,...,1.0,Coinbase Pro,,,,0.61,USD,...,,bitcoin,,16-10-2021,cbpro,cbpro
+206,2021-10-17 19:37:45,Trade,,100.0,ADA,...,2.187229098291846,Coinbase Pro,,,,215.5725,USDC,...,1.0024479734992968,Coinbase Pro,,,,1.0725,USDC,...,,cardano,usd-coin,17-10-2021,cbpro,cbpro
+207,2021-10-17 20:21:41,Buy,,0.003,BTC,...,61165.63564211521,Coinbase Pro,,,,177.88,USD,...,1.0,Coinbase Pro,,,,0.89,USD,...,,bitcoin,,17-10-2021,cbpro,cbpro
+208,2021-10-19 04:46:48,Trade,,0.002,BTC,...,62017.972725178704,Coinbase Pro,,,,125.625,USDC,...,1.0003859156803765,Coinbase Pro,,,,0.625,USDC,...,,bitcoin,usd-coin,19-10-2021,cbpro,cbpro
+209,2021-10-19 05:06:05,Buy,,5.0,LINK,...,25.6878144587302,Coinbase Pro,,,,130.65,USD,...,1.0,Coinbase Pro,,,,0.65,USD,...,,chainlink,,19-10-2021,cbpro,cbpro
+210,2021-10-19 06:14:31,Buy,,3.0,DOT,...,41.14152379788144,Coinbase Pro,,,,123.61,USD,...,1.0,Coinbase Pro,,,,0.61,USD,...,,polkadot,,19-10-2021,cbpro,cbpro
+211,2021-10-19 06:35:03,Trade,,0.05,ETH,...,3752.61872738495,Coinbase Pro,,,,190.95,USDC,...,1.0003859156803765,Coinbase Pro,,,,0.95,USDC,...,,ethereum,usd-coin,19-10-2021,cbpro,cbpro
+212,2021-10-20 01:49:06,Transfer,c2198b3ceea0e7df1483615f7411b40c20fd757a8350275463e9b34df6990d29,0.02671948,BTC,...,64517.64856042277,Coinbase,,,Transferred Bitcoin From Coinbase Pro,0.02671948,BTC,...,64517.64856042277,Coinbase Pro,36fYoRq78k7u1XPFhU8bgNkKhpubUesBvu,,,1.83e-06,BTC,...,,bitcoin,bitcoin,20-10-2021,cb,cbpro
+213,2021-10-20 01:49:08,Send,,,,...,1.0,,,,,0.02671948,BTC,...,64517.64856042277,Coinbase,36fYoRq78k7u1XPFhU8bgNkKhpubUesBvu,,Sent Bitcoin To Bitcoin address,1.83e-06,BTC,...,,,bitcoin,20-10-2021,,cb
+214,2021-10-20 01:50:07,Transfer,63306691cfc378110d4893d5460f9fbb63644cc5b127bf637246dd3403f9a040,0.34936914,ETH,...,3884.5872952429017,Coinbase,,,Transferred Ethereum From Coinbase Pro,0.34936914,ETH,...,3884.5872952429017,Coinbase Pro,0xE41358C021479352336D2005eC0745790aE23633,,,0.001071,ETH,...,,ethereum,ethereum,20-10-2021,cb,cbpro
+215,2021-10-20 01:50:08,Send,,,,...,1.0,,,,,0.34936914,ETH,...,3884.5872952429017,Coinbase,0xE41358C021479352336D2005eC0745790aE23633,,Sent Ethereum To Ethereum address,0.001071,ETH,...,,,ethereum,20-10-2021,,cb
+216,2021-10-20 01:53:02,Sell,,1500.0,USD,...,1.0,Coinbase Pro,,,,1500.0,USDC,...,0.9995761477245784,Coinbase Pro,,,,,,...,,,usd-coin,20-10-2021,cbpro,cbpro
+217,2021-10-25 05:51:22,Buy,,23.15,LINK,...,29.78180485247637,Coinbase Pro,,,,709.61,USD,...,1.0,Coinbase Pro,,,,3.53,USD,...,,chainlink,,25-10-2021,cbpro,cbpro
+218,2021-10-25 05:51:22,Buy,,3.51,LINK,...,29.78180485247637,Coinbase Pro,,,,107.59,USD,...,1.0,Coinbase Pro,,,,0.54,USD,...,,chainlink,,25-10-2021,cbpro,cbpro
+219,2021-10-25 05:51:22,Buy,,23.32,LINK,...,29.78180485247637,Coinbase Pro,,,,714.82,USD,...,1.0,Coinbase Pro,,,,3.56,USD,...,,chainlink,,25-10-2021,cbpro,cbpro
+220,2021-10-26 02:36:37,Sell,,2370.63,USD,...,1.0,Coinbase Pro,,,,2370.63,USDC,...,1.003696231395694,Coinbase Pro,,,,,,...,,,usd-coin,26-10-2021,cbpro,cbpro
+221,2021-10-26 12:33:45,Buy,,250.0,ADA,...,2.152108188595917,Coinbase Pro,,,,542.7,USD,...,1.0,Coinbase Pro,,,,2.7,USD,...,,cardano,,26-10-2021,cbpro,cbpro
+222,2021-10-26 23:44:54,Receive,,20000.0,USD,...,1.0,Coinbase,,,Deposited funds From US Bank - Savings ********5401,,,...,1.0,,,,,,,...,,,,26-10-2021,cb,
+223,2021-10-26 23:44:56,Transfer,,20000.0,USD,...,1.0,Coinbase Pro,,,,20000.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,26-10-2021,cbpro,cb
+224,2021-10-26 23:45:37,Buy,,10000.0,USDC,...,1.003696231395694,Coinbase Pro,,,,10000.0,USD,...,1.0,Coinbase Pro,,,,,,...,,usd-coin,,26-10-2021,cbpro,cbpro
+225,2021-10-26 23:57:06,Send,,,,...,1.0,,,,,10000.0,USD,...,1.0,Coinbase Pro,,,,,,...,,,,26-10-2021,,cbpro
+226,2021-10-27 13:15:33,Buy,,100.0,ADA,...,2.1388228437474472,Coinbase Pro,,,,201.0,USD,...,1.0,Coinbase Pro,,,,1.0,USD,...,,cardano,,27-10-2021,cbpro,cbpro
+227,2021-10-27 13:27:16,Buy,,0.1,ETH,...,4152.570288731245,Coinbase Pro,,,,402.0,USD,...,1.0,Coinbase Pro,,,,2.0,USD,...,,ethereum,,27-10-2021,cbpro,cbpro
+228,2021-10-27 13:27:38,Buy,,0.01,BTC,...,60604.18888794746,Coinbase Pro,,,,592.95,USD,...,1.0,Coinbase Pro,,,,2.95,USD,...,,bitcoin,,27-10-2021,cbpro,cbpro
+229,2021-10-28 03:29:14,Buy,,0.008,BTC,...,58641.00147419492,Coinbase Pro,,,,472.75,USD,...,1.0,Coinbase Pro,,,,2.35,USD,...,,bitcoin,,28-10-2021,cbpro,cbpro
+230,2021-10-28 13:29:12,Buy,,214.55,USDT,...,1.001533833075547,Coinbase Pro,,,,214.68,USD,...,1.0,Coinbase Pro,,,,0.02,USD,...,,tether,,28-10-2021,cbpro,cbpro
+231,2021-10-28 13:31:28,Trade,,0.00019119,BTC,...,58641.00147419492,Coinbase Pro,,,,11.83796787,USDT,...,1.001533833075547,Coinbase Pro,,,,0.05889536,USDT,...,,bitcoin,tether,28-10-2021,cbpro,cbpro
+232,2021-10-28 13:31:28,Trade,,0.00034208,BTC,...,58641.00147419492,Coinbase Pro,,,,21.17664292,USDT,...,1.001533833075547,Coinbase Pro,,,,0.10535643,USDT,...,,bitcoin,tether,28-10-2021,cbpro,cbpro
+233,2021-10-28 13:31:28,Trade,,0.00013567,BTC,...,58641.00147419492,Coinbase Pro,,,,8.39988872,USDT,...,1.001533833075547,Coinbase Pro,,,,0.04179049,USDT,...,,bitcoin,tether,28-10-2021,cbpro,cbpro
+234,2021-10-28 13:31:28,Trade,,0.00033421,BTC,...,58641.00147419492,Coinbase Pro,,,,20.69007787,USDT,...,1.001533833075547,Coinbase Pro,,,,0.10293571,USDT,...,,bitcoin,tether,28-10-2021,cbpro,cbpro
+235,2021-10-28 13:31:28,Trade,,0.00246207,BTC,...,58641.00147419492,Coinbase Pro,,,,152.44536092,USDT,...,1.001533833075547,Coinbase Pro,,,,0.75843463,USDT,...,,bitcoin,tether,28-10-2021,cbpro,cbpro
+236,2021-10-28 13:33:13,Transfer,2a2f7e9636687ae8cbd3517d5fd5a3a5f680a7cd7471798be55d3093f63a5ddc,0.00500102,BTC,...,58641.00147419492,Coinbase,,,Transferred Bitcoin From Coinbase Pro,0.00500102,BTC,...,58641.00147419492,Coinbase Pro,bc1qv3dk7eerwvc2727kt5ps4yqpxa2kl9ladmrk9y,,,1.02e-06,BTC,...,,bitcoin,bitcoin,28-10-2021,cb,cbpro
+237,2021-10-28 13:33:15,Send,,,,...,1.0,,,,,0.00500102,BTC,...,58641.00147419492,Coinbase,bc1qv3dk7eerwvc2727kt5ps4yqpxa2kl9ladmrk9y,,Sent Bitcoin To Bitcoin address,1.02e-06,BTC,...,,,bitcoin,28-10-2021,,cb
+238,2021-10-30 17:21:50,Receive,,1000.0,ADA,...,2.0159917138188046,Coinbase Pro,,,,,,...,1.0,,,,,,,...,,cardano,,30-10-2021,cbpro,
+239,2021-10-30 17:30:13,Transfer,,0.01,BTC,...,62283.19805587354,Coinbase Pro,,,,0.01,BTC,...,62283.19805587354,Coinbase,,,,,BTC,...,,bitcoin,bitcoin,30-10-2021,cbpro,cb
+240,2021-10-30 17:30:13,Receive,,0.01,BTC,...,62283.19805587354,Coinbase Pro,,,,,,...,1.0,,,,,,,...,Disabled,bitcoin,,30-10-2021,cbpro,
+241,2021-10-30 17:31:43,Transfer,778ee54cff5a1b79c6c60f4f1b552fd16d87c5a6d51ef89eba5ef5a68112f3f7,0.01000144,BTC,...,62283.19805587354,Coinbase,,,Transferred Bitcoin From Coinbase Pro,0.01000144,BTC,...,62283.19805587354,Coinbase Pro,34GNzJL3ynSxrhiaGGKxxjoXCxvbihdjrt,,,1.44e-06,BTC,...,,bitcoin,bitcoin,30-10-2021,cb,cbpro
+242,2021-10-30 17:31:46,Send,,,,...,1.0,,,,,0.01000144,BTC,...,62283.19805587354,Coinbase,34GNzJL3ynSxrhiaGGKxxjoXCxvbihdjrt,,Sent Bitcoin To Bitcoin address,1.44e-06,BTC,...,Disabled,,bitcoin,30-10-2021,,cb
+243,2021-10-30 18:12:41,Transfer,fb9bdabf75d56c9a64b4052ae6db52aab6a56aaedf5bce1cd38c7b32992505ed,10000.007734,USDC,...,1.0020134987310874,Coinbase,,,Transferred USD Coin From Coinbase Pro,10000.007734,USDC,...,1.0020134987310874,Coinbase Pro,0xE41358C021479352336D2005eC0745790aE23633,,,18.721529,USDC,...,,usd-coin,usd-coin,30-10-2021,cb,cbpro
+244,2021-10-30 18:12:43,Send,,,,...,1.0,,,,,10000.007734,USDC,...,1.0020134987310874,Coinbase,0xE41358C021479352336D2005eC0745790aE23633,,Sent USD Coin To USD Coin address,18.721529,USDC,...,,,usd-coin,30-10-2021,,cb
+245,2021-11-02 17:03:41,Receive,,6116.16,USD,...,1.0,Coinbase Pro,,,,,,...,1.0,,,,,,,...,,,,02-11-2021,cbpro,
+246,2021-11-02 17:03:55,Receive,,10.0,LINK,...,31.65779315547557,Coinbase Pro,,,,,,...,1.0,,,,,,,...,,chainlink,,02-11-2021,cbpro,
+247,2021-11-02 17:04:11,Receive,,0.005,BTC,...,61121.83120106507,Coinbase Pro,,,,,,...,1.0,,,,,,,...,,bitcoin,,02-11-2021,cbpro,
+248,2021-11-02 17:04:30,Receive,,5.0,DOT,...,50.09269045865121,Coinbase Pro,,,,,,...,1.0,,,,,,,...,,polkadot,,02-11-2021,cbpro,
+249,2021-11-02 17:34:55,Buy,,15.399551,UNI,...,25.6844306635042,Coinbase Pro,,,,401.48,USD,...,1.0,Coinbase Pro,,,,1.4,USD,...,,uniswap,,02-11-2021,cbpro,cbpro
+250,2021-11-02 17:35:19,Buy,,34.600449,UNI,...,25.6844306635042,Coinbase Pro,,,,902.07,USD,...,1.0,Coinbase Pro,,,,3.15,USD,...,,uniswap,,02-11-2021,cbpro,cbpro
+251,2021-11-03 23:05:56,Receive,,0.00197,USDC,...,1.0035341391346773,Coinbase,,,USD Coin reward From Coinbase,,,...,1.0,,,,,,,...,,usd-coin,,03-11-2021,cb,
+252,2021-11-10 23:17:28,Buy,,10.0,LINK,...,33.91019803951846,Coinbase Pro,,,,341.19,USD,...,1.0,Coinbase Pro,,,,1.19,USD,...,,chainlink,,10-11-2021,cbpro,cbpro
+253,2021-11-10 23:20:29,Buy,,3.94,DOT,...,50.96942903851561,Coinbase Pro,,,,183.85,USD,...,1.0,Coinbase Pro,,,,0.64,USD,...,,polkadot,,10-11-2021,cbpro,cbpro
+254,2021-11-10 23:20:29,Buy,,3.06,DOT,...,50.96942903851561,Coinbase Pro,,,,142.79,USD,...,1.0,Coinbase Pro,,,,0.5,USD,...,,polkadot,,10-11-2021,cbpro,cbpro
+255,2021-11-12 02:24:54,Sell,,97.47,USD,...,1.0,Coinbase,,,Sold Bitcoin Using USD Wallet,0.00154547,BTC,...,65005.64515956679,Coinbase,,,Sold Bitcoin Using USD Wallet,2.99,USD,...,,,bitcoin,12-11-2021,cb,cb
+256,2021-11-16 03:27:19,Buy,,0.017,BTC,...,63933.83544259933,Coinbase Pro,,,,1044.89,USD,...,1.0,Coinbase Pro,,,,3.64,USD,...,,bitcoin,,16-11-2021,cbpro,cbpro
+257,2021-11-16 03:32:16,Send,d64bd1c6108a9293d1011a03b23409e1c399a8b5a4cf57ead21ba022b376bcc4,,,...,1.0,,,,,0.00899365,BTC,...,63933.83544259933,Coinbase Pro,34GNzJL3ynSxrhiaGGKxxjoXCxvbihdjrt,,,1.65e-06,BTC,...,,,bitcoin,16-11-2021,,cbpro
+258,2021-11-16 13:44:12,Send,651a6018e46ca02e0cac9e45547238377e62d687025c00b2ae1a4e141bda41f1,,,...,1.0,,,,,0.01046911,BTC,...,63933.83544259933,Coinbase Pro,34GNzJL3ynSxrhiaGGKxxjoXCxvbihdjrt,,,1.39e-06,BTC,...,,,bitcoin,16-11-2021,,cbpro
+259,2021-11-16 14:09:36,Sell,,1769.0,USD,...,1.0,Coinbase Pro,,,,0.029,BTC,...,63933.83544259933,Coinbase Pro,,,,6.19,USD,...,,,bitcoin,16-11-2021,cbpro,cbpro
+260,2021-11-18 15:57:07,Sell,,199.01,USD,...,1.0,Coinbase Pro,,,,0.0490558,ETH,...,4302.804958962834,Coinbase Pro,,,,0.7,USD,...,,,ethereum,18-11-2021,cbpro,cbpro
+261,2021-11-18 15:57:07,Sell,,5.25,USD,...,1.0,Coinbase Pro,,,,0.00129371,ETH,...,4302.804958962834,Coinbase Pro,,,,0.02,USD,...,,,ethereum,18-11-2021,cbpro,cbpro
+262,2021-11-18 15:57:07,Sell,,607.08,USD,...,1.0,Coinbase Pro,,,,0.14965049,ETH,...,4302.804958962834,Coinbase Pro,,,,2.12,USD,...,,,ethereum,18-11-2021,cbpro,cbpro
+263,2021-11-19 15:30:16,Buy,,37.0,LRC,...,2.209669031705584,Coinbase Pro,,,,100.25,USD,...,1.0,Coinbase Pro,,,,0.35,USD,...,,loopring,,19-11-2021,cbpro,cbpro
+264,2021-11-23 15:56:05,Buy,,10.0,AVAX,...,134.46974746173134,Coinbase Pro,,,,1304.55,USD,...,1.0,Coinbase Pro,,,,4.55,USD,...,,avalanche-2,,23-11-2021,cbpro,cbpro
+265,2021-11-23 15:57:01,Send,0x5e9c968674b301b634279e9ab6d8b1058205e0078fa9dd33a0cb2f0da2592fef,,,...,1.0,,,,,9.9996,AVAX,...,134.46974746173134,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.0126,AVAX,...,,,avalanche-2,23-11-2021,,cbpro
+266,2021-11-24 14:43:53,Buy,,191.97,ADA,...,1.7512785978033358,Coinbase Pro,,,,308.23,USD,...,1.0,Coinbase Pro,,,,1.08,USD,...,,cardano,,24-11-2021,cbpro,cbpro
+267,2021-11-24 14:43:53,Buy,,8.03,ADA,...,1.7512785978033358,Coinbase Pro,,,,12.89,USD,...,1.0,Coinbase Pro,,,,0.04,USD,...,,cardano,,24-11-2021,cbpro,cbpro
+268,2021-11-26 05:06:00,Buy,,200.0,CRO,...,0.8068637688908423,Coinbase Pro,,,,151.03,USD,...,1.0,Coinbase Pro,,,,0.53,USD,...,,crypto-com-chain,,26-11-2021,cbpro,cbpro
+269,2021-11-26 08:37:57,Buy,,0.01,BTC,...,58897.84698299794,Coinbase Pro,,,,551.92,USD,...,1.0,Coinbase Pro,,,,1.93,USD,...,,bitcoin,,26-11-2021,cbpro,cbpro
+270,2021-11-26 15:49:37,Buy,,0.05,ETH,...,4515.843300142739,Coinbase Pro,,,,203.96,USD,...,1.0,Coinbase Pro,,,,0.71,USD,...,,ethereum,,26-11-2021,cbpro,cbpro
+271,2021-11-26 16:01:49,Buy,,6.0,DOT,...,39.3973876308258,Coinbase Pro,,,,213.75,USD,...,1.0,Coinbase Pro,,,,0.75,USD,...,,polkadot,,26-11-2021,cbpro,cbpro
+272,2021-11-26 16:02:46,Buy,,125.0,ADA,...,1.6790577782821612,Coinbase Pro,,,,194.43,USD,...,1.0,Coinbase Pro,,,,0.68,USD,...,,cardano,,26-11-2021,cbpro,cbpro
+273,2021-11-28 02:32:02,Buy,,10.0,LINK,...,23.97103016980437,Coinbase Pro,,,,235.82,USD,...,1.0,Coinbase Pro,,,,0.82,USD,...,,chainlink,,28-11-2021,cbpro,cbpro
+274,2021-11-30 15:55:25,Buy,,200.0,CRO,...,0.7136107339718283,Coinbase Pro,,,,140.49,USD,...,1.0,Coinbase Pro,,,,0.49,USD,...,,crypto-com-chain,,30-11-2021,cbpro,cbpro
+275,2021-12-01 21:24:53,Buy,,5.0,AVAX,...,120.88233192704446,Coinbase Pro,,,,592.07,USD,...,1.0,Coinbase Pro,,,,2.06,USD,...,,avalanche-2,,01-12-2021,cbpro,cbpro
+276,2021-12-02 15:33:38,Send,0x61b3d84edd6be49322436a24098358b86fc0d7771986f322b7944e7bb67a8dd6,,,...,1.0,,,,,4.9996,AVAX,...,119.26942260381824,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.0126,AVAX,...,,,avalanche-2,02-12-2021,,cbpro
+277,2021-12-02 16:21:28,Send,945ca9efe7f1405e31dd7eea085a717cb43a804430e3580eaad616ad30075117,,,...,1.0,,,,,398.90395329,CRO,...,0.720451406866872,Coinbase Pro,0xbd7cDC67a73a52b41A5D9e8928e6aD7725EfF167,,,18.90395329,CRO,...,,,crypto-com-chain,02-12-2021,,cbpro
+278,2021-12-03 20:18:52,Buy,,0.01,BTC,...,56508.26805402271,Coinbase Pro,,,,531.86,USD,...,1.0,Coinbase Pro,,,,1.85,USD,...,,bitcoin,,03-12-2021,cbpro,cbpro
+279,2021-12-04 05:45:09,Receive,,10000.0,USD,...,1.0,Coinbase,,,Deposited funds From US Bank - Savings ********5401,,,...,1.0,,,,,,,...,,,,04-12-2021,cb,
+280,2021-12-04 05:45:11,Transfer,,10000.0,USD,...,1.0,Coinbase Pro,,,,10000.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,04-12-2021,cbpro,cb
+281,2021-12-04 06:18:21,Buy,,0.02998134,ETH,...,4240.155516808957,Coinbase Pro,,,,115.7,USD,...,1.0,Coinbase Pro,,,,0.58,USD,...,,ethereum,,04-12-2021,cbpro,cbpro
+282,2021-12-04 06:18:21,Buy,,0.01505715,ETH,...,4240.155516808957,Coinbase Pro,,,,58.11,USD,...,1.0,Coinbase Pro,,,,0.29,USD,...,,ethereum,,04-12-2021,cbpro,cbpro
+283,2021-12-04 06:18:21,Buy,,0.00496151,ETH,...,4240.155516808957,Coinbase Pro,,,,19.15,USD,...,1.0,Coinbase Pro,,,,0.1,USD,...,,ethereum,,04-12-2021,cbpro,cbpro
+284,2021-12-04 06:31:39,Buy,,5.0,DOT,...,33.797058582536444,Coinbase Pro,,,,140.7,USD,...,1.0,Coinbase Pro,,,,0.7,USD,...,,polkadot,,04-12-2021,cbpro,cbpro
+285,2021-12-04 06:35:55,Buy,,8.0,LINK,...,23.336541648949257,Coinbase Pro,,,,155.17,USD,...,1.0,Coinbase Pro,,,,0.77,USD,...,,chainlink,,04-12-2021,cbpro,cbpro
+286,2021-12-06 07:00:57,Buy,,380.0,CRO,...,0.5630077334739376,Coinbase Pro,,,,210.04,USD,...,1.0,Coinbase Pro,,,,1.04,USD,...,,crypto-com-chain,,06-12-2021,cbpro,cbpro
+287,2021-12-06 07:25:09,Buy,,5.0,AVAX,...,85.66709470944734,Coinbase Pro,,,,402.0,USD,...,1.0,Coinbase Pro,,,,2.0,USD,...,,avalanche-2,,06-12-2021,cbpro,cbpro
+288,2021-12-06 14:41:45,Send,bb2b5133e793e37a4bae16571b897c32993e9438b3b6ab6cf513f5f444435bfb,,,...,1.0,,,,,380.06971721,CRO,...,0.5630077334739376,Coinbase Pro,0xbd7cDC67a73a52b41A5D9e8928e6aD7725EfF167,,,14.06971721,CRO,...,,,crypto-com-chain,06-12-2021,,cbpro
+289,2021-12-10 14:45:41,Buy,,15.0,UNI,...,16.29163597776951,Coinbase Pro,,,,243.46,USD,...,1.0,Coinbase Pro,,,,1.21,USD,...,,uniswap,,10-12-2021,cbpro,cbpro
+290,2021-12-10 21:49:23,Buy,,150.0,ADA,...,1.2989397181732931,Coinbase Pro,,,,188.44,USD,...,1.0,Coinbase Pro,,,,0.94,USD,...,,cardano,,10-12-2021,cbpro,cbpro
+291,2021-12-12 05:26:37,Buy,,1000.0,USDC,...,0.997664222186558,Coinbase Pro,,,,1000.0,USD,...,1.0,Coinbase Pro,,,,,,...,,usd-coin,,12-12-2021,cbpro,cbpro
+292,2021-12-12 05:48:59,Trade,,998.4,USDT,...,1.0001308614696685,Coinbase Pro,,,,998.99908992,USDC,...,0.997664222186558,Coinbase Pro,,,,0.09988992,USDC,...,,tether,usd-coin,12-12-2021,cbpro,cbpro
+293,2021-12-12 05:50:25,Send,d2770210164979621dc52d702c477a432251b029ec35c3fd5a8ade99bc212eaf,,,...,1.0,,,,,998.337358,USDT,...,1.0001308614696685,Coinbase Pro,0x7a746fe69521d026280bf7a4ea1639cc27c891bb,,,4.837358,USDT,...,,,tether,12-12-2021,,cbpro
+294,2021-12-13 19:33:04,Buy,,0.05,ETH,...,4135.841510137412,Coinbase Pro,,,,185.93,USD,...,1.0,Coinbase Pro,,,,0.93,USD,...,,ethereum,,13-12-2021,cbpro,cbpro
+295,2021-12-15 15:08:10,Buy,,20.0,DOT,...,26.18198352434353,Coinbase Pro,,,,502.5,USD,...,1.0,Coinbase Pro,,,,2.5,USD,...,,polkadot,,15-12-2021,cbpro,cbpro
+296,2021-12-20 00:09:30,Buy,,200.0,LRC,...,2.043244052550705,Coinbase Pro,,,,409.04,USD,...,1.0,Coinbase Pro,,,,2.04,USD,...,,loopring,,20-12-2021,cbpro,cbpro
+297,2021-12-20 00:17:39,Buy,,0.01,BTC,...,46807.04861642627,Coinbase Pro,,,,464.81,USD,...,1.0,Coinbase Pro,,,,2.31,USD,...,,bitcoin,,20-12-2021,cbpro,cbpro
+298,2021-12-20 05:43:39,Buy,,15.0,UNI,...,14.959625340689453,Coinbase Pro,,,,218.59,USD,...,1.0,Coinbase Pro,,,,1.09,USD,...,,uniswap,,20-12-2021,cbpro,cbpro
+299,2021-12-26 00:58:49,Buy,,0.01,BTC,...,50663.48710213215,Coinbase Pro,,,,506.52,USD,...,1.0,Coinbase Pro,,,,2.52,USD,...,,bitcoin,,26-12-2021,cbpro,cbpro
+300,2021-12-27 14:39:02,Send,8024060ac4855f49889a97f7c6deae2ba0a776deedd699e6c03c0041fa804a68,,,...,1.0,,,,,0.02,ETH,...,4075.03161894955,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00417776,ETH,...,,,ethereum,27-12-2021,,metamask
+301,2021-12-28 05:28:25,Buy,,0.01,BTC,...,50774.067814743,Coinbase Pro,,,,492.45,USD,...,1.0,Coinbase Pro,,,,2.45,USD,...,,bitcoin,,28-12-2021,cbpro,cbpro
+302,2021-12-28 10:30:43,Buy,,100.0,LRC,...,2.2661080541424643,Coinbase Pro,,,,213.06,USD,...,1.0,Coinbase Pro,,,,1.06,USD,...,,loopring,,28-12-2021,cbpro,cbpro
+303,2021-12-28 17:14:09,Buy,,2.0,AVAX,...,114.02689439817335,Coinbase Pro,,,,221.1,USD,...,1.0,Coinbase Pro,,,,1.1,USD,...,,avalanche-2,,28-12-2021,cbpro,cbpro
+304,2021-12-31 12:34:52,Buy,,0.00195772,BTC,...,47191.86838983951,Coinbase,,,Bought Bitcoin Using USD Wallet,97.47,USD,...,1.0,Coinbase,,,Bought Bitcoin Using USD Wallet,2.99,USD,...,,bitcoin,,31-12-2021,cb,cb
+305,2022-01-03 11:51:05,Send,0xaeaa4ea26fb3ef5554696a295d2c9eab56e67323ba19e1d99c3ff4d751467d8b,,,...,1.0,,,,,5.0126,AVAX,...,113.23228624603188,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.0126,AVAX,...,,,avalanche-2,03-01-2022,,cbpro
+306,2022-01-05 19:45:13,Buy,,5.0,AVAX,...,103.98916803062998,Coinbase Pro,,,,502.5,USD,...,1.0,Coinbase Pro,,,,2.5,USD,...,,avalanche-2,,05-01-2022,cbpro,cbpro
+307,2022-01-06 02:29:26,Buy,,0.2,ETH,...,3556.9062274078738,Coinbase Pro,,,,703.5,USD,...,1.0,Coinbase Pro,,,,3.5,USD,...,,ethereum,,06-01-2022,cbpro,cbpro
+308,2022-01-06 03:48:09,Buy,,0.01,BTC,...,43647.14750806805,Coinbase Pro,,,,432.15,USD,...,1.0,Coinbase Pro,,,,2.15,USD,...,,bitcoin,,06-01-2022,cbpro,cbpro
+309,2022-01-06 09:55:41,Buy,,0.01,BTC,...,43647.14750806805,Coinbase Pro,,,,427.12,USD,...,1.0,Coinbase Pro,,,,2.12,USD,...,,bitcoin,,06-01-2022,cbpro,cbpro
+310,2022-01-07 02:46:37,Buy,,8000.0,XLM,...,0.2689831242983596,Coinbase Pro,,,,2130.6,USD,...,1.0,Coinbase Pro,,,,10.6,USD,...,,stellar,,07-01-2022,cbpro,cbpro
+311,2022-01-07 02:51:35,Send,5354ea9a11188342301a6e30038f9bf7adf5e052e05fac4db1109d264bb473ec,,,...,1.0,,,,,8000.832,XLM,...,0.2689831242983596,Coinbase Pro,GAJ4BSGJE6UQHZAZ5U5IUOABPDCYPKPS3RFS2NVNGFGFXGVQDLBQJW2P,,,0.0,XLM,...,,,stellar,07-01-2022,,cbpro
+312,2022-01-07 06:32:29,Send,0x6b1c889018ba5ddd6eaaa235bf29f2d8761fe9311fb26747dcbdbb3c8eab32b9,,,...,1.0,,,,,6.9876,AVAX,...,95.53298443372404,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.0126,AVAX,...,,,avalanche-2,07-01-2022,,cbpro
+313,2022-01-08 00:00:16,Send,2a4867ab093d49a28a1611ddbe5fde2e76f1224bb5503e7a35911f7f8184e2e2,,,...,1.0,,,,,0.02527768,ETH,...,3201.79457434796,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00387662,ETH,...,,,ethereum,08-01-2022,,metamask
+314,2022-01-10 16:24:32,Receive,,20000.0,USD,...,1.0,Coinbase,,,Deposited funds From US Bank - Savings ********5401,,,...,1.0,,,,,,,...,,,,10-01-2022,cb,
+315,2022-01-10 16:24:34,Transfer,,20000.0,USD,...,1.0,Coinbase Pro,,,,20000.0,USD,...,1.0,Coinbase,,,Transferred funds To Coinbase Pro,,,...,,,,10-01-2022,cbpro,cb
+316,2022-01-10 17:27:04,Buy,,0.3,ETH,...,3156.967262159481,Coinbase Pro,,,,904.5,USD,...,1.0,Coinbase Pro,,,,4.5,USD,...,,ethereum,,10-01-2022,cbpro,cbpro
+317,2022-01-16 18:42:23,Buy,,0.05,BTC,...,43226.65026980921,Coinbase Pro,,,,2160.75,USD,...,1.0,Coinbase Pro,,,,10.75,USD,...,,bitcoin,,16-01-2022,cbpro,cbpro
+318,2022-01-18 08:12:05,Buy,,20.0,DOT,...,25.75150585821581,Coinbase Pro,,,,502.5,USD,...,1.0,Coinbase Pro,,,,2.5,USD,...,,polkadot,,18-01-2022,cbpro,cbpro
+319,2022-01-18 16:14:34,Buy,,20.0,UNI,...,16.67824658931984,Coinbase Pro,,,,321.6,USD,...,1.0,Coinbase Pro,,,,1.6,USD,...,,uniswap,,18-01-2022,cbpro,cbpro
+320,2022-01-20 23:54:49,Buy,,0.3,ETH,...,3097.02146606268,Coinbase Pro,,,,903.15,USD,...,1.0,Coinbase Pro,,,,3.15,USD,...,,ethereum,,20-01-2022,cbpro,cbpro
+321,2022-01-21 00:03:42,Buy,,0.01,BTC,...,40707.6824143097,Coinbase Pro,,,,407.02,USD,...,1.0,Coinbase Pro,,,,2.02,USD,...,,bitcoin,,21-01-2022,cbpro,cbpro
+322,2022-01-21 01:41:15,Buy,,0.01,BTC,...,40707.6824143097,Coinbase Pro,,,,402.0,USD,...,1.0,Coinbase Pro,,,,2.0,USD,...,,bitcoin,,21-01-2022,cbpro,cbpro
+323,2022-01-21 01:58:56,Buy,,0.5,ETH,...,3015.588777543836,Coinbase Pro,,,,1457.25,USD,...,1.0,Coinbase Pro,,,,7.25,USD,...,,ethereum,,21-01-2022,cbpro,cbpro
+324,2022-01-21 11:06:46,Buy,,1.17,ATOM,...,39.07276164194776,Coinbase Pro,,,,43.44,USD,...,1.0,Coinbase Pro,,,,0.15,USD,...,,cosmos,,21-01-2022,cbpro,cbpro
+325,2022-01-21 11:06:46,Buy,,13.83,ATOM,...,39.07276164194776,Coinbase Pro,,,,513.5,USD,...,1.0,Coinbase Pro,,,,1.79,USD,...,,cosmos,,21-01-2022,cbpro,cbpro
+326,2022-01-21 12:33:49,Buy,,0.5,ETH,...,3015.588777543836,Coinbase Pro,,,,1404.9,USD,...,1.0,Coinbase Pro,,,,4.9,USD,...,,ethereum,,21-01-2022,cbpro,cbpro
+327,2022-01-21 12:37:28,Buy,,0.05,BTC,...,40707.6824143097,Coinbase Pro,,,,1909.5,USD,...,1.0,Coinbase Pro,,,,9.5,USD,...,,bitcoin,,21-01-2022,cbpro,cbpro
+328,2022-01-21 20:28:53,Buy,,15.0,ATOM,...,39.07276164194776,Coinbase Pro,,,,526.84,USD,...,1.0,Coinbase Pro,,,,1.84,USD,...,,cosmos,,21-01-2022,cbpro,cbpro
+329,2022-01-21 21:33:20,Buy,,2.144,AVAX,...,79.47966545534564,Coinbase Pro,,,,150.83,USD,...,1.0,Coinbase Pro,,,,0.75,USD,...,,avalanche-2,,21-01-2022,cbpro,cbpro
+330,2022-01-21 21:33:28,Buy,,2.856,AVAX,...,79.47966545534564,Coinbase Pro,,,,200.92,USD,...,1.0,Coinbase Pro,,,,1.0,USD,...,,avalanche-2,,21-01-2022,cbpro,cbpro
+331,2022-01-21 21:47:25,Buy,,20.0,DOT,...,23.02433121117125,Coinbase Pro,,,,402.0,USD,...,1.0,Coinbase Pro,,,,2.0,USD,...,,polkadot,,21-01-2022,cbpro,cbpro
+332,2022-01-22 03:08:36,Send,db8f26a9b8c81400f78fe9e0899d789ff5d741db48342ed31d0d7d708d5a0db2,,,...,1.0,,,,,0.10000202,BTC,...,36508.79978983082,Coinbase Pro,36fYoRq78k7u1XPFhU8bgNkKhpubUesBvu,,,2.02e-06,BTC,...,,,bitcoin,22-01-2022,,cbpro
+333,2022-01-22 03:09:28,Send,0509ef05106cc6dfa95c5a2a5539ccc1d780d651016df83dc31db976674fcb73,,,...,1.0,,,,,1.002058,ETH,...,2564.3433423740635,Coinbase Pro,0xE41358C021479352336D2005eC0745790aE23633,,,0.002058,ETH,...,,,ethereum,22-01-2022,,cbpro
+334,2022-01-22 05:37:36,Buy,,5.0,AVAX,...,65.92302814515385,Coinbase Pro,,,,326.14,USD,...,1.0,Coinbase Pro,,,,1.14,USD,...,,avalanche-2,,22-01-2022,cbpro,cbpro
+335,2022-01-22 07:29:12,Buy,,5.0,AVAX,...,65.92302814515385,Coinbase Pro,,,,301.05,USD,...,1.0,Coinbase Pro,,,,1.05,USD,...,,avalanche-2,,22-01-2022,cbpro,cbpro
+336,2022-01-23 16:19:30,Trade,,0.00627,BTC,...,35180.435462830384,Coinbase Pro,,,,200.0,ADA,...,1.071909388330883,Coinbase Pro,,,,2.195e-05,BTC,...,,bitcoin,cardano,23-01-2022,cbpro,cbpro
+337,2022-01-23 16:21:44,Trade,,0.0908,ETH,...,2407.377851608285,Coinbase Pro,,,,200.0,ADA,...,1.071909388330883,Coinbase Pro,,,,0.0003178,ETH,...,,ethereum,cardano,23-01-2022,cbpro,cbpro
+338,2022-01-24 10:51:04,Buy,,30.0,LINK,...,16.577912619930736,Coinbase Pro,,,,422.1,USD,...,1.0,Coinbase Pro,,,,2.1,USD,...,,chainlink,,24-01-2022,cbpro,cbpro
+339,2022-01-24 19:59:40,Trade,,0.014,WBTC,...,36349.21287344119,Coinbase Pro,,,,0.0140084,BTC,...,36306.409440464704,Coinbase Pro,,,,,,...,,wrapped-bitcoin,bitcoin,24-01-2022,cbpro,cbpro
+340,2022-01-24 20:02:06,Receive,0xd009590f93dad98ffc0d67bebf6f04d8c9a0bc373ad2358df1522cd210459f16,0.0014,WBTC,...,36349.21287344119,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,1.0,,,,,,,...,,wrapped-bitcoin,,24-01-2022,metamask,
+341,2022-01-24 20:02:46,Send,d009590f93dad98ffc0d67bebf6f04d8c9a0bc373ad2358df1522cd210459f16,,,...,1.0,,,,,0.00161047,WBTC,...,36349.21287344119,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.00021047,WBTC,...,,,wrapped-bitcoin,24-01-2022,,cbpro
+342,2022-01-24 20:05:36,Transfer,de9901e5540e6b71227447ad58ea420e627a41fdd2942ae470e252050ecf1e1a,0.1,ETH,...,2537.836727861043,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.103192,ETH,...,2537.836727861043,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.003192,ETH,...,,ethereum,ethereum,24-01-2022,metamask,cbpro
+343,2022-01-24 20:06:54,Send,0x7b4f1fd9c04470d4ffeb3195bf41ac53ab36d373eb55fb51a604f3f27d47922c,,,...,1.0,,,,,0.0014,WBTC,...,36349.21287344119,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00529458,ETH,...,,,wrapped-bitcoin,24-01-2022,,metamask
+344,2022-01-24 20:15:55,Receive,0xc914995883bb76920786da0c9d4cf0748c425a394dcfa992c0242f5475d8cb7b,235.0,FTM,...,2.257639335442996,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,1.0,,,,,,,...,,fantom,,24-01-2022,metamask,
+345,2022-01-24 20:24:07,Send,1ffb2a7b4bcf4b192f674b125d7a18ca1e08d26d32486b6ff521431393b8b749,,,...,1.0,,,,,0.0,ETH,...,2537.836727861043,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00750644,ETH,...,,,ethereum,24-01-2022,,metamask
+346,2022-01-24 20:24:30,Trade,0x8d3faf516a9d20db87aaa359eedb2a1183b91245e1b2ff8bc3d75d74221a135e,235.0,anyFTM,...,1.0,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,1.0,,,,,,,...,,,,24-01-2022,metamask,
+347,2022-01-24 20:24:30,Trade,0x8d3faf516a9d20db87aaa359eedb2a1183b91245e1b2ff8bc3d75d74221a135e,,,...,1.0,,,,,235.0,FTM,...,2.257639335442996,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,,,fantom,24-01-2022,,metamask
+348,2022-01-24 20:24:30,Trade,0x8d3faf516a9d20db87aaa359eedb2a1183b91245e1b2ff8bc3d75d74221a135e,,,...,1.0,,,,,235.0,anyFTM,...,1.0,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,,,,24-01-2022,,metamask
+349,2022-01-24 20:24:30,Trade,0x8d3faf516a9d20db87aaa359eedb2a1183b91245e1b2ff8bc3d75d74221a135e,,,...,1.0,,,,,0.0,ETH,...,2537.836727861043,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.01064607,ETH,...,,,ethereum,24-01-2022,,metamask
+350,2022-01-24 20:35:36,Transfer,0x91cf91060c61e6ee1504aa0033bfdfaeaef68962e75f4f84b8b1a09b154f79ab,0.01218629,WBTC,...,36349.21287344119,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.01238952,WBTC,...,36349.21287344119,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.00020323,WBTC,...,,wrapped-bitcoin,wrapped-bitcoin,24-01-2022,metamask,cbpro
+351,2022-01-24 20:36:10,Send,0x5629e169ba91beade4ed8b8c988ae2fab8134b620acab338214f04315823dd05,,,...,1.0,,,,,0.01218629,WBTC,...,36349.21287344119,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00448926,ETH,...,,,wrapped-bitcoin,24-01-2022,,metamask
+352,2022-01-28 13:20:17,Buy,,5305.0,XLM,...,0.1942014210280968,Coinbase Pro,,,,1024.79,USD,...,1.0,Coinbase Pro,,,,3.57,USD,...,,stellar,,28-01-2022,cbpro,cbpro
+353,2022-01-28 13:20:17,Buy,,9695.0,XLM,...,0.1942014210280968,Coinbase Pro,,,,1872.82,USD,...,1.0,Coinbase Pro,,,,6.53,USD,...,,stellar,,28-01-2022,cbpro,cbpro
+354,2022-01-28 13:21:02,Send,34689094bf0c9de62d5dd33bcb8fe57885cc1cb73edf595845e21d37ac95e5ee,,,...,1.0,,,,,15000.0,XLM,...,0.1942014210280968,Coinbase Pro,GAJ4BSGJE6UQHZAZ5U5IUOABPDCYPKPS3RFS2NVNGFGFXGVQDLBQJW2P,,,0.0,XLM,...,,,stellar,28-01-2022,,cbpro
+355,2022-01-31 14:31:46,Buy,,250.0,LRC,...,1.010056424057225,Coinbase Pro,,,,240.84,USD,...,1.0,Coinbase Pro,,,,0.84,USD,...,,loopring,,31-01-2022,cbpro,cbpro
+356,2022-02-05 16:29:02,Buy,,200.0,LRC,...,0.9117287954449717,Coinbase Pro,,,,198.69,USD,...,1.0,Coinbase Pro,,,,0.69,USD,...,,loopring,,05-02-2022,cbpro,cbpro
+357,2022-02-05 16:45:08,Buy,,0.01,BTC,...,41673.8395543094,Coinbase Pro,,,,416.45,USD,...,1.0,Coinbase Pro,,,,1.45,USD,...,,bitcoin,,05-02-2022,cbpro,cbpro
+358,2022-02-05 16:59:31,Buy,,0.3,ETH,...,2993.0994395135976,Coinbase Pro,,,,903.15,USD,...,1.0,Coinbase Pro,,,,3.15,USD,...,,ethereum,,05-02-2022,cbpro,cbpro
+359,2022-02-06 14:51:31,Buy,,2.5,AVAX,...,77.49835136657174,Coinbase Pro,,,,188.16,USD,...,1.0,Coinbase Pro,,,,0.66,USD,...,,avalanche-2,,06-02-2022,cbpro,cbpro
+360,2022-02-10 13:30:43,Buy,,15.0,ATOM,...,30.963072795708523,Coinbase Pro,,,,451.57,USD,...,1.0,Coinbase Pro,,,,1.57,USD,...,,cosmos,,10-02-2022,cbpro,cbpro
+361,2022-02-10 15:26:01,Transfer,,1000.0,USD,...,1.0,Coinbase,,,Transferred funds From Coinbase Pro,1000.0,USD,...,1.0,Coinbase Pro,,,,,,...,,,,10-02-2022,cb,cbpro
+362,2022-02-10 16:54:59,Transfer,0x221644eddb717fa4de58d7ad66a23abf876813c722715e140490e49a5b8842bd,99.408852,UNI,...,12.341530975173566,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,99.99999996,UNI,...,12.341530975173566,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.59114796,UNI,...,,uniswap,uniswap,10-02-2022,metamask,cbpro
+363,2022-02-11 02:15:02,Trade,0x678a9c55bb69e2d5c65cda390e2351631342f51550d391e31a00ed7e2854a679,1.43774405,BTRFLY,...,1.0,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,1.0,,,,,,,...,,,,11-02-2022,metamask,
+364,2022-02-11 02:15:02,Trade,0x678a9c55bb69e2d5c65cda390e2351631342f51550d391e31a00ed7e2854a679,,,...,1.0,,,,,99.408852,UNI,...,11.46695508483038,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,,,uniswap,11-02-2022,,metamask
+365,2022-02-11 02:15:02,Trade,0x678a9c55bb69e2d5c65cda390e2351631342f51550d391e31a00ed7e2854a679,,,...,1.0,,,,,0.0,ETH,...,3081.911501840844,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.02529987,ETH,...,,,ethereum,11-02-2022,,metamask
+366,2022-02-11 18:54:08,Buy,,43.846641,LRC,...,1.0144235333654228,Coinbase,,,,44.99,USD,...,1.0,Coinbase,,,,0.18,USD,...,,loopring,,11-02-2022,cb,cb
+367,2022-02-11 19:21:31,Sell,,106.0,USD,...,1.0,Coinbase,,,,100.0,LRC,...,1.0144235333654228,Coinbase,,,,0.37,USD,...,,,loopring,11-02-2022,cb,cb
+368,2022-02-11 21:25:25,Buy,,102.0,LRC,...,1.0144235333654228,Coinbase Pro,,,,100.82,USD,...,1.0,Coinbase Pro,,,,0.35,USD,...,,loopring,,11-02-2022,cbpro,cbpro
+369,2022-02-11 23:43:47,Buy,,106.46,LRC,...,1.0144235333654228,Coinbase,,,,99.59,USD,...,1.0,Coinbase,,,,0.35,USD,...,,loopring,,11-02-2022,cb,cb
+370,2022-02-12 02:28:22,Sell,,104.33,USD,...,1.0,Coinbase,,,,106.467129,LRC,...,0.9386163819724374,Coinbase,,,,0.37,USD,...,,,loopring,12-02-2022,cb,cb
+371,2022-02-14 00:03:15,Send,6CF10A048A0675FDD17D350C510B668E9F5832B0FAC52E1973E7CD7E34CAC350,,,...,1.0,,,,,1.0025,ATOM,...,26.38992746168969,Coinbase Pro,cosmos1k9hqgkzuqqgturdahg9f3qsscj85nxwt8xn4kr,,,0.0025,ATOM,...,,,cosmos,14-02-2022,,cbpro
+372,2022-02-14 00:04:29,Send,8FBF3ABB25D06D9017194368C5B8532AD23E3BC8E206F29869F3E565CCF1A1B3,,,...,1.0,,,,,43.9975,ATOM,...,26.38992746168969,Coinbase Pro,cosmos1k9hqgkzuqqgturdahg9f3qsscj85nxwt8xn4kr,,,0.0025,ATOM,...,,,cosmos,14-02-2022,,cbpro
+373,2022-02-14 17:45:36,Send,71a89322acccc3e11153e37574c44b06511b662d81faf89adf6d2d27da15def2,,,...,1.0,,,,,0.01,ETH,...,2889.235678281073,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00176857,ETH,...,,,ethereum,14-02-2022,,metamask
+374,2022-02-16 05:28:07,Send,8ed89f7b362fd76e012ac52a7869386e433638f0d7a66e4d282b3175c47fe409,,,...,1.0,,,,,0.0,ETH,...,3179.3002065350443,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00312684,ETH,...,,,ethereum,16-02-2022,,metamask
+375,2022-02-16 05:30:16,Trade,0xb7870736590f61ee99d719eb11502b70ce25f5770d7271f87d7f26d84cb6ef55,1.43774405,xBTRFLY,...,1.0,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,1.0,,,,,,,...,,,,16-02-2022,metamask,
+376,2022-02-16 05:30:16,Trade,0xb7870736590f61ee99d719eb11502b70ce25f5770d7271f87d7f26d84cb6ef55,,,...,1.0,,,,,1.43774405,BTRFLY,...,1.0,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,,,...,,,,16-02-2022,,metamask
+377,2022-02-16 05:30:16,Trade,0xb7870736590f61ee99d719eb11502b70ce25f5770d7271f87d7f26d84cb6ef55,,,...,1.0,,,,,0.0,ETH,...,3179.3002065350443,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.01006138,ETH,...,,,ethereum,16-02-2022,,metamask
+378,2022-02-16 15:31:01,Buy,,41.24717,LRC,...,0.9880106166508816,Coinbase,,,,39.18,USD,...,1.0,Coinbase,,,,0.14,USD,...,,loopring,,16-02-2022,cb,cb
+379,2022-02-16 19:22:39,Sell,,103.42,USD,...,1.0,Coinbase,,,,105.534062,LRC,...,0.9880106166508816,Coinbase,,,,0.36,USD,...,,,loopring,16-02-2022,cb,cb
+380,2022-02-17 04:38:59,Buy,,105.285412,LRC,...,0.9623320906935748,Coinbase,,,,99.59,USD,...,1.0,Coinbase,,,,0.35,USD,...,,loopring,,17-02-2022,cb,cb
+381,2022-02-17 13:57:11,Buy,,107.292901,LRC,...,0.9623320906935748,Coinbase,,,,99.48,USD,...,1.0,Coinbase,,,,0.4,USD,...,,loopring,,17-02-2022,cb,cb
+382,2022-02-20 21:48:40,Buy,,0.06193703,ETH,...,2768.97165203486,Coinbase Pro,,,,161.1,USD,...,1.0,Coinbase Pro,,,,0.56,USD,...,,ethereum,,20-02-2022,cbpro,cbpro
+383,2022-02-20 21:48:41,Buy,,0.02,ETH,...,2768.97165203486,Coinbase Pro,,,,52.02,USD,...,1.0,Coinbase Pro,,,,0.18,USD,...,,ethereum,,20-02-2022,cbpro,cbpro
+384,2022-02-20 21:48:42,Buy,,0.00785894,ETH,...,2768.97165203486,Coinbase Pro,,,,20.44,USD,...,1.0,Coinbase Pro,,,,0.07,USD,...,,ethereum,,20-02-2022,cbpro,cbpro
+385,2022-02-20 21:48:42,Buy,,0.0102,ETH,...,2768.97165203486,Coinbase Pro,,,,26.53,USD,...,1.0,Coinbase Pro,,,,0.09,USD,...,,ethereum,,20-02-2022,cbpro,cbpro
+386,2022-02-20 21:48:43,Buy,,4.03e-06,ETH,...,2768.97165203486,Coinbase Pro,,,,0.01,USD,...,1.0,Coinbase Pro,,,,0.0,USD,...,,ethereum,,20-02-2022,cbpro,cbpro
+387,2022-02-24 03:47:07,Trade,,0.335,ETH,...,2594.700959110155,Coinbase Pro,,,,1000.0,ADA,...,0.8705609629608357,Coinbase Pro,,,,0.001675,ETH,...,,ethereum,cardano,24-02-2022,cbpro,cbpro
+388,2022-02-24 04:10:53,Send,85295a30d123de6c1bab5f5480f02930f25136555fbcbfa2d4464222278bf325,,,...,1.0,,,,,0.00500103,BTC,...,37372.2926803477,Coinbase Pro,bc1qh530ragzc0tmvnhp87fgjzgfltmjd473akm6fc,,,1.03e-06,BTC,...,,,bitcoin,24-02-2022,,cbpro
+389,2022-02-24 04:15:37,Send,e448b8b479778256d22049c2445697212a5de0c9590048dcd30f398540ea4908,,,...,1.0,,,,,0.0872366,BTC,...,37372.2926803477,Coinbase Pro,bc1qaspw4na7v9y8wkmjmyw6904307lv073738m7ff,,,1.03e-06,BTC,...,,,bitcoin,24-02-2022,,cbpro
+390,2022-02-24 04:22:35,Transfer,3ac196b6cf48de2f1e8be59fb61b6725dba56317bd6c1f1c75d3ebc705e15bcb,1.0,ETH,...,2594.700959110155,ETH Wallet ...C8859C,0xb53eFe6ded3a59c2cb6A2AF1B1AD0ffF7bC8859C,,,1.003633,ETH,...,2594.700959110155,Coinbase Pro,0xb53eFe6ded3a59c2cb6A2AF1B1AD0ffF7bC8859C,,,0.003633,ETH,...,,ethereum,ethereum,24-02-2022,blockfi,cbpro
+391,2022-02-24 04:26:08,Transfer,005b3c26ae0236d64e9096b8ccb1ffbc2ee917bd8bae4f6ea26df7b0a00df657,0.5,ETH,...,2594.700959110155,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.503633,ETH,...,2594.700959110155,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.003633,ETH,...,,ethereum,ethereum,24-02-2022,metamask,cbpro
+392,2022-02-25 16:10:44,Send,0x96690c2a27e92b60c6ea7ff1780c41ad104f279bcead72a80632e12df430e02d,,,...,1.0,,,,,17.5006,AVAX,...,76.61415673133952,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,0.0126,AVAX,...,,,avalanche-2,25-02-2022,,cbpro
+393,2022-03-03 15:49:47,Buy,,5.0,ATOM,...,32.27560276787394,Coinbase Pro,,,,159.9,USD,...,1.0,Coinbase Pro,,,,0.95,USD,...,,cosmos,,03-03-2022,cbpro,cbpro
+394,2022-03-03 23:49:18,Send,BD1FA41AD3A85B8F8E0ACD1C751FA520F0B37EFFC660F2CF9893BE3BE8CB1745,,,...,1.0,,,,,5.0,ATOM,...,32.27560276787394,Coinbase Pro,cosmos1k9hqgkzuqqgturdahg9f3qsscj85nxwt8xn4kr,,,0.0025,ATOM,...,,,cosmos,03-03-2022,,cbpro
+395,2022-03-07 01:51:53,Buy,,10.0,ATOM,...,28.16650628741053,Coinbase Pro,,,,281.12,USD,...,1.0,Coinbase Pro,,,,1.12,USD,...,,cosmos,,07-03-2022,cbpro,cbpro
+396,2022-03-14 03:19:31,Buy,,500.0,USDC,...,1.0010941313432664,Coinbase Pro,,,,500.0,USD,...,1.0,Coinbase Pro,,,,,,...,,usd-coin,,14-03-2022,cbpro,cbpro
+397,2022-03-14 03:23:17,Transfer,0x693b4e6f0b524a1c4959d86a81f785ff9397bbbb1d4f4d08c43949d0615829eb,496.485537,USDC,...,1.0010941313432664,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,501.00091,USDC,...,1.0010941313432664,Coinbase Pro,0xEdC5DfEE8d76c45BF367194A4c7Bb808d350a3d5,,,4.515373,USDC,...,,usd-coin,usd-coin,14-03-2022,metamask,cbpro
+398,2022-03-14 03:24:42,Send,e6b25c3f22bf7f7ccc093e6e1354171b1e9d26be747d69ed795aa08b452900a4,,,...,1.0,,,,,0.0,ETH,...,2518.492845270615,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00145302,ETH,...,,,ethereum,14-03-2022,,metamask
+399,2022-03-14 03:25:57,Send,0xae6319252aa5007a911e19cd619ebd745350991e767c3d0f7c7bbbaedb4190c3,,,...,1.0,,,,,496.485537,USDC,...,1.0010941313432664,ETH Wallet ...50a3d5,0xedc5dfee8d76c45bf367194a4c7bb808d350a3d5,,,0.00534813,ETH,...,,,usd-coin,14-03-2022,,metamask
