@@ -141,7 +141,7 @@ def getChart():
 
 
 
-def geckoPrice(tokens, quote):
+def geckoPrice(tokens, quote='usd'):
     """get price of combine pairs
     
     Args:
@@ -158,7 +158,7 @@ def geckoPrice(tokens, quote):
     return r
 
 
-def geckoPriceAt(token, quote, date):
+def geckoPriceAt(token, date, quote='usd'):
     """get price of token at historical date
     
     Args:
@@ -174,11 +174,11 @@ def geckoPriceAt(token, quote, date):
     try:
         return r['market_data']['current_price'][quote]
     except Exception as e:
-        print(token, date, e)
+        # print(token, date, e)
         return 1
 
 
-def geckoFullList(page=1, per_page=250):
+def geckoFullList(page=1, per_page=250, names=False):
     """Returns list of full detail conGecko currency list
     
     Args:
@@ -192,7 +192,8 @@ def geckoFullList(page=1, per_page=250):
     params = {"vs_currency":"usd", "order":"market_cap_desc", "per_page":per_page, "page":page}
     r = requests.get(url, params).json()
     df = pd.DataFrame(r)
-    df.set_index('symbol', inplace=True)
+    if names:
+        df = df[['symbol', 'id', 'name']]
     return df
 
 
@@ -213,7 +214,6 @@ def geckoGetSymbol(name):
         print(r, name)
         ticker = r['id']
     return ticker
-
 
 def geckoMarkets(name):
     """Get top100 markets (pairs, quotes, exchanges, volume, spreads and more)

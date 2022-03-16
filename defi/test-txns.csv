@@ -1,0 +1,25 @@
+,Date,Type,Received Quantity,Received Currency,Received Cost Basis (USD),Received Wallet,Received Address,Received Comment,Sent Quantity,Sent Currency,Sent Cost Basis (USD),Sent Wallet,Sent Address,Sent Comment,Fee Amount,Fee Currency
+0,12/12/2017 18:27,Buy,0.56338723,LTC,320.9074113,Coinbase,,Bought Litecoin Using Visa debit ********6305,200,USD,1,Coinbase,,Bought Litecoin Using Visa debit ********6305,5.85,USD
+1,12/13/2017 4:22,Buy,0.30762244,LTC,305.2770423,Coinbase,,Bought Litecoin Using Visa debit ********6305,100,USD,1,Coinbase,,Bought Litecoin Using Visa debit ********6305,3.41,USD
+2,12/13/2017 18:35,Buy,0.01782139,BTC,16525.04449,Coinbase,,Bought Bitcoin Using Visa debit ********6305,300,USD,1,Coinbase,,Bought Bitcoin Using Visa debit ********6305,9.26,USD
+3,12/15/2017 6:34,Buy,0.14197607,ETH,693.0970641,Coinbase,,Bought Ethereum Using Visa debit ********6305,100,USD,1,Coinbase,,Bought Ethereum Using Visa debit ********6305,3.41,USD
+4,12/21/2017 16:13,Buy,0.00599276,BTC,16355.23823,Coinbase,,Bought Bitcoin Using Visa debit ********6305,100,USD,1,Coinbase,,Bought Bitcoin Using Visa debit ********6305,3.41,USD
+5,12/31/2017 10:28,Send,,,1,,,,0.00894174,BTC,14839.59079,Coinbase,1Aw8fBYBnEKM2pGav7NueyUoYFDNToVByG,Sent Bitcoin To Bitcoin address,0.00114174,BTC
+6,12/31/2017 10:53,Receive,0.0078,BTC,14839.59079,Binance,1Aw8fBYBnEKM2pGav7NueyUoYFDNToVByG,,,,1,,,,,
+7,12/31/2017 19:27,Trade,25,MIOTA,3.80833551,Binance,,,0.0065375,BTC,14839.59079,Binance,,,0.025,MIOTA
+8,1/5/2018 9:03,Send,,,1,,,,0.01487241,BTC,18336.92298,Coinbase,1Aw8fBYBnEKM2pGav7NueyUoYFDNToVByG,Sent Bitcoin To Bitcoin address,0.00108737,BTC
+9,1/5/2018 21:11,Receive,0.01378504,BTC,18336.92298,Binance,1Aw8fBYBnEKM2pGav7NueyUoYFDNToVByG,,,,1,,,,,
+10,1/5/2018 22:13,Trade,100,XLM,0.703217386,Binance,,,0.004,BTC,18336.92298,Binance,,,0.1,XLM
+11,1/9/2018 10:08,Trade,52,POWR,1.773935431,Binance,,,0.005512,BTC,15604.72341,Binance,,,0.052,POWR
+12,1/9/2018 13:16,Trade,1.53,QTUM,52.7903,Binance,,,0.005508,BTC,15604.72341,Binance,,,0.00153,QTUM
+13,1/10/2018 7:55,Buy,0.01396827,BTC,15509.27013,Coinbase,,Bought Bitcoin Using Visa debit ********6305,206,USD,1,Coinbase,,Bought Bitcoin Using Visa debit ********6305,6,USD
+14,5/4/2018 2:28,Buy,0.00995665,BTC,9551.135184,Coinbase,,Bought Bitcoin Using Visa debit ********6305,100,USD,1,Coinbase,,Bought Bitcoin Using Visa debit ********6305,3.41,USD
+15,5/30/2018 13:31,Buy,0.17440936,ETH,561.7406615,Coinbase,,Bought Ethereum Using US Bank - Checking ********3939,100,USD,1,Coinbase,,Bought Ethereum Using US Bank - Checking ********3939,1,USD
+16,7/12/2018 1:01,Buy,0.22115383,ETH,443.0254304,Coinbase,,Bought Ethereum Using US Bank - Checking ********3939,100,USD,1,Coinbase,,Bought Ethereum Using US Bank - Checking ********3939,1,USD
+17,7/26/2018 3:55,Buy,0.20298474,ETH,468.7374923,Coinbase,,Bought Ethereum Using US Bank - Checking ********3939,100,USD,1,Coinbase,,Bought Ethereum Using US Bank - Checking ********3939,2.99,USD
+18,9/2/2018 20:19,Buy,0.013259,BTC,7211.270768,Coinbase,,Bought Bitcoin Using US Bank - Checking ********3939,100,USD,1,Coinbase,,Bought Bitcoin Using US Bank - Checking ********3939,2.99,USD
+20,9/5/2018 12:05,Sell,100,USD,1,Coinbase,,Sold Bitcoin Using USD Wallet,0.0147995,BTC,7359.462993,Coinbase,,Sold Bitcoin Using USD Wallet,2.99,USD
+21,9/5/2018 12:05,Sell,100,USD,1,Coinbase,,Sold Ethereum Using USD Wallet,0.40150325,ETH,285.4857566,Coinbase,,Sold Ethereum Using USD Wallet,2.99,USD
+22,9/14/2018 5:04,Transfer,200,USD,1,Coinbase Pro,,,200,USD,1,Coinbase,,Withdrew funds To US Bank - Checking ********3939,,
+26,9/24/2018 14:01,Transfer,0.85106382,ETH,244.7847955,Coinbase,,Transferred Ethereum From Coinbase Pro,0.85106382,ETH,244.7847955,Coinbase Pro,0xb31b24cfdfc08d47b1c6fdfdca8c0f072395a1f2,,,
+,1/1/2020,Sell,16,USD,1,Coinbase,,,0.5,LTC,,,,,1,USD

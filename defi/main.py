@@ -4,23 +4,34 @@ class Coin():
         self.ticker = ticker
         self.price = price
         self.holdings = holdings
-        self.value = self.price * self.holdings
-        self.stack = {}
 
     def update(self):
         import defi_tools as dft
-        self.price = dft.geckoPrice(self.name, 'usd')
+        self.price = dft.geckoPrice(self.name)[self.name]['usd']
         return self
+
+    def value(self):
+        return self.price * self.holdings
 
 
 class Wallet():
     def __init__(self, name):
         self.name = name
-        self.coins = {'USD':Coin('USD', 'USD', 1, 0)}
+        self.coins = {'usd':Coin('usd', 'USD', 1, 0)}
         self.value = 0
+        self.transactions = {'date':[], 'amount':[], 'token':[], 'cost':[], 'type':[], 'basis': [], 'profit':[]}
 
     def add(self, asset):
         self.coins[asset.name] = asset
+
+    def addtxn(self, time, amount, token, type, basis, cost, profit=0):
+        self.transactions['date'].append(time)
+        self.transactions['amount'].append(amount)
+        self.transactions['token'].append(token)
+        self.transactions['type'].append(type)
+        self.transactions['basis'].append(basis)
+        self.transactions['cost'].append(cost)
+        self.transactions['profit'].append(profit)
 
     def updatePrices(self):
         for c in self.coins:
@@ -31,8 +42,9 @@ class Wallet():
 
     def totalValue(self):
         Wallet.updatePrices(self)
-        assets = [a for a in self.coins.values()]
-        total = sum([c.value for c in assets])
+        # assets = [a for a in self.coins.values()]
+        # total = sum([c.value for c in assets])
+        total = sum([a.value() for a in self.coins.values()])
         self.value = total
         print(f'Total Value: {total}')
         return total
@@ -44,20 +56,23 @@ class Wallet():
             print('Coin not in portfolio.')
 
     def hasToken(self, token):
-        return self.coins[token]
+        try:
+            return self.coins[token]
+        except KeyError:
+            return None
 
     def update(self, token, amount, overwrite=False):
-        if not overwrite:
-            self.coins[token].holdings += amount
-        else:    
+        if overwrite:
             self.coins[token].holdings = amount
+        else:    
+            self.coins[token].holdings += amount
 
     def getHoldings(self):
-        return {self.coins[k].ticker:self.coins[k].holdings for k in self.coins if self.coins[k].holdings>0}
+        return {self.coins[k].ticker:self.coins[k].holdings for k in self.coins if self.coins[k].holdings!=0}
 
     def getValues(self):
         Wallet.updatePrices(self)
-        return {self.coins[k].ticker:self.coins[k].value for k in self.coins if self.coins[k].holdings>0}
+        return {self.coins[k].ticker:self.coins[k].value() for k in self.coins if self.coins[k].holdings!=0}
 
     def show(self):
         import pandas as pd
@@ -66,7 +81,7 @@ class Wallet():
         total = self.value
         if total == 0:
             total = Wallet.totalValue(self)
-        allocation = [float(values[v])/total for v in values]
+        allocation = [float(values[v])/total for v in values if v > 0]
         return pd.DataFrame({'coin':holdings.keys(),'holdings':holdings.values(), 'value':values.values(), 'allocation':allocation})
 
 class Transaction():
@@ -88,11 +103,8 @@ class Transaction():
             from datetime import datetime
             time = datetime.now()
         if not destination.hasToken(token):
-            if token == 'USD':
-                coin = Coin(coin=token, ticker=token, price=1, holdings=amount)
-            else:    
-                import defi_tools as dft
-                coin = Coin(coin=token, ticker=dft.geckoGetSymbol[token], price=dft.geckoPrice(token, 'usd'), holdings=amount)
+            import defi_tools as dft
+            coin = Coin(coin=token, ticker=dft.geckoGetSymbol[token], price=dft.geckoPriceAt(token, time), holdings=amount)
             destination.add(coin)
         else:
             destination.update(token, amount)
@@ -114,27 +126,29 @@ class Transaction():
         if not time:
             from datetime import datetime
             time = datetime.now()
-        
         b_tk = buy[0]
         b_amt = buy[1]
         s_tk = sell[0]
         s_amt = sell[1]
         if not wallet.hasToken(b_tk):
             import defi_tools as dft
-            coin = Coin(coin=b_tk, ticker=dft.geckoGetSymbol[b_tk], price=dft.geckoPrice(b_tk, 'usd'), holdings=b_amt)
+            coin = Coin(coin=b_tk, ticker=dft.geckoGetSymbol(b_tk), price=dft.geckoPriceAt(b_tk, time), holdings=0)
             wallet.add(coin)
-        basis = dft.geckoPriceAt(b_tk, 'usd', time)
+        basis = dft.geckoPriceAt(b_tk, time)
         cost = basis*(b_amt+fee)
-        Transaction.add(time, wallet, b_tk, b_amt, basis, cost, 'buy')
-        basis = dft.geckoPriceAt(s_tk, 'usd', time)
+        Transaction.add(time, wallet, buy[0], b_amt, basis, cost, 'buy')
+        
+        basis = dft.geckoPriceAt(s_tk, time)
         cost = basis*s_amt
-        Transaction.add(time, wallet, s_tk, s_amt, basis,  cost, 'sell')
-        print(f'Bought {b_amt} {wallet.coins[b_tk].ticker} with {s_amt} {wallet.coins[s_tk].ticker}.')
+        Transaction.add(time, wallet, sell[0], s_amt, basis,  cost, 'sell')
 
         wallet.update(b_tk, b_amt)
         wallet.update(s_tk, -s_amt)
+        print(f'Bought {b_amt} {wallet.coins[b_tk].ticker} with {s_amt} {wallet.coins[s_tk].ticker}.')
+        print(f'{wallet.coins[b_tk].ticker} Balance: {wallet.coins[b_tk].holdings}')
     
-    def add(time, wallet, token, amount, basis, cost, t_type):
+    def add(time, wallet, token, amount, basis, cost, t_type, profit=0):
+        wallet.addtxn(time, amount, token, t_type, basis, cost, profit)
         import csv
         fields=[time, wallet.name, wallet.coins[token].ticker, amount, basis, cost, t_type]
         with open(r'transactions.csv', 'a') as f:
