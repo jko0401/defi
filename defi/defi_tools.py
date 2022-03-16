@@ -168,14 +168,23 @@ def geckoPriceAt(token, date, quote='usd'):
     Returns:
         float: Return token price
     """
-    
-    url = f"https://api.coingecko.com/api/v3/coins/{token}/history?date={date}&localization=false"
-    r = requests.get(url).json()
-    try:
-        return r['market_data']['current_price'][quote]
-    except Exception as e:
-        # print(token, date, e)
-        return 1
+    from json.decoder import JSONDecodeError
+    result = None
+    while result == None:
+        try:
+            url = f"https://api.coingecko.com/api/v3/coins/{token}/history?date={date}&localization=false"
+            r = requests.get(url).json()
+            try:
+                result = r['market_data']['current_price'][quote]
+            except KeyError:
+                print(r, token, date)      
+                break
+        except JSONDecodeError as e:
+            from random import randint
+            from time import sleep
+            print(e)
+            sleep(randint(5, 10))
+    return result
 
 
 def geckoFullList(page=1, per_page=250, names=False):
