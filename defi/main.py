@@ -127,14 +127,14 @@ class Transaction():
         
         cost = basis*amount
         Transaction.add(time, destination, token, amount, basis, cost, 0, type)
-        print(f'Received {amount} {token} at {destination.name}')
+        print(f'Received {amount} {destination.coins[token].ticker} at {destination.name}')
 
     def transfer(time, origin, destination, token, amount, fee):
         if not time:
             from datetime import datetime
             time = datetime.now()
-        Transaction.send(time, origin, token, amount, fee)
-        Transaction.receive(time, destination, token, amount)
+        Transaction.send(time, origin, token, amount, fee, 'transfer')
+        Transaction.receive(time, destination, token, amount, 'transfer')
         print(f'Transferred {amount} {origin.coins[token].ticker} from {origin.name} to {destination.name}')
 
     def transact(time, wallet, buy, sell, fee, type):
@@ -148,44 +148,21 @@ class Transaction():
         s_amt = sell[1]
         Transaction.send(time, wallet, s_tk, s_amt, fee, 'sell')
         Transaction.receive(time, wallet, b_tk, b_amt, 'buy')
+       
         
-        # if not wallet.hasToken(b_tk):
-        #     import defi_tools as dft
-        #     coin = Coin(coin=b_tk, ticker=dft.geckoGetSymbol(b_tk), price=dft.geckoPriceAt(b_tk, time), holdings=0)
-        #     wallet.add(coin)
-        
-        # if b_tk != 'usd':    
-        #     basis = dft.geckoPriceAt(b_tk, time)
-        # else:
-        #     basis = 1
-        # if f_tk != 'usd':
-        #     f_usd = dft.geckoPriceAt(f_tk, time) * f_amt
-        
-        # cost = (basis*b_amt)+f_amt
-        # Transaction.add(time, wallet, buy[0], b_amt, basis, cost, 'buy')
-        
-        # if s_tk != 'usd':    
-        #     basis = dft.geckoPriceAt(s_tk, time)
-        # else:
-        #     basis = 1
-        
-        # cost = basis*s_amt
-        # Transaction.add(time, wallet, sell[0], s_amt, basis,  cost, 'sell')
-
-        # wallet.update(b_tk, b_amt)
-        # wallet.update(s_tk, -s_amt)
-        if type == 'Buy':
-            print(f'Bought {b_amt} {wallet.coins[b_tk].ticker} with {s_amt} {wallet.coins[s_tk].ticker}.')
-        elif type == 'Sell':
+        if type == 'Sell':
             print(f'Sold {s_amt} {wallet.coins[s_tk].ticker} and made {b_amt} {wallet.coins[b_tk].ticker}.')
+        elif type == 'Buy':
+            print(f'Bought {b_amt} {wallet.coins[b_tk].ticker} with {s_amt} {wallet.coins[s_tk].ticker}.')
+        
         print(f'{wallet.coins[b_tk].ticker} Balance: {wallet.coins[b_tk].holdings}')
         print(f'{wallet.coins[s_tk].ticker} Balance: {wallet.coins[s_tk].holdings}')
     
     def add(time, wallet, token, amount, basis, cost, fee, t_type, profit=0):
         wallet.addtxn(time, token, amount, basis, cost, fee, t_type, profit)
         import csv
-        fields=[time, wallet.name, wallet.coins[token].ticker, amount, basis, cost, fee, t_type]
-        with open(r'transactions.csv', 'a') as f:
+        fields=[time, wallet.name, wallet.coins[token].ticker, amount, basis, cost, fee, profit, t_type]
+        with open(r'transactions.csv', 'a', newline='') as f:
             writer = csv.writer(f)
             writer.writerow(fields)
         f.close()
