@@ -33,13 +33,14 @@ class Wallet():
             else:
                 self.coins[c].update
 
-    def totalValue(self):
+    def totalValue(self, profit=False):
         Wallet.updatePrices(self)
-        # assets = [a for a in self.coins.values()]
-        # total = sum([c.value for c in assets])
-        total = sum([a.value() for a in self.coins.values()])
+        if profit:
+            total = sum([a.value() for a in self.coins.values()])
+        else:
+            total = sum([a.value() for a in self.coins.values() if a.value() > 0])
         self.value = total
-        print(f'Total Value: {total}')
+        print(f'Total Value: {total}. (Profit: {profit})')
         return total
         
     def tokens(self, token):
@@ -74,8 +75,11 @@ class Wallet():
         total = self.value
         if total == 0:
             total = Wallet.totalValue(self)
-        allocation = [float(values[v])/total for v in values if v > 0]
+        allocation = [float(values[v])/total if values[v] > 0 else 0 for v in values]
         return pd.DataFrame({'coin':holdings.keys(),'holdings':holdings.values(), 'value':values.values(), 'allocation':allocation})
+    
+    def pnl(self):
+        Wallet.totalValue(self, True)
 
 class Transaction():
 
@@ -164,6 +168,11 @@ class Transaction():
                 Transaction.add(time, ow, otk, oamt, f_usd, basis, value, type)
                 print(f'Sent {oamt} {ow.coins[otk].ticker} from {ow.name}. ${round(value,2)}.')
                 print(f'[{ow.name}] {ow.coins[otk].ticker} Balance: {ow.coins[otk].holdings}')
+            if type == 'withdraw':
+                ow.update(otk, -oamt)
+                Transaction.add(time, ow, otk, oamt, 0, 1, oamt, type)
+                print(f'Withdrew {oamt} {ow.coins[otk].ticker} from {ow.name}. ${round(oamt,2)}.')
+                print(f'[{ow.name}] {ow.coins[otk].ticker} Balance: {ow.coins[otk].holdings}')
 
         if destination:
             dw, dtk, damt, df = destination
@@ -171,7 +180,7 @@ class Transaction():
                 import defi_tools as dft
                 coin = Coin(coin=dtk, ticker=dft.geckoGetSymbol(dtk), price=dft.geckoPriceAt(dtk, time), holdings=0)
                 dw.add(coin)
-            if type == 'receive':
+            if type == 'receive' or type == 'deposit':
                 # origin: None, destination: +token, fee: 0
                 if dtk != 'usd':    
                     basis = dft.geckoPriceAt(dtk, time)
@@ -187,7 +196,7 @@ class Transaction():
         if origin and destination:
             if type == 'sell':
                 # origin: -token, destination: +usd, fee: usd (alt-usd)
-                basis = damt / dft.geckoPriceAt(otk, time)
+                basis = damt / oamt
                 value = damt
                 df = 0
                 ot = 'sell-out'
@@ -196,7 +205,7 @@ class Transaction():
             
             elif type == 'buy':
                 # origin: -usd, destination: +token, fee: usd (usd-alt)
-                basis = oamt / dft.geckoPriceAt(dtk, time)
+                basis = oamt / damt
                 value = oamt
                 of = 0
                 ot = 'buy-out'
