@@ -1,3 +1,6 @@
+from numpy import swapaxes
+
+
 class Coin():
     def __init__(self, coin, ticker, price, holdings):
         self.name = coin
@@ -19,19 +22,9 @@ class Wallet():
         self.name = name
         self.coins = {'usd':Coin('usd', 'USD', 1, 0)}
         self.value = 0
-        self.transactions = {'date':[], 'token':[], 'amount':[], 'basis': [], 'cost':[], 'type':[], 'profit':[]}
 
     def add(self, asset):
         self.coins[asset.name] = asset
-
-    def addtxn(self, time, token, amount, basis, cost, fee, type, profit=0):
-        self.transactions['date'].append(time)
-        self.transactions['token'].append(token)
-        self.transactions['amount'].append(amount)
-        self.transactions['basis'].append(basis)     
-        self.transactions['cost'].append(cost)
-        self.transactions['type'].append(type)
-        self.transactions['profit'].append(profit)
 
     def updatePrices(self):
         for c in self.coins:
@@ -102,17 +95,23 @@ class Transaction():
             basis = 1
             f_usd = f_amt
 
-        cost = basis*amount
-        
+        if type == 'sell':
+            cost = 0
+        else:
+            cost = basis*amount
+
         origin.update(token, -amount)
         Transaction.add(time, origin, token, amount, basis, cost, f_usd, type)
         print(f'Sent {amount} {origin.coins[token].ticker} from {origin.name}')
 
-    def receive(time, destination, token, amount, type='receive'):                
+    def receive(time, destination, token, amount, fee, type='receive'):                
+        f_tk = fee[0]
+        f_amt = fee[1]
         import defi_tools as dft
         if not time:
             from datetime import datetime
             time = datetime.now()
+
         if not destination.hasToken(token):
             import defi_tools as dft
             coin = Coin(coin=token, ticker=dft.geckoGetSymbol(token), price=dft.geckoPriceAt(token, time), holdings=amount)
@@ -122,12 +121,16 @@ class Transaction():
         
         if token != 'usd':    
             basis = dft.geckoPriceAt(token, time)
+            f_usd = basis * f_amt
+            basis += f_usd
         else:
             basis = 1
+            f_usd = f_amt
         
         cost = basis*amount
         Transaction.add(time, destination, token, amount, basis, cost, 0, type)
         print(f'Received {amount} {destination.coins[token].ticker} at {destination.name}')
+
 
     def transfer(time, origin, destination, token, amount, fee):
         if not time:
@@ -137,31 +140,115 @@ class Transaction():
         Transaction.receive(time, destination, token, amount, 'transfer')
         print(f'Transferred {amount} {origin.coins[token].ticker} from {origin.name} to {destination.name}')
 
-    def transact(time, wallet, buy, sell, fee, type):
+    def transact(time, origin, destination, type):
         import defi_tools as dft
         if not time:
             from datetime import datetime
             time = datetime.now()
-        b_tk = buy[0]
-        b_amt = buy[1]
-        s_tk = sell[0]
-        s_amt = sell[1]
-        Transaction.send(time, wallet, s_tk, s_amt, fee, 'sell')
-        Transaction.receive(time, wallet, b_tk, b_amt, 'buy')
+        
+        if origin:
+            ow, otk, oamt, of = origin
+            if type == 'send':
+                # origin: -token, destination: None, fee: otk
+                if otk != 'usd':    
+                    basis = dft.geckoPriceAt(otk, time)
+                    f_usd = basis * of
+                    basis += f_usd
+                    value = basis * oamt
+                else:
+                    basis = 1
+                    f_usd = of
+                    value = oamt
+                ow.update(otk, -oamt)
+                Transaction.add(time, ow, otk, oamt, f_usd, basis, value, type)
+                print(f'Sent {oamt} {ow.coins[otk].ticker} from {ow.name}.')
+                print(f'[{ow.name}] {ow.coins[otk].ticker} Balance: {ow.coins[otk].holdings}')
+
+        if destination:
+            dw, dtk, damt, df = destination
+            if not dw.hasToken(dtk):
+                import defi_tools as dft
+                coin = Coin(coin=dtk, ticker=dft.geckoGetSymbol(dtk), price=dft.geckoPriceAt(dtk, time), holdings=0)
+                dw.add(coin)
+            if type == 'receive':
+                # origin: None, destination: +token, fee: 0
+                if dtk != 'usd':    
+                    basis = dft.geckoPriceAt(dtk, time)
+                    value = basis * damt
+                else:
+                    basis = 1
+                    value = damt
+                dw.update(dtk, damt)    
+                Transaction.add(time, dw, dtk, damt, df, basis, value, type)
+                print(f'Received {damt} {dw.coins[dtk].ticker} at {dw.name}.')
+                print(f'[{dw.name}] {dw.coins[dtk].ticker} Balance: {dw.coins[dtk].holdings}')
+
+        if origin and destination:
+            if type == 'sell':
+                # origin: -token, destination: +usd, fee: usd (alt-usd)
+                basis = damt / dft.geckoPriceAt(otk, time)
+                value = damt
+                df = 0
+                print(f'Sold {oamt} {ow.coins[otk].ticker} got {damt} {dw.coins[dtk].ticker}.')
+            
+            elif type == 'buy':
+                # origin: -usd, destination: +token, fee: usd (usd-alt)
+                basis = oamt / dft.geckoPriceAt(dtk, time)
+                value = oamt
+                of = 0
+                print(f'Bought {damt} {dw.coins[dtk].ticker} with {oamt} {ow.coins[otk].ticker}.')
+
+            elif type == 'trade':
+                from numpy import round
+                # origin: -token, destination: +token, fee: dtk (alt-alt)
+                value = oamt * dft.geckoPriceAt(otk, time)
+                basis = value / damt
+                of = 0
+                print(f'Traded {oamt} {ow.coins[otk].ticker} for {damt} {dw.coins[dtk].ticker}. Value: ${round(value,2)}.')
+
+            elif type == 'transfer':
+                # origin: -token, destination: +token, fee: 0. (Coinbase Transfers)
+                if otk != 'usd':    
+                    basis = dft.geckoPriceAt(otk, time)
+                    value = basis * oamt
+                else:
+                    basis = 1
+                    value = oamt
+                of = df = 0
+                print(f'Transferred {oamt} {ow.coins[otk].ticker} from {ow.name} to {dw.name}. ${round(value,2)}.')
+
+            ow.update(otk, -oamt)
+            Transaction.add(time, ow, otk, oamt, of, basis, value, type)
+            dw.update(dtk, damt)
+            Transaction.add(time, dw, dtk, damt, df, basis, value, type)
+            print(f'[{ow.name}] {ow.coins[otk].ticker} Balance: {ow.coins[otk].holdings}')
+            print(f'[{dw.name}] {dw.coins[dtk].ticker} Balance: {dw.coins[dtk].holdings}')
+        
+
+    # def transact(time, wallet, buy, sell, fee, type):
+    #     import defi_tools as dft
+    #     if not time:
+    #         from datetime import datetime
+    #         time = datetime.now()
+    #     b_tk = buy[0]
+    #     b_amt = buy[1]
+    #     s_tk = sell[0]
+    #     s_amt = sell[1]
+    #     Transaction.send(time, wallet, s_tk, s_amt, fee, 'sell')
+    #     Transaction.receive(time, wallet, b_tk, b_amt, fee, 'buy')
        
         
-        if type == 'Sell':
-            print(f'Sold {s_amt} {wallet.coins[s_tk].ticker} and made {b_amt} {wallet.coins[b_tk].ticker}.')
-        elif type == 'Buy':
-            print(f'Bought {b_amt} {wallet.coins[b_tk].ticker} with {s_amt} {wallet.coins[s_tk].ticker}.')
+    #     if type == 'Sell':
+    #         print(f'Sold {s_amt} {wallet.coins[s_tk].ticker} and made {b_amt} {wallet.coins[b_tk].ticker}.')
+    #     elif type == 'Buy':
+    #         print(f'Bought {b_amt} {wallet.coins[b_tk].ticker} with {s_amt} {wallet.coins[s_tk].ticker}.')
         
-        print(f'{wallet.coins[b_tk].ticker} Balance: {wallet.coins[b_tk].holdings}')
-        print(f'{wallet.coins[s_tk].ticker} Balance: {wallet.coins[s_tk].holdings}')
+    #     print(f'{wallet.coins[b_tk].ticker} Balance: {wallet.coins[b_tk].holdings}')
+    #     print(f'{wallet.coins[s_tk].ticker} Balance: {wallet.coins[s_tk].holdings}')
     
-    def add(time, wallet, token, amount, basis, cost, fee, t_type, profit=0):
-        wallet.addtxn(time, token, amount, basis, cost, fee, t_type, profit)
+    def add(time, wallet, token, amount, fee, basis, value, t_type, profit=0):
         import csv
-        fields=[time, wallet.name, wallet.coins[token].ticker, amount, basis, cost, fee, profit, t_type]
+        fields=[time, wallet.name, wallet.coins[token].ticker, amount, basis, value, fee, profit, t_type]
         with open(r'transactions.csv', 'a', newline='') as f:
             writer = csv.writer(f)
             writer.writerow(fields)
