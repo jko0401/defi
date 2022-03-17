@@ -142,6 +142,7 @@ class Transaction():
 
     def transact(time, origin, destination, type):
         import defi_tools as dft
+        from numpy import round
         if not time:
             from datetime import datetime
             time = datetime.now()
@@ -161,7 +162,7 @@ class Transaction():
                     value = oamt
                 ow.update(otk, -oamt)
                 Transaction.add(time, ow, otk, oamt, f_usd, basis, value, type)
-                print(f'Sent {oamt} {ow.coins[otk].ticker} from {ow.name}.')
+                print(f'Sent {oamt} {ow.coins[otk].ticker} from {ow.name}. ${round(value,2)}.')
                 print(f'[{ow.name}] {ow.coins[otk].ticker} Balance: {ow.coins[otk].holdings}')
 
         if destination:
@@ -180,7 +181,7 @@ class Transaction():
                     value = damt
                 dw.update(dtk, damt)    
                 Transaction.add(time, dw, dtk, damt, df, basis, value, type)
-                print(f'Received {damt} {dw.coins[dtk].ticker} at {dw.name}.')
+                print(f'Received {damt} {dw.coins[dtk].ticker} at {dw.name}. ${round(value,2)}.')
                 print(f'[{dw.name}] {dw.coins[dtk].ticker} Balance: {dw.coins[dtk].holdings}')
 
         if origin and destination:
@@ -189,6 +190,8 @@ class Transaction():
                 basis = damt / dft.geckoPriceAt(otk, time)
                 value = damt
                 df = 0
+                ot = 'sell-out'
+                dt = 'sell-in'
                 print(f'Sold {oamt} {ow.coins[otk].ticker} got {damt} {dw.coins[dtk].ticker}.')
             
             elif type == 'buy':
@@ -196,14 +199,17 @@ class Transaction():
                 basis = oamt / dft.geckoPriceAt(dtk, time)
                 value = oamt
                 of = 0
+                ot = 'buy-out'
+                dt = 'buy-in'
                 print(f'Bought {damt} {dw.coins[dtk].ticker} with {oamt} {ow.coins[otk].ticker}.')
 
             elif type == 'trade':
-                from numpy import round
                 # origin: -token, destination: +token, fee: dtk (alt-alt)
                 value = oamt * dft.geckoPriceAt(otk, time)
                 basis = value / damt
                 of = 0
+                ot = 'trade-sell'
+                dt = 'trade-buy'
                 print(f'Traded {oamt} {ow.coins[otk].ticker} for {damt} {dw.coins[dtk].ticker}. Value: ${round(value,2)}.')
 
             elif type == 'transfer':
@@ -215,12 +221,14 @@ class Transaction():
                     basis = 1
                     value = oamt
                 of = df = 0
+                ot = 'transfer-out'
+                dt = 'transfer-in'
                 print(f'Transferred {oamt} {ow.coins[otk].ticker} from {ow.name} to {dw.name}. ${round(value,2)}.')
 
             ow.update(otk, -oamt)
-            Transaction.add(time, ow, otk, oamt, of, basis, value, type)
+            Transaction.add(time, ow, otk, oamt, of, basis, value, ot)
             dw.update(dtk, damt)
-            Transaction.add(time, dw, dtk, damt, df, basis, value, type)
+            Transaction.add(time, dw, dtk, damt, df, basis, value, dt)
             print(f'[{ow.name}] {ow.coins[otk].ticker} Balance: {ow.coins[otk].holdings}')
             print(f'[{dw.name}] {dw.coins[dtk].ticker} Balance: {dw.coins[dtk].holdings}')
         

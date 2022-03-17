@@ -174,16 +174,11 @@ def geckoPriceAt(token, date, quote='usd'):
         try:
             url = f"https://api.coingecko.com/api/v3/coins/{token}/history?date={date}&localization=false"
             r = requests.get(url).json()
-            try:
-                result = r['market_data']['current_price'][quote]
-            except KeyError:
-                print(r, token, date)      
-                break
+            result = r['market_data']['current_price'][quote]
         except JSONDecodeError as e:
-            from random import randint
             from time import sleep
-            print(e)
-            sleep(randint(5, 10))
+            print('Access Denied...Waiting...')
+            sleep(65)
     return result
 
 
@@ -215,14 +210,18 @@ def geckoGetSymbol(name):
     Returns:
         r: string of corresponding ticker
     """
-    url = f"https://api.coingecko.com/api/v3/coins/{name}"
-    r = requests.get(url).json()
-    try:
-        ticker = r['symbol'].upper()    
-    except KeyError:
-        print(r, name)
-        ticker = r['id']
-    return ticker
+    from json.decoder import JSONDecodeError
+    result = None
+    while result == None:
+        try:
+            url = f"https://api.coingecko.com/api/v3/coins/{name}"
+            r = requests.get(url).json()
+            result = r['symbol'].upper()    
+        except JSONDecodeError as e:
+            from time import sleep
+            print('Access Denied...Waiting...')
+            sleep(65)
+    return result
 
 def geckoMarkets(name):
     """Get top100 markets (pairs, quotes, exchanges, volume, spreads and more)
